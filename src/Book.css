@@ -2,7 +2,7 @@
 .book {
 
   border: 6px solid rgb(201,72,158);
-  background-color: rgb(255,191,85);
+  background-color: rgb(85, 187, 255);
   display: flex;
   align-items: center;
   flex-direction: column;
