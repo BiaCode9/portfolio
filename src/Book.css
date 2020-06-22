@@ -1,0 +1,42 @@
+  
+.book {
+
+  border: 6px solid rgb(201,72,158);
+  background-color: rgb(255,191,85);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin-bottom: 40px;
+  
+}
+
+img {
+  width: 120px;
+  padding: 10px;
+
+}
+
+
+
+.imgp {
+display: flex;
+justify-content: space-between;
+padding: 5px;
+
+
+
+}
+
+h2 {
+  color: rgb(201,72,158);
+  font-size: 40px;
+
+}
+
+p {
+
+  color: rgb(201,72,158);
+  padding: 0px 60px;
+
+}
