@@ -14,10 +14,16 @@ function App() {
         li2="Projects"
         li3="Contact"
       />
+      <div className="about-me">
+
+
+      </div>
+
       <main>
-        <Book
+        <div className="projects" />
+        <Book className="music-trivia-mayhem"
           title='Music Trivia Mayhem'
-        // img='https://prodimage.images-bn.com/pimages/9780451233578_p0_v3_s550x406.jpg'
+          img='https://i.imgur.com/gIFT77p.png'
         // description='A Baltimore detective and a medical examiner must work together when the witnesses of a long-ago crime become the victims of a deranged killer in this gripping romantic suspense novel.'
         />
 
