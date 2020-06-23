@@ -10,8 +10,8 @@ class Project extends Component {
           <div className="title">
             <h2>Music Trivia Mayhem</h2>
           </div>
-          <div className='project-img'>
-            <img src='https://i.imgur.com/gIFT77p.png'></img>
+          <div>
+            <img className='project-img' src='https://i.imgur.com/gIFT77p.png'></img>
           </div>
           <div className='project-description'>
             <p>'A Baltimore detective and a medical examiner must work together when the witnesses of a long-ago crime become the victims of a deranged killer in this gripping romantic suspense novel.'</p>
@@ -23,8 +23,8 @@ class Project extends Component {
           <div className="title">
             <h2>InstaBook</h2>
           </div>
-          <div className='project-img'>
-            <img src='https://i.imgur.com/gIFT77p.png'></img>
+          <div>
+            <img className='project-img' src='https://i.imgur.com/gIFT77p.png'></img>
           </div>
           <div className='project-description'>
             <p>';aklsjdf;laskdjfal;skdjfal;skdjfals;dkjfals;dkfjsal;dkjf'</p>
@@ -38,8 +38,8 @@ class Project extends Component {
           <div className="title">
             <h2>InstaCart-Costco</h2>
           </div>
-          <div className='project-img'>
-            <img src='https://i.imgur.com/gIFT77p.png'></img>
+          <div>
+            <img className='project-img' src='https://i.imgur.com/gIFT77p.png'></img>
           </div>
           <div className='project-description'>
             <p>'99999999999999</p>

@@ -29,6 +29,10 @@ display: flex;
 
 padding: 5px;
 margin: 0 auto;
+border: solid 2px black;
+height: 400px;
+width: 375px;
+
 
 }
 
