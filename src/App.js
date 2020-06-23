@@ -6,13 +6,13 @@ import Footer from './Footer'
 
 function App() {
   return (
-    <div className="App">
+    <div className="header">
       <Header
         className="navBar"
-        name="BIANCA BIAGIONI"
         li1="Home"
         li2="Projects"
         li3="Contact"
+        name="Hi, I'm Bianca Biagioni!"
       />
       <div className="about-me">
 

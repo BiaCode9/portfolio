@@ -1,46 +1,53 @@
   
-.project {
+.project-title {
 
   border: 6px solid rgb(201,72,158);
   border-radius: 10px;
   background-color: rgba(85, 187, 255,.5);
   display: flex;
   align-items: center;
+  justify-content: top;
   flex-direction: column;
   width: 500px;
   height: 400px;
-  margin-bottom: 40px;
+  margin: 40px;
   text-shadow: 6px 6px 6px rgb(233, 159, 159);
+  color: blue;
   
 }
 
-img {
+/* img {
   width: 400px;
   padding: 10px;
 
 }
+ */
 
 
-
-.img {
+.project-img {
 display: flex;
-justify-content: space-between;
+
 padding: 5px;
-
-
-
-
-}
-
-h2 {
-  color: rgb(201,72,158);
-  font-size: 40px;
+width: 200px;
+height: 200px;
 
 }
 
-p {
 
-  color: rgb(201,72,158);
-  padding: 0px 60px;
+.project-container {
+  display: flex;
+  margin-top: 800px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 45px;
+    
+  }
+/* 
 
-}
+
+
+/* .project-description {
+
+
+} */
