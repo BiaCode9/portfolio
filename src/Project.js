@@ -1,11 +1,11 @@
 
 import React, { Component } from "react"
-import './Book.css';
+import './Project.css';
 
-class Book extends Component {
+class Project extends Component {
   render() {
     return (
-      <div className="book">
+      <div className="project">
         <h2>{this.props.title}</h2>
         <div className='imgp'>
           <img src={this.props.img}></img>
@@ -19,4 +19,4 @@ class Book extends Component {
 
 
 
-export default Book;
+export default Project;
