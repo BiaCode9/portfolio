@@ -1,0 +1,15 @@
+.about-me-container {
+  display: flex;
+  margin-top: 800px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 45px;
+  border: 2px solid blue;
+
+}
+
+.self-img {
+  border: 2px solid black;
+border-radius: 50%;
+}

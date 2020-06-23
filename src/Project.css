@@ -1,5 +1,5 @@
   
-.project-title {
+/* .project-title {
 
   border: 6px solid rgb(201,72,158);
   border-radius: 10px;
@@ -14,7 +14,7 @@
   text-shadow: 6px 6px 6px rgb(233, 159, 159);
   color: blue;
   
-}
+} */
 
 /* img {
   width: 400px;
@@ -28,26 +28,50 @@
 display: flex;
 
 padding: 5px;
-width: 200px;
-height: 200px;
+margin: 0 auto;
 
 }
 
 
-.project-container {
+.mm-project-container {
   display: flex;
-  margin-top: 800px;
+  margin-top: 200px;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   padding-top: 45px;
+  border: 2px solid blue;
     
   }
-/* 
+
+  .instabook-project-container {
+
+    display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 45px;
+  border: 2px solid blue;
 
 
+  }
 
-/* .project-description {
+  .instacart-project-container {
+
+    display: flex;
+  margin-top: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 45px;
+  border: 2px solid blue;
+
+
+  }
+
+/* .all-projects {
+margin
 
 
 } */

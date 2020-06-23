@@ -8,13 +8,13 @@
   height: 800px;
   border-radius: 3px;
   align-items: flex-start;
+  width: 100%;
   background-image: url("https://i.imgur.com/noVfnyi.jpg");
   background-repeat: no-repeat; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-size: 100%;
   background-attachment: fixed;
+  margin: 0 auto;
+  
 
   
   }
@@ -28,6 +28,7 @@
     /* margin: 2% 6%; */
     justify-content: space-evenly;
     justify-content: center;
+    
    
   
   }
