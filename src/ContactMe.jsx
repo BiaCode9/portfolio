@@ -10,7 +10,7 @@ class ContactMe extends Component {
       <div className="contact-container">
 
         <div className="title">
-          <h2>Contact Me</h2>
+          <h2>Let's Get in Touch!</h2>
         </div>
         <div>
           <form>

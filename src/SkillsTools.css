@@ -9,5 +9,25 @@
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
+  background-color: cadetblue;
+
+}
+
+.icon-html {
+  height: 50%;
+  width: 25%;
+}
+
+.icon-css {
+  height: 50%;
+  width: 50%;
+}
+
+
+.about-skill-list {
+  display: flex;
+ 
+
+
 
 }
