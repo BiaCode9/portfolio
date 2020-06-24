@@ -7,18 +7,10 @@ import AboutMe from './AboutMe'
 
 function App() {
   return (
-    <div className="header">
+    <div >
       <Header
-        className="navBar"
-        li1="Home"
-        li2="Projects"
-        li3="Contact"
-        name="Hi, I'm Bianca Biagioni!"
       />
-      <div className="about-me">
 
-
-      </div>
 
       <main>
 

@@ -8,9 +8,12 @@ class Header extends Component {
       <container>
         <div className="header">
           <div className="navBar">
-            <li>{this.props.li1}</li>
-            <li>{this.props.li2}</li>
-            <li>{this.props.li3}</li>
+            <ul>
+              <li>Home</li>
+              <li>About Me</li>
+              <li>Projects</li>
+              <li>Contact</li>
+            </ul>
           </div>
           <div className="my-name">
             <h1>{this.props.name}</h1>

@@ -1,6 +1,6 @@
 .about-me-container {
   display: flex;
-  margin-top: 800px;
+  margin-top: 200px;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
