@@ -1,8 +1,8 @@
 .skills-tools-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+
   padding: 45px 45px;
   border: 2px solid black;
   margin: 0 auto;
@@ -10,6 +10,7 @@
   /* width: 75%; */
   border-radius: 4px;
   background-color: cadetblue;
+  flex-wrap: wrap;
 
 }
 
@@ -64,8 +65,11 @@
 
 .icon-postman {
   width: 75px;
-  
+ 
+}
 
+.icon-express {
+  width: 75px;
  
 }
 

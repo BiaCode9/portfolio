@@ -22,6 +22,7 @@ class SkillsTools extends Component {
             <li><img className="icon-sql" src='https://i.imgur.com/ybyrJOX.png'></img></li>
             <li><img className="icon-mongo" src='https://i.imgur.com/kxRpYHA.jpg'></img></li>
             <li><img className="icon-postman" src='https://i.imgur.com/7uyzkv8.png'></img></li>
+            <li><img className="icon-express" src='https://i.imgur.com/0h3DBpx.png'></img></li>
 
 
 
