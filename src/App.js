@@ -5,6 +5,7 @@ import Header from './Header'
 import Footer from './Footer'
 import AboutMe from './AboutMe'
 import ContactMe from './ContactMe'
+import SkillsTools from './SkillsTools'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <main>
 
           <AboutMe />
+
+          <SkillsTools />
 
 
           <Project />

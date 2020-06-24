@@ -22,7 +22,7 @@ class AboutMe extends Component {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <container>
             <div className="skills-tools-container">
               <div className="skills-tools-title">
@@ -45,7 +45,7 @@ class AboutMe extends Component {
 
             </div>
           </container>
-        </div>
+        </div> */}
       </container>
 
     )
