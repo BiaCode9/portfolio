@@ -15,12 +15,29 @@
 
 .icon-html {
   height: 50%;
-  width: 25%;
+  width: 18%;
 }
 
 .icon-css {
   height: 50%;
-  width: 50%;
+  width: 40%;
+}
+.icon-js {
+  height: 50%;
+  width: 35%;
+}
+.icon-react {
+  height: 50%;
+  width: 35%;
+}
+.icon-node {
+  height: 75%;
+  width: 55%;
+}
+
+.icon-ruby {
+  height: 75%;
+  width: 55%;
 }
 
 

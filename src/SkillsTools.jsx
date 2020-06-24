@@ -14,10 +14,10 @@ class SkillsTools extends Component {
           <ul className="about-skill-list">
             <li><img className="icon-html" src='https://i.imgur.com/OgOuZHu.png'></img></li>
             <li><img className="icon-css" src='https://i.imgur.com/ofXoA4z.png'></img></li>
-            <li><img className="icon-css" src='https://i.imgur.com/CirWihU.png'></img></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><img className="icon-js" src='https://i.imgur.com/CirWihU.png'></img></li>
+            <li><img className="icon-react" src='https://i.imgur.com/B1t5sLV.png'></img></li>
+            <li><img className="icon-node" src='https://i.imgur.com/4QHOWz0.png'></img></li>
+            <li><img className="icon-ruby" src='https://i.imgur.com/fPT9y93.png'></img></li>
             <li></li>
             <li></li>
             <li></li>
