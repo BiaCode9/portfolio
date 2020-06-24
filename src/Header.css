@@ -114,3 +114,11 @@
   h1 {
     /* color: rgb(35, 252,216) */
   }
+
+  .title-description {
+    color: white;
+    letter-spacing: 4px; 
+    font-family: 'Fira Sans', sans-serif; 
+    text-align: center;
+    font-size: 26px;
+  }
