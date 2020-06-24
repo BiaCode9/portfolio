@@ -14,7 +14,7 @@ class SkillsTools extends Component {
           <ul className="about-skill-list">
             <li><img className="icon-html" src='https://i.imgur.com/OgOuZHu.png'></img></li>
             <li><img className="icon-css" src='https://i.imgur.com/ofXoA4z.png'></img></li>
-            <li></li>
+            <li><img className="icon-css" src='https://i.imgur.com/CirWihU.png'></img></li>
             <li></li>
             <li></li>
             <li></li>
