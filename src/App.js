@@ -4,6 +4,7 @@ import Project from './Project'
 import Header from './Header'
 import Footer from './Footer'
 import AboutMe from './AboutMe'
+import ContactMe from './ContactMe'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
 
 
           <Project />
+
+          <ContactMe />
 
 
         </main>
