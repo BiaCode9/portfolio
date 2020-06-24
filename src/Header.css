@@ -111,11 +111,7 @@
     color: rgb(250, 30, 87);
   }
 
-  h1 {
-    /* color: rgb(35, 252,216) */
-  }
-
-  .title-description {
+  .sub-title {
     color: white;
     letter-spacing: 4px; 
     font-family: 'Fira Sans', sans-serif; 

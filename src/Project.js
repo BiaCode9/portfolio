@@ -18,6 +18,8 @@ class Project extends Component {
           <div className='project-description'>
             <p>'A Baltimore detective and a medical examiner must work together when the witnesses of a long-ago crime become the victims of a deranged killer in this gripping romantic suspense novel.'</p>
           </div>
+          <button>Deployed Project</button>
+          <button>Project Github</button>
         </div>
 
 

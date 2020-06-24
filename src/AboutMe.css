@@ -6,6 +6,8 @@
   padding-top: 45px;
   border: 2px solid blue;
   margin: 0 auto;
+  justify-content: center;
+  width: 75%;
 
 
 }
@@ -19,8 +21,8 @@ border-radius: 50%;
 
   font-size: 28px;
   font-weight: 300; 
-  letter-spacing: 1px; 
-  font-family: 'Roboto', sans-serif; 
+  letter-spacing: 4px; 
+  font-family: 'Fira Sans', sans-serif; 
 }
 
 /* .skills-tools-title {
@@ -29,3 +31,13 @@ border-radius: 50%;
   justify-content: center;
 
 } */
+
+.description {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 3px; 
+    font-family: 'Fira Sans', sans-serif; 
+    text-align: center;
+    font-size: 18px;
+}

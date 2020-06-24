@@ -51,6 +51,9 @@ width: 375px;
   justify-content: space-evenly;
   padding-top: 45px;
   border: 2px solid blue;
+  width: 25%;
+  justify-content: center;
+  
     
   }
 

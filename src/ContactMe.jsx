@@ -7,7 +7,7 @@ class ContactMe extends Component {
     return (
 
 
-      <div className="mm-project-container">
+      <div className="contact-container">
 
         <div className="title">
           <h2>Contact Me</h2>
