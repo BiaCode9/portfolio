@@ -7,25 +7,27 @@ import AboutMe from './AboutMe'
 
 function App() {
   return (
-    <div >
-      <Header
-      />
+    <body>
+      <div >
+        <Header
+        />
 
 
-      <main>
+        <main>
 
-        <AboutMe />
-
-
-        <Project />
+          <AboutMe />
 
 
-      </main>
+          <Project />
 
-      <Footer
 
-      />
-    </div>
+        </main>
+
+        <Footer
+
+        />
+      </div>
+    </body>
   );
 }
 

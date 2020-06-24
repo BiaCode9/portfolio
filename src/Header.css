@@ -93,9 +93,17 @@
     font-family: 'Fira Sans', sans-serif; 
     justify-content: space-evenly;
     position: static;
+    text-decoration: none;
   }
 
   .software-title {
     margin-top: 500px;
     color: white;
+    font-family: 'Fira Sans', sans-serif; 
+    font-weight: 300; 
+    letter-spacing: 2px; 
+  }
+
+  h1 {
+    /* color: rgb(35, 252,216) */
   }

@@ -12,7 +12,7 @@ class Header extends Component {
             </video>
             <nav className="main-nav">
               <ul className="main-nav-list">
-                <li>
+                <li >
                   <a href="#">Home</a>
                 </li>
                 <li>
@@ -27,7 +27,10 @@ class Header extends Component {
               </ul>
             </nav>
             <div className="software-title">
-              <h1>Software <span> Engineer </span></h1>
+              <h1>Software <span>Engineer</span>  </h1>
+            </div>
+            <div className="software-title">
+              <h1>FULL STACK developer </h1>
             </div>
           </div>
 
