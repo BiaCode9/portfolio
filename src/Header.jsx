@@ -5,31 +5,36 @@ import "./Header.css"
 class Header extends Component {
   render() {
     return (
-      <container>
-        <div className="header">
+      <header className="main-header">
+        <div className="container">
           <div className="overlay">
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" src="https://i.imgur.com/3DrUNrO.mp4" type="video/mp4">
             </video>
-            <ul className="navLinks">
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About Me</a>
-              </li>
-              <li>
-                <a href="#">Projects</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-
+            <nav className="main-nav">
+              <ul className="main-nav-list">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">About Me</a>
+                </li>
+                <li>
+                  <a href="#">Projects</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
           </div>
+
+          {/* <h1 className="animate__animated animate__bounce">An animated element</h1> */}
 
         </div>
 
-      </container >
+
+
+      </header >
 
     )
   }
