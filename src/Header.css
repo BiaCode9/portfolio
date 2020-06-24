@@ -92,4 +92,10 @@
     letter-spacing: 2px; 
     font-family: 'Fira Sans', sans-serif; 
     justify-content: space-evenly;
+    position: static;
+  }
+
+  .software-title {
+    margin-top: 500px;
+    color: white;
   }

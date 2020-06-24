@@ -26,15 +26,18 @@ class Header extends Component {
                 </li>
               </ul>
             </nav>
+            <div className="software-title">
+              <h1>Software <span> Engineer </span></h1>
+            </div>
           </div>
 
+
+
+
           {/* <h1 className="animate__animated animate__bounce">An animated element</h1> */}
-
         </div>
-
-
-
       </header >
+
 
     )
   }
