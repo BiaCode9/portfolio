@@ -84,8 +84,12 @@
   }
   .main-nav a {
     display: inline-block;
-    padding: .5em 1.5em;
+    padding: .25em 5em;
     color: white;
     justify-content: space-between;
     font-size: 28px;
+    font-weight: 300; 
+    letter-spacing: 2px; 
+    font-family: 'Fira Sans', sans-serif; 
+    justify-content: space-evenly;
   }
