@@ -20,13 +20,13 @@
 }
 
 .icon-html {
-  height: 50%;
-  width: 18%;
+  height: 75%;
+  width: 50%;
 }
 
 .icon-css {
-  height: 50%;
-  width: 40%;
+  height: 85%;
+  width: 80%;
 }
 .icon-js {
   height: 50%;
@@ -70,6 +70,12 @@
 
 .icon-express {
   width: 75px;
+ 
+}
+
+.icon-storybook {
+  width: 75px;
+  height: 75px;
  
 }
 
