@@ -6,7 +6,9 @@ class Project extends Component {
   render() {
     return (
       <section className="all-projects">
+
         <div className="mm-project-container">
+
           <div className="title">
             <h2>Music Trivia Mayhem</h2>
           </div>

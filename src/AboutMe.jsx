@@ -28,6 +28,15 @@ class AboutMe extends Component {
                 <h2>Skills and Tools</h2>
               </div>
               <ul className="about-skill-list">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
 
 
 

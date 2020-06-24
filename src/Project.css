@@ -37,6 +37,11 @@ width: 375px;
 }
 
 
+/* .all-projects {
+  display: inline;
+} */
+
+
 .mm-project-container {
   display: flex;
   margin-top: 200px;
