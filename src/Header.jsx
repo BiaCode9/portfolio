@@ -7,16 +7,26 @@ class Header extends Component {
     return (
       <container>
         <div className="header">
-          {/* <div className="navBar"> */}
-          <ul className="navBar">
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        <div className="my-name">
-          <h1>{this.props.name}</h1>
+          <div className="overlay">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" src="https://i.imgur.com/3DrUNrO.mp4" type="video/mp4">
+            </video>
+            <ul className="navLinks">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About Me</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
         </div>
 
       </container >
@@ -28,4 +38,5 @@ class Header extends Component {
 
 
 export default Header
+
 
