@@ -13,6 +13,11 @@
 
 }
 
+.about-skills-list {
+  list-style: none;
+  text-decoration: none;
+}
+
 .icon-html {
   height: 50%;
   width: 18%;
@@ -36,10 +41,37 @@
 }
 
 .icon-ruby {
-  height: 75%;
+  height: 65%;
   width: 55%;
 }
 
+.icon-rails {
+  height: 65%;
+  width: 35%;
+}
+
+.icon-sql {
+  height: 85%;
+  width: 85%;
+}
+
+.icon-mongo {
+  width: 75px;
+  border: 1px solid black;
+  border-radius: 60%;
+ 
+}
+
+.icon-postman {
+  width: 75px;
+  
+
+ 
+}
+
+li {
+  list-style: none;
+}
 
 .about-skill-list {
   display: flex;
