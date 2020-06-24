@@ -27,7 +27,7 @@ class Header extends Component {
               </ul>
             </nav>
             <div className="software-title">
-              <h1>Software <span>Engineer</span>  </h1>
+              <h1>FULL STACK <span>WEB DEVELOPER</span>  </h1>
             </div>
 
           </div>

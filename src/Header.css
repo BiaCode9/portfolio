@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 1000px;
+  height: 1300px;
   border-radius: 3px;
   align-items: flex-start;
   width: 100%;
@@ -13,6 +13,7 @@
   background-size: 100%;
   background-attachment: fixed;
   margin: 0 auto;
+ 
 
 
   
@@ -84,7 +85,7 @@
   }
   .main-nav a {
     display: inline-block;
-    padding: .25em 5em;
+    padding: .30em 8em;
     color: white;
     justify-content: space-between;
     font-size: 28px;
@@ -101,7 +102,13 @@
     color: white;
     font-family: 'Fira Sans', sans-serif; 
     font-weight: 300; 
-    letter-spacing: 2px; 
+    letter-spacing: 4px; 
+    text-align: center;
+    font-size: 38px;
+  }
+
+  span {
+    color: rgb(250, 30, 87);
   }
 
   h1 {
