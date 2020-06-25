@@ -11,12 +11,14 @@
   border-radius: 4px;
   background-color: cadetblue;
   flex-wrap: wrap;
+  
 
 }
 
 .about-skills-list {
   list-style: none;
   text-decoration: none;
+ 
 }
 
 .icon-html {
@@ -90,6 +92,13 @@
   width: 100px;
 }
 
+.icon-surge {
+  height: 75px;
+  width: 75px;
+  
+}
+
+
 li {
   list-style: none;
 }
@@ -97,6 +106,7 @@ li {
 .about-skill-list {
   display: flex;
   justify-content: space-between;
+ 
  
 
 }
