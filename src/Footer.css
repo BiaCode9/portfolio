@@ -1,7 +1,15 @@
 footer {
 
+  display: flex;
   background-color: rgb(23, 29, 28);
   color: white;
   height: 100px;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px; 
+    font-family: 'Fira Sans', sans-serif; 
+    font-size: 18px;
+    align-items: center;
+
 }
 
