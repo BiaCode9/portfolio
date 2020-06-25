@@ -11,13 +11,17 @@
   border-radius: 4px;
   background-color: cadetblue;
   flex-wrap: wrap;
+
+  height: 1000px;
   
 
 }
 
 .about-skills-list {
+  display: flex;
   list-style: none;
   text-decoration: none;
+  align-content: space-around;
  
 }
 

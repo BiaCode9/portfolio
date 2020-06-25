@@ -1,11 +1,12 @@
 .contact-container {
-  width: 50%;
+
   justify-content: center;
   text-align: center;
   letter-spacing: 2px; 
     font-family: 'Fira Sans', sans-serif; 
     text-align: center;
     font-size: 18px;
+    margin: 75px 75px
 
   
 }

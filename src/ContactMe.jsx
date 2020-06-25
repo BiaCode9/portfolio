@@ -20,6 +20,11 @@ class ContactMe extends Component {
           <p>Please <span>Contact Me</span> Anytime!</p>
           {/* <p>Contact Me Anytime!</p> */}
         </div>
+        <div>
+          <form>
+
+          </form>
+        </div>
       </div>
     )
   }
