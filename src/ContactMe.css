@@ -1,0 +1,22 @@
+.contact-container {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px; 
+    font-family: 'Fira Sans', sans-serif; 
+    text-align: center;
+    font-size: 18px;
+
+  
+}
+
+/* .project-description {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2px; 
+      font-family: 'Fira Sans', sans-serif; 
+      text-align: center;
+      font-size: 18px;
+
+} */

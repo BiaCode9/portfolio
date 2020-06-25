@@ -10,14 +10,15 @@ class ContactMe extends Component {
       <div className="contact-container">
 
         <div className="title">
-          <h2>Let's Get in Touch!</h2>
+          <h2>Thanks for Stopping By!</h2>
         </div>
         <div>
           <form>
           </form>
         </div>
         <div className='project-description'>
-          <p>'A Baltimore detective and a medical examiner must work together when the witnesses of a long-ago crime become the victims of a deranged killer in this gripping romantic suspense novel.'</p>
+          <p>Please <span>Contact Me</span> Anytime!</p>
+          {/* <p>Contact Me Anytime!</p> */}
         </div>
       </div>
     )
