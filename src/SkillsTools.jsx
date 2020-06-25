@@ -24,6 +24,9 @@ class SkillsTools extends Component {
             <li><img className="icon-postman" src='https://i.imgur.com/7uyzkv8.png'></img></li>
             <li><img className="icon-express" src='https://i.imgur.com/0h3DBpx.png'></img></li>
             <li><img className="icon-storybook" src='https://i.imgur.com/3wTjDri.png'></img></li>
+            <li><img className="icon-adobe" src='https://i.imgur.com/G367NGy.png'></img></li>
+            <li><img className="icon-netlify" src='https://i.imgur.com/apSr06z.jpg'></img></li>
+
 
 
 
