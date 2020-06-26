@@ -91,25 +91,27 @@
     font-size: 28px;
     font-weight: 300; 
     letter-spacing: 2px; 
-    font-family: 'Fira Sans', sans-serif; 
+    font-family: 'Raleway', sans-serif;
     justify-content: space-evenly;
     position: static;
     text-decoration: none;
+
   }
 
   .software-title {
     margin-top: 500px;
     color: white;
-    font-family: 'Fira Sans', sans-serif; 
-    font-weight: 300; 
-    letter-spacing: 4px; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: heavy; 
+    letter-spacing: 3px; 
     text-align: center;
-    font-size: 38px;
+    font-size: 40px;
   }
 
   span {
     color: rgb(250, 30, 87);
-    font-weight: 600;
+    font-weight: heavy;
+    font-family: 'Raleway', sans-serif;
   }
 
   .sub-title {
