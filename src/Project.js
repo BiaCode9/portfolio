@@ -6,7 +6,7 @@ class Project extends Component {
   render() {
     return (
       <section className="all-projects">
-
+        <h1 className="projects">Projects</h1>
         <div className="mm-project-container">
 
           <div className="title">
