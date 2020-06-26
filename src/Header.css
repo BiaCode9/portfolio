@@ -95,6 +95,8 @@
     justify-content: space-evenly;
     position: static;
     text-decoration: none;
+    box-shadow: 0 12px 18px #26c8ce;
+    border-radius: 10px;
 
   }
 
@@ -119,6 +121,6 @@
     letter-spacing: 4px; 
     font-family: 'Fira Sans', sans-serif; 
     text-align: center;
-    font-size: 26px;
+    font-size: 28px;
     
   }
