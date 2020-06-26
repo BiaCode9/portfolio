@@ -29,7 +29,7 @@ font-size: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   padding: 45px 45px;
   border: 2px solid black;
   margin: 0 auto;
@@ -40,6 +40,28 @@ height: 600px;
 align-content: flex-start;
 
 
+}
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.icon-email {
+  height: 40%;
+  width: 15%;
+}
+
+.icon-linkedin {
+  height: 40%;
+  width: 15%;
+  background: url(https://www.linkedin.com/in/biancabiagioni/);
+}
+
+.icon-github {
+  height: 40%;
+  width: 15%;
 }
 
 
