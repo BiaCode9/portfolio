@@ -7,6 +7,7 @@ class ContactMe extends Component {
     return (
 
       <div className="contact-container">
+        <a id="contact"></a>
         <div className="thanks">
           <h2>Thanks for Stopping By My Page!</h2>
         </div>

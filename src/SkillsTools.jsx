@@ -7,6 +7,7 @@ class SkillsTools extends Component {
     return (
 
       <container>
+        <a id="skills"></a>
         <div className="skills-tools-container">
           <div className="skills-tools-title">
             <h2>Skills and Tools</h2>

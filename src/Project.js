@@ -7,7 +7,9 @@ class Project extends Component {
 
     return (
 
+
       <section className="all-projects">
+        <a id="projects"></a>
 
         <div className="mm-project-container">
 
