@@ -127,6 +127,20 @@ background-color: teal;
     margin: 20px;
   }
 
+
+  .buttons {
+    display: flex;
+    padding: 45px;
+  }
+
+
+  .project-url {
+    margin-right: 20px;
+  }
+
+  .github-url {
+    margin-left: 20px;
+  }
 /* .all-projects {
 margin
 

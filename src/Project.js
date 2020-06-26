@@ -20,9 +20,13 @@ class Project extends Component {
           <div className='project-description'>
             <p>Music Triva Mayhem is a music trivia website that challenges the user with interesting and unknown facts about the music industry.</p>
           </div>
-          <div>
-            <button>Project URL</button>
-            <button>Project Github</button>
+          <div className="buttons">
+            <div className="project-url">
+              <a href="https://pages.git.generalassemb.ly/BiaCode2020/Music-Trivia-Mayhem/" class="button">Project URL</a>
+            </div>
+            <div className="github-url">
+              <a href="https://github.com/BiaCode9/Music-Trivia-Mayhem" class="button">Github URL</a>
+            </div>
           </div>
         </div>
 
@@ -37,9 +41,13 @@ class Project extends Component {
           <div className='project-description'>
             <p>InstaBook is a real-time job post / search platform for last-minute job openings. Users who are online or signed-up will get real-time job alerts for those posts that match their job description profile.</p>
           </div>
-          <div>
-            <button>Project URL</button>
-            <button>Project Github</button>
+          <div className="buttons">
+            <div className="project-url">
+              <a href="http://theinstabook.surge.sh/" class="button">Project URL</a>
+            </div>
+            <div className="github-url">
+              <a href="https://github.com/BiaCode9/InstaBook" class="button">Github URL</a>
+            </div>
           </div>
         </div>
 
@@ -56,9 +64,13 @@ class Project extends Component {
           <div className='project-description'>
             <p>'A reacreation of the Instacart-Costco website and mobile application. Instacart is a grocery delivery and pick-up service. Worked on a team consisting of 4 other software engineers and 3 user experience (UX/UI)designers.</p>
           </div>
-          <div>
-            <button>Project URL</button>
-            <button>Project Github</button>
+          <div className="buttons">
+            <div className="project-url">
+              <a href="http://instacart-costco.surge.sh/" class="button">Project URL</a>
+            </div>
+            <div className="github-url">
+              <a href="https://github.com/BiaCode9/Instacart-Costco" class="button">Github URL</a>
+            </div>
           </div>
         </div>
 
