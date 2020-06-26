@@ -25,12 +25,18 @@
 
  .title {
    margin-bottom: 45px;
+   font-size: 28px;
+    font-weight: 300; 
+    letter-spacing: 3px; 
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
  }
 
  .all-projects {
    display: flex;
-   justify-content: space-between;
-   justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+
  }
 
 
@@ -42,7 +48,7 @@ margin: 0 45px;;
 border: solid 2px black;
 height: 600px;
 width: 500px;
-
+background-color: teal;
 
 }
 
@@ -61,7 +67,7 @@ width: 500px;
   text-align: center;
   justify-content: space-evenly;
   padding: 45px;
-  border: 2px solid blue;
+  border: 2px solid black;
   width: 25%;
   justify-content: center;
   
@@ -76,7 +82,7 @@ width: 500px;
   align-items: center;
   justify-content: space-evenly;
   padding: 45px;
-  border: 2px solid blue;
+  border: 2px solid black;
   width: 25%;
   text-align: center;
   justify-content: center;
@@ -92,7 +98,7 @@ width: 500px;
   align-items: center;
   justify-content: space-evenly;
   padding: 45px;
-  border: 2px solid blue;
+  border: 2px solid black;
   width: 25%;
   text-align: center;
   justify-content: center;
@@ -102,11 +108,7 @@ width: 500px;
 
 
   .projects {
-    font-size: 32px;
-    font-weight: 300; 
-    letter-spacing: 3px; 
-    color: black;
-    font-family: 'Fira Sans', sans-serif; 
+     
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
