@@ -9,11 +9,11 @@
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
-  background-image: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, #008080);
   flex-wrap: wrap;
   height: 275px;
   margin-top: -300px;
   justify-content: space-around;
+  box-shadow: 0 0 17px 8px rgba(0, 0, 0, 0.5);
  
 
 }
@@ -55,6 +55,8 @@ justify-content: space-between;
 
 li {
 display: inline;
+text-align: center;
+color: #616161;
 
 }
 
@@ -91,8 +93,8 @@ display: inline;
 }
 
 .icon-sql {
-  height: 95px;
-  width: 140px;
+  height: 85px;
+  width: 110px;
 }
 
 .icon-mongo {
@@ -112,14 +114,20 @@ display: inline;
 }
 
 .icon-storybook {
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
+ 
+}
+
+.icon-photoshop {
+  width: 85px;
+  height: 80px;
  
 }
 
 .icon-adobe {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 60px;
  
 }
 
@@ -131,6 +139,12 @@ display: inline;
 .icon-surge {
   height: 75px;
   width: 75px;
+  
+}
+
+.icon-heroku {
+  height: 60px;
+  width: 125px;
   
 }
 
