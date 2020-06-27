@@ -5,9 +5,10 @@ import "./AboutMe.css"
 class AboutMe extends Component {
   render() {
     return (
-      <div>
+      <section>
         <div className="about-me-container">
           <div className="name">
+            <a id="about"></a>
             <h2>Hi, <span>I'm Bianca!</span></h2>
           </div>
           <div className="title">
@@ -46,7 +47,7 @@ class AboutMe extends Component {
             </div>
           </container>
         </div> */}
-      </div>
+      </section>
 
     )
   }
