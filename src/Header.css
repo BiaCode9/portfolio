@@ -109,6 +109,8 @@
 
   li a:hover {
     color: rgb(250, 30, 87);
+    transition: all 0.4s ease;
+
 
   }
 

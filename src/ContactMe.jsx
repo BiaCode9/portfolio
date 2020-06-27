@@ -9,7 +9,7 @@ class ContactMe extends Component {
       <div className="contact-container">
         <a id="contact"></a>
         <div className="thanks">
-          <h2>Thanks for Stopping By My Page!</h2>
+          <h2>Thanks for Stopping By!</h2>
         </div>
         <div className="contact-please">
           <p>Please <span className="contact-me-span"> Contact Me</span> Anytime,</p>
