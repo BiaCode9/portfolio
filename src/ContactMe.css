@@ -49,6 +49,7 @@ align-content: flex-start;
   color: #42cee0;
   padding-bottom: .25em;
   text-decoration: none;
+  list-style: none;
 }
 
 .contact-box a:hover {

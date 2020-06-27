@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
 
-  padding: 45px 45px;
+  padding: 35px 20px;
   /* border: 2px solid black; */
   margin: 0 auto;
   justify-content: center;
@@ -17,49 +17,64 @@
 
 }
 
+/* ul {
+    align-content: space-around;
+  justify-content: space-between
+} */
+
 .about-skills-list {
   display: flex;
   list-style: none;
-  text-decoration: none;
-  align-content: space-around;
+  /* align-content: space-around;
+  justify-content: space-between */
  
 }
 
+/* 
+.contact-box a:hover  */
+
+.skills-tools-container li:hover {
+background-color: black;
+display: flex;
+justify-content: space-between;
+
+}
+
 .icon-html {
-  height: 75%;
-  width: 50%;
+  height: 78px;
+  width: 75px;
 }
 
 .icon-css {
-  height: 85%;
-  width: 80%;
+  height: 72px;
+  width: 75px;
 }
 .icon-js {
-  height: 50%;
-  width: 35%;
+  height: 72px;
+  width: 50px;
 }
 .icon-react {
-  height: 50%;
-  width: 35%;
+  height: 72px;
+  width: 60px;
 }
 .icon-node {
-  height: 75%;
-  width: 55%;
+  height: 80px;
+  width: 110px;
 }
 
 .icon-ruby {
-  height: 65%;
-  width: 55%;
+  height: 70px;
+  width: 70px;
 }
 
 .icon-rails {
-  height: 65%;
-  width: 35%;
+  height: 100px;
+  width: 110px;
 }
 
 .icon-sql {
-  height: 85%;
-  width: 85%;
+  height: 95px;
+  width: 140px;
 }
 
 .icon-mongo {
@@ -103,13 +118,15 @@
 }
 
 
-li {
+/* li {
   list-style: none;
-}
+} */
 
 .about-skill-list {
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  justify-content: space-evenly;
  
  
 
@@ -119,6 +136,7 @@ li {
   font-size: 22px;
   font-weight: 300; 
   letter-spacing: 3px; 
-  font-family: 'Fira Sans', sans-serif; 
+  font-family: 'Raleway', sans-serif; 
   justify-content: center;
+  list-style: none;
 }

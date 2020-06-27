@@ -7,12 +7,11 @@ class Project extends Component {
 
     return (
       <>
+        <a id="projects"></a>
         <div className="projects-name">
           <h1>Projects</h1>
         </div>
-
         <section className="all-projects">
-          <a id="projects"></a>
 
           <div className="mm-project-container">
 
