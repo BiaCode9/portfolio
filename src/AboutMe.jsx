@@ -5,8 +5,7 @@ import "./AboutMe.css"
 class AboutMe extends Component {
   render() {
     return (
-      <container>
-        <a id="about"></a>
+      <div>
         <div className="about-me-container">
           <div className="name">
             <h2>Hi, <span>I'm Bianca!</span></h2>
@@ -47,7 +46,7 @@ class AboutMe extends Component {
             </div>
           </container>
         </div> */}
-      </container>
+      </div>
 
     )
   }

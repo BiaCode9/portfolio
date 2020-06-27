@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 1300px;
   border-radius: 3px;
   align-items: flex-start;
   width: 100%;
@@ -13,11 +12,11 @@
   background-size: 100%;
   background-attachment: fixed;
   margin: 0 auto;
- 
+  height: 1600px;
+
+}
 
 
-  
-  }
 
   .overlay video {
     position: absolute;
