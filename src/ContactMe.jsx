@@ -12,7 +12,7 @@ class ContactMe extends Component {
           <h2>Thanks for Stopping By My Page!</h2>
         </div>
         <div className="contact-please">
-          <p>Please <span className="contact-me-span"> Contact Me</span> Anytime</p>
+          <p>Please <span className="contact-me-span"> Contact Me</span> Anytime,</p>
           <p>and I will get back to you <span className="asap-span"> as soon as possible!</span></p>
         </div>
         <ul className="contact-box">
@@ -22,8 +22,6 @@ class ContactMe extends Component {
             <img className="icon-linkedin" src="https://i.imgur.com/ySrvm6e.png"></img></li>
           <a href="https://github.com/BiaCode9" class="button">GitHub</a>
           <li><img className="icon-github" src="https://i.imgur.com/xSnqBXy.png"></img></li>
-
-
         </ul>
       </div>
 
