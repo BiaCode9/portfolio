@@ -103,9 +103,14 @@
 
   }
 
-  .main-nav a:hover {
+  /* .main-nav a:hover {
     background-color: #aaeaf5
     
+  } */
+
+  li a:hover {
+    color: rgb(250, 30, 87);
+
   }
 
   
