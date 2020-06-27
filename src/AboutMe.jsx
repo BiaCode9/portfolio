@@ -5,7 +5,7 @@ import "./AboutMe.css"
 class AboutMe extends Component {
   render() {
     return (
-      <section>
+      <container>
         <div className="about-me-container">
           <div className="name">
             <a id="about"></a>
@@ -23,31 +23,8 @@ class AboutMe extends Component {
           </div>
         </div>
 
-        {/* <div>
-          <container>
-            <div className="skills-tools-container">
-              <div className="skills-tools-title">
-                <h2>Skills and Tools</h2>
-              </div>
-              <ul className="about-skill-list">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
 
-
-
-              </ul>
-
-            </div>
-          </container>
-        </div> */}
-      </section>
+      </container>
 
     )
   }
