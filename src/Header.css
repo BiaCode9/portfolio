@@ -108,7 +108,15 @@
     letter-spacing: 3px; 
     text-align: center;
     font-size: 40px;
-  }
+    position: relative;
+    animation: mymove .75s 1;
+}
+
+@keyframes mymove {
+  from {left: -1200px;}
+  to {left: 0px;}
+}
+  
 
   span {
     color: rgb(250, 30, 87);
@@ -122,5 +130,6 @@
     font-family: 'Fira Sans', sans-serif; 
     text-align: center;
     font-size: 28px;
-    
   }
+
+  
