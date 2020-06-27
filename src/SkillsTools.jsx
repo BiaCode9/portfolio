@@ -10,7 +10,7 @@ class SkillsTools extends Component {
         <a id="skills"></a>
         <div className="skills-tools-container">
           <div className="skills-tools-title">
-            <h1>Skills and Tools</h1>
+            <h1 >Skills and Tools</h1>
           </div>
           <ul className="about-skill-list">
             <li><img className="icon-html" src='https://i.imgur.com/qH6SiBO.png'></img></li>
