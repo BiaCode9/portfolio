@@ -176,19 +176,22 @@ a {
      .github-url:hover {background-color: #2e94c4}
   
 
-  .projects-name {
+  h1 {
     font-size: 36px;
     font-weight: 300; 
     letter-spacing: 3px; 
-    font-family: 'Fira Sans', sans-serif; 
+    font-family: 'Raleway', sans-serif; 
     text-align: center;
-    /* justify-content: center;
-   display: flex;
-   align-content: flex-start;
-   flex-direction: row;
+    justify-content: center;
+    /* display: flex;
+    align-content: flex-start;
+   
    text-align: center;
-   align-items: center; */
+   align-items: center; 
+    */
   }
+
+ 
 /* .all-projects {
 margin
 

@@ -9,7 +9,7 @@
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
-  background-color: teal;
+  background-image: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, #008080);
   flex-wrap: wrap;
   height: 275px;
   margin-top: -300px;
