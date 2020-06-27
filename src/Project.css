@@ -185,6 +185,9 @@ a {
     
   }
 
+.github-url, .projecturl a:link { color: blue; }
+.github-url, .projecturl a:visited { color: purple; }
+
  
 /* .all-projects {
 margin
