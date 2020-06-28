@@ -16,12 +16,15 @@ class ContactMe extends Component {
           <p>and I will get back to you <span className="asap-span"> as soon as possible!</span></p>
         </div>
         <ul className="contact-box">
-          <li><a href="mailto:biacode2020@gmail.com" className="contact-button">E-mail</a>
-            <img className="icon-email" src="https://i.imgur.com/qorTRFp.png"></img></li>
-          <li><a href="https://www.linkedin.com/in/biancabiagioni/" className="contact-button">LinkedIn</a>
-            <img className="icon-linkedin" src="https://i.imgur.com/ySrvm6e.png"></img></li>
-          <a href="https://github.com/BiaCode9" className="contact-button">GitHub</a>
-          <li><img className="icon-github" src="https://i.imgur.com/xSnqBXy.png"></img></li>
+          <li>
+            <a href="mailto:biacode2020@gmail.com"><img className="icon-email" src="https://i.imgur.com/qorTRFp.png"></img></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/biancabiagioni/"><img className="icon-linkedin" src="https://i.imgur.com/ySrvm6e.png"></img></a>
+          </li>
+          <li>
+            <a href="https://github.com/BiaCode9"><img className="icon-github" src="https://i.imgur.com/xSnqBXy.png"></img></a>
+          </li>
         </ul>
       </div>
 

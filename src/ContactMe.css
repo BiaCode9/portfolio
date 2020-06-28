@@ -38,7 +38,8 @@ font-size: 32px;
   border-radius: 4px;
 height: 600px;
 align-content: flex-start;
-width: 100%;
+max-width: 100%;
+box-sizing: border-box;
 
 
 }
@@ -69,6 +70,7 @@ width: 100%;
 .contact-box a {
   color: black;
   font-family: 'Raleway', sans-serif;
+ 
 }
 
 .icon-email {
@@ -77,7 +79,7 @@ width: 100%;
 }
 
 .icon-linkedin {
-  height: 65px;
+  height: 55px;
   width: 60px;
  
 }
