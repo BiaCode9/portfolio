@@ -178,6 +178,7 @@ color: #616161;
   font-family: 'Raleway', sans-serif; 
   justify-content: center;
   list-style: none;
+  text-shadow: 0 12px 22px rgb(76, 75, 75);
 }
 
 /* .skills-tools-title h1{
