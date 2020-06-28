@@ -37,8 +37,7 @@
     flex-wrap: wrap;
     justify-content: center;
     /* margin: 200px; */
-
-
+    background-image: linear-gradient(to top, #49b4b4, #54ad76, #909929, #cf720b, #fa1e57);
  }
 
 
