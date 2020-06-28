@@ -44,6 +44,12 @@ background-image: url(https://i.imgur.com/YJGJ53d.jpg);
 
 
 }
+
+.contact-form {
+border: solid black;
+padding: 45px 45px;
+border-radius: 5px;
+}
 /* .contact-box {
   display: flex;
   align-items: center;
