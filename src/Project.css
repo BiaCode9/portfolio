@@ -71,7 +71,7 @@ a {
   align-items: center;
   text-align: center;
   justify-content: space-evenly;
-  /* padding: 45px; */
+  padding: 45px;
   border: 2px solid black;
   width: 25%;
   justify-content: center;
@@ -104,7 +104,7 @@ a {
   justify-content: space-evenly;
   padding: 45px;
   border: 2px solid black;
-  width: 50%;
+  width: 25%;
   text-align: center;
   justify-content: center;
 

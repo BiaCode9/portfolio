@@ -7,11 +7,11 @@ class Project extends Component {
 
     return (
       <>
-        <div className="projects-name">
+        <div>
 
           <a id="projects"></a>
         </div>
-        <div>
+        <div className="projects-name">
           <h1>Projects</h1>
         </div>
 
