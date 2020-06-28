@@ -6,7 +6,7 @@ class SkillsTools extends Component {
   render() {
     return (
 
-      <container>
+      <div>
         <a id="skills"></a>
         <div className="skills-tools-container">
           <div className="skills-tools-title">
@@ -38,7 +38,7 @@ class SkillsTools extends Component {
           </ul>
 
         </div>
-      </container>
+      </div>
 
     )
   }

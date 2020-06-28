@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
 
-  padding: 35px 20px;
+  padding: 35px 35px;
   /* border: 2px solid black; */
   margin: 0 auto;
   justify-content: center;
@@ -16,6 +16,7 @@
   box-shadow: 0 0 17px 8px rgba(0, 0, 0, 0.5);
   max-width: 100%;
   width: 100%;
+  /* width: 100vh; */
   /* box-sizing: border-box; */
  
 
@@ -33,6 +34,7 @@
   justify-content: space-between;
   padding: 20px;
   max-width: 100%;
+  justify-content: center;
 
  
 }
@@ -163,6 +165,7 @@ color: #616161;
   justify-content: space-between;
   list-style: none;
   justify-content: space-evenly;
+ 
  
  
 

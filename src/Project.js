@@ -7,10 +7,15 @@ class Project extends Component {
 
     return (
       <>
-        <a id="projects"></a>
         <div className="projects-name">
+
+          <a id="projects"></a>
+        </div>
+        <div>
           <h1>Projects</h1>
         </div>
+
+
         <section className="all-projects">
 
           <div className="mm-project-container">
@@ -55,9 +60,6 @@ class Project extends Component {
             </div>
           </div>
 
-
-
-
           <div className="instacart-project-container">
             <div className="title">
               <h2>InstaCart-Costco</h2>
@@ -77,12 +79,9 @@ class Project extends Component {
               </div>
             </div>
           </div>
-
         </section>
 
       </>
-
-
     )
 
   }

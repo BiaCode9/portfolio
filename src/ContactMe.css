@@ -36,10 +36,11 @@ font-size: 32px;
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
-height: 600px;
+height: 800px;
 align-content: flex-start;
 max-width: 100%;
 box-sizing: border-box;
+background-image: url(https://i.imgur.com/YJGJ53d.jpg);
 
 
 }
@@ -67,9 +68,9 @@ box-sizing: border-box;
   text-decoration: none;
 } */
 
-.contact-box a {
-  color: black;
-  font-family: 'Raleway', sans-serif;
+.contact-box {
+display: flex;
+
  
 }
 
