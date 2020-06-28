@@ -16,8 +16,8 @@ class ContactMe extends Component {
             <p>Please <span className="contact-me-span"> Contact Me</span> Anytime,</p>
             <p>and I will get back to you <span className="asap-span"> as soon as possible!</span></p>
           </div>
-          <div className="contact-box">
-            <ul>
+          <div>
+            <ul className="contact-box">
               <li>
                 <a href="mailto:biacode2020@gmail.com"><img className="icon-email" src="https://i.imgur.com/qorTRFp.png"></img></a>
               </li>
@@ -27,10 +27,14 @@ class ContactMe extends Component {
               <li>
                 <a href="https://github.com/BiaCode9"><img className="icon-github" src="https://i.imgur.com/xSnqBXy.png"></img></a>
               </li>
+              <li>
+                <a href="https://docdro.id/QGc2HAm"><img className="icon-resume" src="https://i.imgur.com/tGjhB2E.png"></img></a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
+
 
 
 

@@ -3,7 +3,7 @@
   font-weight: 300; 
   letter-spacing: 2px; 
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   justify-content: center;
   text-align: center;
   text-shadow: 0 12px 22px rgb(218, 139, 139);
@@ -31,6 +31,7 @@ font-weight: bolder;
     font-size: 24px;
     font-style: oblique;
     font-weight: bold;
+    margin-bottom: 100px;
 }
 
 .contact-container {
@@ -38,7 +39,7 @@ font-weight: bolder;
   flex-direction: column;
   align-items: center;
   /* justify-content: space-evenly; */
-  padding: 45px 45px;
+
   border: 2px solid black;
   margin: 0 auto;
   justify-content: center;
@@ -58,7 +59,8 @@ border: solid black;
 padding: 45px 45px;
 border-radius: 5px;
 box-shadow: 0 0 17px 8px rgba(0, 0, 0, 0.8);
-background-color: rgba(243, 223, 223, 0.85)
+background-color: rgba(243, 223, 223, 0.85);
+height: 50%;
 }
 /* .contact-box {
   display: flex;
@@ -86,9 +88,12 @@ background-color: rgba(243, 223, 223, 0.85)
 
 .contact-box {
 display: flex;
+justify-content: center;
+justify-content: space-between;
 
  
 }
+
 
 .icon-email {
   height: 65px;
@@ -104,6 +109,11 @@ display: flex;
 .icon-github {
   height: 65px;
   width: 60px;
+}
+
+.icon-resume {
+  height: 70px;
+  width: 75px;
 }
 
 
