@@ -3,7 +3,7 @@
   font-weight: 300; 
   letter-spacing: 2px; 
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 50px;
+  margin: 50px 50px;
   justify-content: center;
   text-align: center;
    text-shadow: 0 18px 22px rgb(218, 139, 139);
@@ -77,8 +77,8 @@ background-image: url(https://i.imgur.com/YJGJ53d.jpg);
 border: solid black;
 padding: 45px 45px;
 border-radius: 5px;
-box-shadow: 0 0 17px 8px rgba(0, 0, 0, 0.8);
-background-color: rgba(243, 223, 223, 0.85);
+box-shadow: 0 0 17px 8px rgba(0, 0, 0, 1);
+background-color: rgba(243, 223, 223, 0.80);
 height: 60%;
 width: 35%;
 }
@@ -117,6 +117,7 @@ justify-content: space-between;
 .pin-drop {
   height: 120px;
   width: 120px;
+  margin: 20px 20px;
   /* display: flex;
  align-items: center; */
 }
