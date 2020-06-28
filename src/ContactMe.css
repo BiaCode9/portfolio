@@ -6,23 +6,31 @@
   margin-bottom: 20px;
   justify-content: center;
   text-align: center;
+  text-shadow: 0 12px 22px rgb(218, 139, 139);
 }
 
 
 .contact-me-span {
 font-size: 32px;
+font-weight: bolder;
+
  
+}
+
+.asap-span {
+  font-weight: bolder;
 }
 
 .contact-please {
  
   justify-content: center;
   text-align: center;
-  letter-spacing: 2px; 
+  letter-spacing: 1px; 
   font-family: 'Raleway', sans-serif;
     text-align: center;
-    font-size: 22px;
-
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 .contact-container {
@@ -49,6 +57,8 @@ background-image: url(https://i.imgur.com/YJGJ53d.jpg);
 border: solid black;
 padding: 45px 45px;
 border-radius: 5px;
+box-shadow: 0 0 17px 8px rgba(0, 0, 0, 0.8);
+background-color: rgba(243, 223, 223, 0.85)
 }
 /* .contact-box {
   display: flex;
