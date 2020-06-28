@@ -37,8 +37,11 @@
     flex-wrap: wrap;
     justify-content: center;
     /* margin: 200px; */
-    background-image: linear-gradient(to top, #49b4b4, #54ad76, #909929, #cf720b, #fa1e57);
- }
+    background-image: url(https://i.imgur.com/WZg5t6a.jpg);
+    background-repeat: no-repeat; 
+  background-size: 100%;
+  background-attachment: fixed;
+ }  
 
 
 .project-img {
@@ -176,11 +179,19 @@ a {
   
 
   .projects-name {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 300; 
     letter-spacing: 3px; 
     font-family: 'Raleway', sans-serif; 
     text-align: center;
+    background-image: url(https://i.imgur.com/WZg5t6a.jpg);
+    background-repeat: no-repeat; 
+  background-size: 100%;
+  background-attachment: fixed;
+  height: 50px;
+  margin-top: -80px;
+  padding-top: 80px;
+
     
   }
 
