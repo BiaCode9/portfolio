@@ -11,17 +11,34 @@
 
 
 .contact-me-span {
-font-size: 32px;
-font-weight: bold;
-letter-spacing: 2px; 
-
+font-size: 34px;
+font-weight: bolder;
+letter-spacing: 3px; 
+font-family: 'Raleway', sans-serif;
 
  
 }
 
 .asap-span {
-  font-weight: bolder;
+  font-weight: bold;
+  font-size: 34px;
 }
+
+.anytime-span {
+color: black;
+font-size: 34px;
+letter-spacing: 6px; 
+font-style: oblique;
+text-shadow: 0 18px 22px rgb(218, 139, 139);
+
+}
+
+.get-back-span {
+color: black;
+font-size: 28px;
+
+}
+
 
 .contact-please {
  
@@ -31,7 +48,7 @@ letter-spacing: 2px;
   font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 24px;
-    font-style: oblique;
+  
     font-weight: bold;
     margin-bottom: 100px;
 }
@@ -62,7 +79,8 @@ padding: 45px 45px;
 border-radius: 5px;
 box-shadow: 0 0 17px 8px rgba(0, 0, 0, 0.8);
 background-color: rgba(243, 223, 223, 0.85);
-height: 50%;
+height: 60%;
+width: 35%;
 }
 /* .contact-box {
   display: flex;
@@ -97,8 +115,8 @@ justify-content: space-between;
 }
 
 .pin-drop {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   /* display: flex;
  align-items: center; */
 }
