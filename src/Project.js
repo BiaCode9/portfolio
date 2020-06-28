@@ -65,7 +65,7 @@ class Project extends Component {
               <h2>InstaCart-Costco</h2>
             </div>
             <div>
-              <img className='project-img' src='https://i.imgur.com/gIFT77p.png'></img>
+              <img className='project-img-instacart' src='https://i.imgur.com/skUnxWb.png'></img>
             </div>
             <div className='project-description'>
               <p>'A reacreation of the Instacart-Costco website and mobile application. Instacart is a grocery delivery and pick-up service. Worked on a team consisting of 4 other software engineers and 3 user experience (UX/UI)designers.</p>

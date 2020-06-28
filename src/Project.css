@@ -56,6 +56,17 @@ background-color: teal;
 
 }
 
+.project-img-instacart {
+  display: flex;
+  
+  padding: 25px;
+  border: solid 2px black;
+  height: 460px;
+  width: 500px;
+  background-color: teal;
+  
+  }
+
 a {
   text-decoration: none;
 }
