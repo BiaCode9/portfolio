@@ -5,7 +5,7 @@ import './Footer.css'
 class Footer extends Component {
   render() {
     return (
-      <footer> @ Copyright Bianca Biagioni 2020</footer>
+      <footer> Copyright © 2020 Bianca Biagioni</footer>
 
 
     )
