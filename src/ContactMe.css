@@ -64,11 +64,15 @@ font-size: 28px;
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
-height: 1300px;
+height: 1200px;
 align-content: flex-start;
 max-width: 100%;
-box-sizing: border-box;
-background-image: url(https://i.imgur.com/YJGJ53d.jpg);
+/* box-sizing: border-box; */
+background: url(https://i.imgur.com/YJGJ53d.jpg) no-repeat;
+background-repeat: no-repeat; 
+background-size: 100%;
+background-size: cover;
+background-size: contain;
 
 
 }
