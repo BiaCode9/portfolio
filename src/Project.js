@@ -19,7 +19,7 @@ class Project extends Component {
 
           <div className="mm-project-container">
 
-            <div className="title">
+            <div className="project-title">
               <h2>Music Trivia Mayhem</h2>
             </div>
             <div>
@@ -40,7 +40,7 @@ class Project extends Component {
 
 
           <div className="instabook-project-container">
-            <div className="title">
+            <div className="project-title">
               <h2>InstaBook</h2>
             </div>
             <div>
@@ -60,7 +60,7 @@ class Project extends Component {
           </div>
 
           <div className="instacart-project-container">
-            <div className="title">
+            <div className="project-title">
               <h2>InstaCart-Costco</h2>
             </div>
             <div>
