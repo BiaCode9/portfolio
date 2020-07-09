@@ -34,8 +34,11 @@
     font-weight: 300; 
     letter-spacing: 3px; 
     font-family: 'Fira Sans', sans-serif;
-    color: white;
     
+ }
+
+ h2 {
+   color: white;
  }
 
  .all-projects {
@@ -48,6 +51,7 @@
   background-size: 100%;
   background-attachment: fixed;
   padding-top: 40px;
+  /* text-align: center; */
  
 
  }  
@@ -81,10 +85,32 @@ a {
 }
 
 
-/* .all-projects {
-  display: inline;
-} */
 
+.projects-name {
+  font-size: 38px;
+  font-weight: 100; 
+  letter-spacing: 3px; 
+  font-family: 'Raleway', sans-serif; 
+  /* display: flex; */
+  /* text-align: center; */
+  color: rgb(250, 30, 87);
+  /* background-image: url(https://i.imgur.com/8MHUS6E.jpg); */
+  /* background-repeat: no-repeat;  */
+/* background-size: 100%; */
+/* background-attachment: fixed; */
+
+height: 0px;
+text-align: center;
+border: 2px solid black;
+
+/* display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; */
+/* margin-top: -130px;
+padding-top: 80px; */
+
+}
 
 .mm-project-container {
   display: flex;
@@ -99,7 +125,6 @@ a {
   width: 25%;
   justify-content: center;
   
-    
   }
 
   .instabook-project-container {
@@ -136,12 +161,8 @@ a {
   background-attachment: fixed;
   background-position: fixed;background-image: url(https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif);
 
-
-
-  
-
-
   }
+
 
 
   /* .projects {
@@ -207,42 +228,13 @@ a {
      .github-url:hover {background-color: #2e94c4}
   
 
-  .projects-name {
-    font-size: 38px;
-    font-weight: 100; 
-    letter-spacing: 3px; 
-    font-family: 'Raleway', sans-serif; 
-    /* display: flex; */
-    /* text-align: center; */
-    color: rgb(250, 30, 87);
-    /* background-image: url(https://i.imgur.com/8MHUS6E.jpg); */
-    background-repeat: no-repeat; 
-  background-size: 100%;
-  background-attachment: fixed;
-  height: 50px;
-  margin-top: -130px;
-  padding-top: 80px;
 
-  }
 
-  /* h1 {
-    
-  } */
-
-h1 {
+/* h1 {
     text-align: center;
-  }
+  } */
 
 .github-url, .projecturl a:link { color: blue; }
 .github-url, .projecturl a:visited { color: purple; }
 
  
-/* .all-projects {
-margin
-
-
-} */
-/* 
-.title {
-
-} */

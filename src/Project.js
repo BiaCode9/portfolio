@@ -9,12 +9,13 @@ class Project extends Component {
       <>
         <a id="projects"></a>
 
+        <div className="projects-name">
+          <h1>PROJECTS</h1>
+        </div>
 
         <section className="all-projects">
 
-          <div className="projects-name">
-            <h1>PROJECTS</h1>
-          </div>
+
 
           <div className="mm-project-container">
 
