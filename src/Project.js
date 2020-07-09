@@ -30,10 +30,10 @@ class Project extends Component {
             </div>
             <div className="buttons">
               <div className="project-url">
-                <a href="https://pages.git.generalassemb.ly/BiaCode2020/Music-Trivia-Mayhem/" class="button">Project URL</a>
+                <a href="https://pages.git.generalassemb.ly/BiaCode2020/Music-Trivia-Mayhem/" class="button">Website</a>
               </div>
               <div className="github-url">
-                <a href="https://github.com/BiaCode9/Music-Trivia-Mayhem" class="button">Github URL</a>
+                <a href="https://github.com/BiaCode9/Music-Trivia-Mayhem" class="button">Github</a>
               </div>
             </div>
           </div>
@@ -51,10 +51,10 @@ class Project extends Component {
             </div>
             <div className="buttons">
               <div className="project-url">
-                <a href="http://theinstabook.surge.sh/" class="button">Project URL</a>
+                <a href="http://theinstabook.surge.sh/" class="button">Website</a>
               </div>
               <div className="github-url">
-                <a href="https://github.com/BiaCode9/InstaBook" class="button">Github URL</a>
+                <a href="https://github.com/BiaCode9/InstaBook" class="button">Github</a>
               </div>
             </div>
           </div>
@@ -71,10 +71,10 @@ class Project extends Component {
             </div>
             <div className="buttons">
               <div className="project-url">
-                <a href="http://instacart-costco.surge.sh/" class="button">Project URL</a>
+                <a href="http://instacart-costco.surge.sh/" class="button">Website</a>
               </div>
               <div className="github-url">
-                <a href="https://github.com/BiaCode9/Instacart-Costco" class="button">Github URL</a>
+                <a href="https://github.com/BiaCode9/Instacart-Costco" class="button">Github</a>
               </div>
             </div>
           </div>
