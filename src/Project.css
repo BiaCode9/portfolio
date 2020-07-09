@@ -22,14 +22,20 @@
 
 }
  */
+ .projects-name {
+   color: rgb(250, 30, 87);
+   
+   
+ }
 
  .title {
    margin-bottom: 45px;
    font-size: 28px;
     font-weight: 300; 
     letter-spacing: 3px; 
-    color: black;
     font-family: 'Fira Sans', sans-serif;
+    color: white;
+    
  }
 
  .all-projects {
