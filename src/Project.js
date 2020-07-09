@@ -28,6 +28,9 @@ class Project extends Component {
             <div className="project-description">
               <p>Music Triva Mayhem is a music trivia website that challenges the user with interesting and unknown facts about the music industry.</p>
             </div>
+            <div className="tech-description">
+              <p>React.js | Axios | Node.js | Express | Mongo DB | Mongoose | JSON | bcrypt  </p>
+            </div>
             <div className="buttons">
               <div className="project-url">
                 <a href="https://pages.git.generalassemb.ly/BiaCode2020/Music-Trivia-Mayhem/" class="button">Website</a>
@@ -47,7 +50,7 @@ class Project extends Component {
               <img className='project-img' alt="instabook-app" src='https://i.imgur.com/gIFT77p.png'></img>
             </div>
             <div className='project-description'>
-              <p>InstaBook is a real-time job post / search platform for last-minute job openings. Users who are online or signed-up will get real-time job alerts for those posts that match their job description profile.</p>
+              <p>InstaBook is a real-time job post and search platform for last-minute job openings. Users who are online or signed-up will get real-time job alerts for those posts that match their job description profile.</p>
             </div>
             <div className="buttons">
               <div className="project-url">

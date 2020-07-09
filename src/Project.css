@@ -180,12 +180,24 @@ padding-top: 80px; */
   justify-content: center;
   text-align: center;
   letter-spacing: 1px; 
-    font-family: 'Fira Sans', sans-serif; 
+  font-family: 'Raleway', sans-serif; 
     text-align: center;
     font-size: 18px;
     margin: 20px;
+    color: white;
   }
 
+  .tech-description {
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px; 
+    font-family: 'Raleway', sans-serif; 
+      text-align: center;
+      font-size: 18px;
+      margin: 20px;
+      color: white;
+
+  }
 
   .buttons {
     display: flex;
@@ -210,6 +222,8 @@ padding-top: 80px; */
     
   }
 
+  .project-url:hover {background-color: rgb(250, 30, 87)}
+
   .github-url {
     margin-left: 20px;
       background-color: teal;
@@ -226,7 +240,8 @@ padding-top: 80px; */
         
      }
     
-     .github-url:hover {background-color: #2e94c4}
+     .github-url:hover {background-color: rgb(250, 30, 87)}
+     
   
 
 
