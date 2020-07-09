@@ -7,16 +7,14 @@ class Project extends Component {
 
     return (
       <>
-        <div>
-
-          <a id="projects"></a>
-        </div>
-        <div className="projects-name">
-          <h1>Projects</h1>
-        </div>
+        <a id="projects"></a>
 
 
         <section className="all-projects">
+
+          <div className="projects-name">
+            <h1>Projects</h1>
+          </div>
 
           <div className="mm-project-container">
 
@@ -24,9 +22,9 @@ class Project extends Component {
               <h2>Music Trivia Mayhem</h2>
             </div>
             <div>
-              <img className='project-img' src='https://i.imgur.com/gIFT77p.png'></img>
+              <img className="project-img" alt="music-app" src='https://i.imgur.com/gIFT77p.png'></img>
             </div>
-            <div className='project-description'>
+            <div className="project-description">
               <p>Music Triva Mayhem is a music trivia website that challenges the user with interesting and unknown facts about the music industry.</p>
             </div>
             <div className="buttons">
@@ -45,7 +43,7 @@ class Project extends Component {
               <h2>InstaBook</h2>
             </div>
             <div>
-              <img className='project-img' src='https://i.imgur.com/gIFT77p.png'></img>
+              <img className='project-img' alt="instabook-app" src='https://i.imgur.com/gIFT77p.png'></img>
             </div>
             <div className='project-description'>
               <p>InstaBook is a real-time job post / search platform for last-minute job openings. Users who are online or signed-up will get real-time job alerts for those posts that match their job description profile.</p>
@@ -65,7 +63,7 @@ class Project extends Component {
               <h2>InstaCart-Costco</h2>
             </div>
             <div>
-              <img className='project-img-instacart' src='https://i.imgur.com/skUnxWb.png'></img>
+              <img className="project-img-instacart" alt="instacart-clone-app" src='https://i.imgur.com/skUnxWb.png'></img>
             </div>
             <div className='project-description'>
               <p>'A reacreation of the Instacart-Costco website and mobile application. Instacart is a grocery delivery and pick-up service. Worked on a team consisting of 4 other software engineers and 3 user experience (UX/UI)designers.</p>

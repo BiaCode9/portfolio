@@ -24,9 +24,14 @@
  */
  .projects-name {
    color: rgb(250, 30, 87);
-   
+    /* padding-top: 40px; */
+    
    
  }
+
+/* h1 {
+  margin-top: 60px;
+} */
 
  .title {
    margin-bottom: 45px;
@@ -219,8 +224,11 @@ a {
   margin-top: -130px;
   padding-top: 80px;
 
-    
   }
+
+/* h1 {
+    margin-top: 20px;
+  } */
 
 .github-url, .projecturl a:link { color: blue; }
 .github-url, .projecturl a:visited { color: purple; }
