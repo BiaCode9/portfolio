@@ -208,11 +208,12 @@ a {
   
 
   .projects-name {
-    font-size: 32px;
+    font-size: 38px;
     font-weight: 100; 
     letter-spacing: 3px; 
     font-family: 'Raleway', sans-serif; 
-    text-align: center;
+    /* display: flex; */
+    /* text-align: center; */
     color: rgb(250, 30, 87);
     /* background-image: url(https://i.imgur.com/8MHUS6E.jpg); */
     background-repeat: no-repeat; 
@@ -228,9 +229,9 @@ a {
     
   } */
 
-/* h1 {
-    margin-top: 20px;
-  } */
+h1 {
+    text-align: center;
+  }
 
 .github-url, .projecturl a:link { color: blue; }
 .github-url, .projecturl a:visited { color: purple; }
