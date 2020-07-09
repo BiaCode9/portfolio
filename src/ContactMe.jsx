@@ -22,7 +22,7 @@ class ContactMe extends Component {
           <div>
             <ul className="contact-box">
               <li>
-                <a href="mailto:biacode2020@gmail.com"><img className="icon-email" src="https://i.imgur.com/qorTRFp.png"></img></a>
+                <a href="mailto:biacode2020@gmail.com"><img className="icon-email" alt="icon-email" src="https://i.imgur.com/qorTRFp.png"></img></a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/biancabiagioni/"><img className="icon-linkedin" alt="icon-linkedin" src="https://i.imgur.com/ySrvm6e.png"></img></a>
