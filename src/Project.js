@@ -29,7 +29,7 @@ class Project extends Component {
               <p>Music Triva Mayhem is a music trivia website that challenges the user with interesting and unknown facts about the music industry.</p>
             </div>
             <div className="tech-description">
-              <p>React.js | Axios | Node.js | Express | Mongo DB | Mongoose | JSON | bcrypt  </p>
+              <p>HTML5 | CSS3 | Javascript | Axios | RESTful API | DOM | Github Pages</p>
             </div>
             <div className="buttons">
               <div className="project-url">
@@ -52,6 +52,9 @@ class Project extends Component {
             <div className='project-description'>
               <p>InstaBook is a real-time job post and search platform for last-minute job openings. Users who are online or signed-up will get real-time job alerts for those posts that match their job description profile.</p>
             </div>
+            <div className="tech-description">
+              <p>React.js | Ruby on Rails | Axios | PostgresSQL | JSON | bcrypt | Heroku | Surge</p>
+            </div>
             <div className="buttons">
               <div className="project-url">
                 <a href="http://theinstabook.surge.sh/" class="button">Website</a>
@@ -67,10 +70,13 @@ class Project extends Component {
               <h2>InstaCart-Costco</h2>
             </div>
             <div>
-              <img className="project-img-instacart" alt="instacart-clone-app" src='https://i.imgur.com/skUnxWb.png'></img>
+              <img className="project-img-instacart" alt="instacart-clone-app" src='https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif'></img>
             </div>
             <div className='project-description'>
-              <p>'A reacreation of the Instacart-Costco website and mobile application. Instacart is a grocery delivery and pick-up service. Worked on a team consisting of 4 other software engineers and 3 user experience (UX/UI)designers.</p>
+              <p>A re-creation of the Instacart-Costco website and mobile application. Instacart is a grocery delivery and pick-up service. Worked on a team consisting of 4 other software engineers and 3 user experience (UX/UI) designers.</p>
+            </div>
+            <div className="tech-description">
+              <p>React.js | Axios | Node.js | Express | Mongo DB | Mongoose | JSON | bcrypt | Heroku | Surge</p>
             </div>
             <div className="buttons">
               <div className="project-url">

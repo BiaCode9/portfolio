@@ -75,8 +75,8 @@ background-color: teal;
   
   padding: 25px;
   border: solid 2px black;
-  height: 4px;
-  width: 500px;
+  height: 350px;
+  width: 450px;
   background-color: teal;
   
   }
@@ -160,7 +160,7 @@ padding-top: 80px; */
   background-repeat: no-repeat; 
   background-size: 100%;
   background-attachment: fixed;
-  background-position: fixed;background-image: url(https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif);
+  /* background-position: fixed;background-image: url(https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif); */
 
   }
 
