@@ -64,6 +64,7 @@ font-size: 28px;
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
+ 
 height: 1300px;
 align-content: flex-start;
 max-width: 100%;
@@ -77,14 +78,37 @@ background-size: cover;
 
 }
 
+@keyframes blink {
+  50% {
+    background: radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    background: -webkit-radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
+  }
+}
+
+@-moz-keyframes blink {
+  50% {
+    background: -moz-radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
+  }
+}
+
 .contact-form {
 border: solid black;
 padding: 45px;
-border-radius: 5px;
+border-radius: 20px;
+/* border-radius: 60px 60px 10px 10px; */
 box-shadow: 0 0 17px 8px rgba(0, 0, 0, 1);
-background-color: rgba(243, 223, 223, 0.80);
+/* background-color: rgba(243, 223, 223, 0.80); */
 height: 60%;
 width: 35%;
+animation: blink .5s infinite;
+-webkit-animation: blink .5s infinite;
+-moz-animation: blink .5s infinite;
+background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
 }
 /* .contact-box {
   display: flex;
@@ -164,4 +188,4 @@ display: flex;
  */
 
 .contact-box a:link { color: black; }
-.contact-box a:visited { color: rgb(250, 30, 87); }
+.contact-box a:visited { color: #fa1e57; }
