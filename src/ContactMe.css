@@ -105,9 +105,9 @@ box-shadow: 0 0 17px 8px rgba(0, 0, 0, 1);
 /* background-color: rgba(243, 223, 223, 0.80); */
 height: 60%;
 width: 35%;
-animation: blink .5s infinite;
--webkit-animation: blink .5s infinite;
--moz-animation: blink .5s infinite;
+animation: blink 1.25s infinite;
+-webkit-animation: blink 1.25s infinite;
+-moz-animation: blink 1.25s infinite;
 background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
 }
 /* .contact-box {

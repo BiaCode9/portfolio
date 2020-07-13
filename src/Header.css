@@ -71,16 +71,9 @@
     
   }
   
-  /**
-   * The followings are to
-   * make things more
-   * clean and airy
-   * and contents centered
-   */
   .main-nav ul {
     margin-top: 40px;
-    text-align: center;
-    
+    text-align: center; 
    
   }
   .main-nav li {
@@ -114,12 +107,7 @@
   li a:hover {
     color: rgb(250, 30, 87);
     transition: all 0.4s ease;
-
-
   }
-
-  
-
 
   .software-title {
     margin-top: 500px;
@@ -130,10 +118,23 @@
     text-align: center;
     font-size: 40px;
     position: relative;
-    animation: mymove 1s 1;
+    animation: slideright 1s 1;
+    -webkit-animation: slideright 1s 1;
+    -moz-animation: slideright 1s 1;
 }
 
-@keyframes mymove {
+
+@keyframes slideright {
+  from {left: -1200px;}
+  to {left: 0px;}
+}
+
+@-webkit-keyframes slideright {
+  from {left: -1200px;}
+  to {left: 0px;}
+}
+
+@-moz-keyframes slideright {
   from {left: -1200px;}
   to {left: 0px;}
 }
@@ -145,21 +146,21 @@
     font-family: 'Raleway', sans-serif;
   }
 
+
   .sub-title {
+    animation: slideright 1s 1;
+    -webkit-animation: slideright 1s 1;
+    -moz-animation: slideright 1s 1;
     color: white;
     letter-spacing: 4px; 
     font-family: 'Fira Sans', sans-serif; 
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
 
   }
 
 
-
-
-
-
-  /* img {
-    max-width:100%;
-    height:auto;
-} */
+  /* @keyframes slideleft {
+    from {right: -1200px;}
+    to {right: 0px;}
+  } */
