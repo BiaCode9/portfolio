@@ -1,6 +1,6 @@
 .thanks {
   font-size: 24px;
-  font-weight: 300; 
+  /* font-weight: 300;  */
   letter-spacing: 2px; 
   font-family: 'Raleway', sans-serif;
   margin: 50px 50px;
@@ -11,7 +11,7 @@
 
 
 .contact-me-span {
-font-size: 34px;
+font-size: 38px;
 font-weight: bolder;
 letter-spacing: 3px; 
 font-family: 'Raleway', sans-serif;
@@ -142,6 +142,7 @@ justify-content: space-between;
  
 }
 
+
 .pin-drop {
   height: 120px;
   width: 120px;
@@ -156,10 +157,18 @@ justify-content: space-between;
   width: 60px;
 }
 
+.icon-email:hover {
+  opacity: 0.7;
+}
+
 .icon-linkedin {
   height: 55px;
   width: 60px;
  
+}
+
+.icon-linkedin:hover {
+  opacity: 0.7;
 }
 
 .icon-github {
@@ -167,9 +176,17 @@ justify-content: space-between;
   width: 60px;
 }
 
+.icon-github:hover {
+  opacity: 0.7;
+}
+
 .icon-resume {
   height: 70px;
   width: 75px;
+}
+
+.icon-resume:hover {
+  opacity: 0.7;
 }
 
 

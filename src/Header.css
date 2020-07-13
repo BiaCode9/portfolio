@@ -85,7 +85,7 @@
     padding: .30em 8em;
     color: white;
     justify-content: space-between;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 300; 
     letter-spacing: 2px; 
     font-family: 'Raleway', sans-serif;
@@ -106,7 +106,13 @@
 
   li a:hover {
     color: rgb(250, 30, 87);
-    transition: all 0.4s ease;
+    transition: all 0.3s ease;
+  }
+
+  li a:active {
+    /* background-color: rgb(250, 30, 87);
+    box-shadow: 0 5px #666; */
+    transform: translateY(20px);
   }
 
   .software-title {
@@ -116,7 +122,7 @@
     font-weight: heavy; 
     letter-spacing: 3px; 
     text-align: center;
-    font-size: 40px;
+    font-size: 46px;
     position: relative;
     animation: slideright 1s 1;
     -webkit-animation: slideright 1s 1;
@@ -148,14 +154,14 @@
 
 
   .sub-title {
-    animation: slideright 1s 1;
+    /* animation: slideright 1s 1;
     -webkit-animation: slideright 1s 1;
-    -moz-animation: slideright 1s 1;
+    -moz-animation: slideright 1s 1; */
     color: white;
     letter-spacing: 4px; 
     font-family: 'Fira Sans', sans-serif; 
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 
   }
 
