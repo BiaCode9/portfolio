@@ -38,11 +38,6 @@ class ContactMe extends Component {
           </div>
         </div>
       </div>
-
-
-
-
-
     )
   }
 }
