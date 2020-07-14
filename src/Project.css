@@ -1,61 +1,22 @@
-  
-/* .project-title {
-
-  border: 6px solid rgb(201,72,158);
-  border-radius: 10px;
-  background-color: rgba(85, 187, 255,.5);
-  display: flex;
-  align-items: center;
-  justify-content: top;
-  flex-direction: column;
-  width: 500px;
-  height: 400px;
-  margin: 40px;
-  text-shadow: 6px 6px 6px rgb(233, 159, 159);
-  color: blue;
-  
-} */
-
-/* img {
-  width: 400px;
-  padding: 10px;
-
+.project-title {
+margin-bottom: 45px;
+font-size: 28px;
+font-weight: 300; 
+letter-spacing: 3px; 
+font-family: 'Raleway', sans-serif; 
+color: white;
 }
- */
 
 
-/* h1 {
-  margin-top: 60px;
-} */
-
- .project-title {
-   margin-bottom: 45px;
-   font-size: 28px;
-    font-weight: 300; 
-    letter-spacing: 3px; 
-    font-family: 'Raleway', sans-serif; 
-    color: white;
-    
+.all-projects {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+background-image: url(https://i.imgur.com/8MHUS6E.jpg);
+background-size: 100%;
+background-attachment: fixed;
+padding-top: 40px;
  }
-
- /* h2 {
-   color: white;
- } */
-
- .all-projects {
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* margin: 200px; */
-    background-image: url(https://i.imgur.com/8MHUS6E.jpg);
-    /* background-repeat: no-repeat;  */
-  background-size: 100%;
-  background-attachment: fixed;
-  padding-top: 40px;
-  /* text-align: center; */
- 
-
- }  
 
 
 .project-img {
@@ -71,15 +32,13 @@ background-color: teal;
 }
 
 .project-img-instacart {
-  display: flex;
-  
-  padding: 25px;
-  border: solid 2px black;
-  height: 350px;
-  width: 450px;
-  background-color: teal;
-  
-  }
+display: flex;
+padding: 25px;
+border: solid 2px black;
+height: 350px;
+width: 450px;
+background-color: teal;
+}
 
 a {
   text-decoration: none;
@@ -88,167 +47,130 @@ a {
 
 
 .projects-name {
-  font-size: 38px;
-  font-weight: 100; 
-  letter-spacing: 3px; 
-  font-family: 'Raleway', sans-serif; 
-  /* display: flex; */
-  /* text-align: center; */
-  color: rgb(250, 30, 87);
-  /* background-image: url(https://i.imgur.com/8MHUS6E.jpg); */
-  /* background-repeat: no-repeat;  */
-/* background-size: 100%; */
-/* background-attachment: fixed; */
-
+font-size: 38px;
+font-weight: 100; 
+letter-spacing: 3px; 
+font-family: 'Raleway', sans-serif; 
+color: rgb(250, 30, 87);
 height: 0px;
 text-align: center;
 border: 2px solid black;
 
-/* display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center; */
-/* margin-top: -130px;
-padding-top: 80px; */
+
+
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+
 
 }
 
 .mm-project-container {
-  display: flex;
-  margin: 200px;
-
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-evenly;
-  padding: 45px;
-  border: 2px solid black;
-  width: 25%;
-  justify-content: center;
+display: flex;
+margin: 200px;
+flex-direction: column;
+align-items: center;
+text-align: center;
+justify-content: space-evenly;
+padding: 45px;
+border: 2px solid black;
+width: 25%;
+justify-content: center;
   
   }
 
-  .instabook-project-container {
+.instabook-project-container {
+display: flex;
+margin: 200px;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+padding: 45px;
+border: 2px solid black;
+width: 25%;
+text-align: center;
+justify-content: center;
+}
 
-    display: flex;
-  margin: 200px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 45px;
-  border: 2px solid black;
-  width: 25%;
-  text-align: center;
-  justify-content: center;
+.instacart-project-container {
+display: flex;
+margin: 200px;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+padding: 45px;
+border: 2px solid black;
+width: 25%;
+text-align: center;
+justify-content: center;
+background-repeat: no-repeat; 
+background-size: 100%;
+background-attachment: fixed;
+}
 
+.project-description {
+justify-content: center;
+text-align: center;
+letter-spacing: 1px; 
+font-family: 'Raleway', sans-serif; 
+text-align: center;
+font-size: 18px;
+margin: 20px;
+color: white;
+}
 
-  }
+.tech-description {
+justify-content: center;
+text-align: center;
+letter-spacing: 1px; 
+font-family: 'Raleway', sans-serif; 
+text-align: center;
+font-size: 18px;
+margin: 20px;
+color: white;
+}
 
-  .instacart-project-container {
+.buttons {
+display: flex;
+padding: 45px;
+}
 
-    display: flex;
-  margin: 200px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 45px;
-  border: 2px solid black;
-  width: 25%;
-  text-align: center;
-  justify-content: center;
-
-  background-repeat: no-repeat; 
-  background-size: 100%;
-  background-attachment: fixed;
-  /* background-position: fixed;background-image: url(https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif); */
-
-  }
-
-
-
-  /* .projects {
-     
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-  } */
-
-  .project-description {
-
-   
-  justify-content: center;
-  text-align: center;
-  letter-spacing: 1px; 
-  font-family: 'Raleway', sans-serif; 
-    text-align: center;
-    font-size: 18px;
-    margin: 20px;
-    color: white;
-  }
-
-  .tech-description {
-    justify-content: center;
-    text-align: center;
-    letter-spacing: 1px; 
-    font-family: 'Raleway', sans-serif; 
-      text-align: center;
-      font-size: 18px;
-      margin: 20px;
-      color: white;
-
-  }
-
-  .buttons {
-    display: flex;
-    padding: 45px;
+.project-url {
+margin-right: 20px;
+background-color: teal; 
+height: 50px;
+width: 175px;
+border-radius: 5px;
+font-size: 18px;
+font-weight: bold;
+box-shadow: 0 12px 18px #999;
+margin-top: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
     
   }
 
+.project-url:hover {background-color: rgb(250, 30, 87)}
 
-  .project-url {
-    margin-right: 20px;
-    background-color: teal; 
-      height: 50px;
-      width: 175px;
-      border-radius: 5px;
-      font-size: 18px;
-      font-weight: bold;
-      box-shadow: 0 12px 18px #999;
-      margin-top: 60px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+.github-url {
+margin-left: 20px;
+background-color: teal;
+height: 50px;
+width: 175px;
+border-radius: 5px;
+font-size: 18px;
+font-weight: bold;
+box-shadow: 0 12px 18px #999;
+margin-top: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
     
-  }
-
-  .project-url:hover {background-color: rgb(250, 30, 87)}
-
-  .github-url {
-    margin-left: 20px;
-      background-color: teal;
-      height: 50px;
-      width: 175px;
-      border-radius: 5px;
-      font-size: 18px;
-      font-weight: bold;
-      box-shadow: 0 12px 18px #999;
-      margin-top: 60px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-        
-     }
-    
-     .github-url:hover {background-color: rgb(250, 30, 87)}
+.github-url:hover {background-color: rgb(250, 30, 87)}
      
   
 
 
-
-/* h1 {
-    text-align: center;
-  } */
 
 .github-url, .projecturl a:link { color: blue; }
 .github-url, .projecturl a:visited { color: purple; }
