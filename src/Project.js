@@ -47,7 +47,7 @@ class Project extends Component {
               <h2>InstaBook</h2>
             </div>
             <div>
-              <img className='project-img' alt="instabook-app" src='https://i.imgur.com/gIFT77p.png'></img>
+              <img className='project-img' alt="instabook-app" src="https://i.imgur.com/j18uPq7.png"></img>
             </div>
             <div className='project-description'>
               <p>InstaBook is a real-time job post and search platform for last-minute job openings. Users who are online or signed-up will get real-time job alerts for those posts that match their job description profile.</p>
