@@ -48,20 +48,26 @@ margin: 60px 60px;
   width: 50%;
   justify-content: center;
   text-align: center;
-  letter-spacing: 2px; 
- 
-  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1px; 
+  font-family: 'Fira Sans', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
     text-align: center;
     font-size: 28px;
-  margin-top: -75px;
+  margin-top: -50px;
+  line-height: 1.5;
     /* margin-bottom: -600px; */
 }
 
 .title {
-  margin-bottom: 45px;
-   font-size: 28px;
+  margin-bottom: 20px;
+   font-size: 30px;
     letter-spacing: 3px; 
     font-family: 'Raleway', sans-serif; 
     color: black;
   
+}
+
+.bianca {
+font-size: 50px;
+font-family: 'Raleway', sans-serif; 
 }
