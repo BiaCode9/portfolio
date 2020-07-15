@@ -6,15 +6,19 @@
   margin: 50px 50px;
   justify-content: center;
   text-align: center;
-   text-shadow: 0 18px 22px rgb(218, 139, 139);
+   text-shadow: 0 22px 22px rgb(218, 139, 139);
 }
 
 
 .contact-me-span {
 font-size: 38px;
-font-weight: bolder;
-letter-spacing: 3px; 
+font-weight: bold;
+letter-spacing: 2px; 
 font-family: 'Raleway', sans-serif;
+/* text-shadow: 0px 0px 10px rgba(243, 237, 237, 0.7); */
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 
  
 }
@@ -22,6 +26,9 @@ font-family: 'Raleway', sans-serif;
 .asap-span {
   font-weight: bold;
   font-size: 34px;
+  font-style: oblique;
+  text-shadow: 0 22px 22px rgb(218, 139, 139);
+  
 }
 
 .anytime-span {
@@ -29,8 +36,7 @@ color: black;
 font-size: 34px;
 letter-spacing: 6px; 
 font-style: oblique;
-text-shadow: 0 18px 22px rgb(218, 139, 139);
-
+text-shadow: 0 22px 22px rgb(218, 139, 139);
 }
 
 .get-back-span {
@@ -97,11 +103,13 @@ background-size: cover;
 }
 
 .contact-form {
+
 border: solid black;
-padding: 45px;
+/* padding: 45px; */
+padding-top: 45px;
 border-radius: 20px;
 /* border-radius: 60px 60px 10px 10px; */
-box-shadow: 0 0 17px 8px rgba(0, 0, 0, 1);
+box-shadow: 0 0 17px 6px rgba(0, 0, 0, 1);
 /* background-color: rgba(243, 223, 223, 0.80); */
 height: 60%;
 width: 35%;
@@ -137,7 +145,7 @@ background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223,
 .contact-box {
 display: flex;
 justify-content: center;
-justify-content: space-between;
+justify-content: space-around;
 
  
 }
