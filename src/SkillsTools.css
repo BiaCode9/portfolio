@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-
   padding-bottom: 25px;
   /* border: 2px solid black; */
   /* margin: 0 auto; */
@@ -54,19 +53,14 @@
 .contact-box a:hover  */
 
 .skills-tools-container li:hover {
-
-display: flex;
-justify-content: space-between;
-
-
+  display: flex;
+  justify-content: space-between; 
 }
 
 li {
-display: inline;
-text-align: center;
-color: #616161;
-
-
+  display: inline;
+  text-align: center;
+  color: #616161;
 }
 
 /* .about-skill-list img {
@@ -114,35 +108,29 @@ color: #616161;
 .icon-mongo {
   width: 75px;
   border-radius: 60%;
- 
 }
 
 .icon-postman {
   width: 75px;
- 
 }
 
 .icon-express {
-  width: 75px;
- 
+  width: 75px; 
 }
 
 .icon-storybook {
   width: 65px;
   height: 65px;
- 
 }
 
 .icon-photoshop {
   width: 85px;
-  height: 80px;
- 
+  height: 80px; 
 }
 
 .icon-adobe {
   width: 70px;
-  height: 60px;
- 
+  height: 60px; 
 }
 
 .icon-netlify {
@@ -152,14 +140,12 @@ color: #616161;
 
 .icon-surge {
   height: 75px;
-  width: 75px;
-  
+  width: 75px; 
 }
 
 .icon-heroku {
   height: 60px;
-  width: 125px;
-  
+  width: 125px;  
 }
 
 
@@ -172,10 +158,6 @@ color: #616161;
   justify-content: space-between;
   list-style: none;
   justify-content: space-evenly;
- 
- 
- 
-
 }
 
 .skills-tools-title {
@@ -189,14 +171,37 @@ color: #616161;
 
 /* text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15); */
 
-text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-
-
-
-
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 /* .skills-tools-title h1{
 text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, #008080);
 
 } */
+
+@media screen and (max-width: 1440px) {
+  .skills-tools-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    padding-bottom: 25px;
+    /* border: 2px solid black; */
+    /* margin: 0 auto; */
+    justify-content: center;
+    /* width: 75%; */
+    border-radius: 4px;
+    flex-wrap: wrap;
+    height: 250px;
+    margin-top: -550px;
+    margin-bottom: 200px;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
+    max-width: 100%;
+    width: 100%;
+    /* width: 100vh; */
+    /* box-sizing: border-box; */
+   
+  
+  }
+
+}
