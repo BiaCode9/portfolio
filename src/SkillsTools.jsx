@@ -30,16 +30,9 @@ class SkillsTools extends Component {
             <li>HEROKU<img className="icon-heroku" alt="icon-heroku" src='https://i.imgur.com/0fFRcPg.png'></img></li>
             <li>NETLIFY<img className="icon-netlify" alt="icon-netlify" src='https://i.imgur.com/apSr06z.jpg'></img></li>
             <li>SURGE<img className="icon-surge" alt="icon-surge" src='https://i.imgur.com/PCk4lh6.jpg'></img></li>
-
-
-
-
-
           </ul>
-
         </div>
       </div>
-
     )
   }
 }

@@ -22,10 +22,9 @@
 
 }
 
-/* ul {
-    align-content: space-around;
-  justify-content: space-between
-} */
+ul.about-skill-list {
+  padding: 0px;
+}
 
 .about-skill-list img {
   display: flex;
@@ -70,7 +69,7 @@ li {
 
 .icon-html {
   height: 78px;
-  width: 75px;
+  width: 85px;
 }
 
 .icon-css {
@@ -79,7 +78,7 @@ li {
 }
 .icon-js {
   height: 72px;
-  width: 50px;
+  width: 45px;
 }
 .icon-react {
   height: 72px;
@@ -91,8 +90,8 @@ li {
 }
 
 .icon-ruby {
-  height: 70px;
-  width: 70px;
+  height: 65px;
+  width: 65px;
 }
 
 .icon-rails {
@@ -192,8 +191,8 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     border-radius: 4px;
     flex-wrap: wrap;
     height: 250px;
-    margin-top: -550px;
-    margin-bottom: 200px;
+    margin-top: -400px;
+    margin-bottom: 75px;
     justify-content: space-around;
     box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
     max-width: 100%;
@@ -204,4 +203,25 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
   
   }
 
+  .about-skill-list img {
+    display: flex;
+    list-style: none;
+    align-content: space-around;
+    justify-content: space-between;
+    padding: 20px 10px 3px 10px;
+    max-width: 75%;
+    justify-content: center;
+    margin-right: 50px;
+  
+   
+  }
+
+
+  li {
+    display: inline;
+    text-align: center;
+    color: #616161;
+    font-size: 12px;
+   
+  }
 }

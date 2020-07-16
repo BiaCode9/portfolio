@@ -281,11 +281,28 @@ align-items: center;
 @media screen and (max-width: 1440px) {
   .project-title {
     margin-bottom: 45px;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300; 
     letter-spacing: 2px; 
-    font-family: 'Raleway', sans-serif; 
-    color: white;
     }
+
+    .projects-name {
+      font-size: 36px;
+      font-weight: 100; 
+      letter-spacing: 3px; 
+      font-family: 'Raleway', sans-serif; 
+      color: rgb(250, 30, 87);
+      height: 0px;
+      text-align: center;
+      border: 2px solid black;
+
+}
+
+div.buttons {
+  width: 95%;
+ 
+  
+}
+
 
 }
