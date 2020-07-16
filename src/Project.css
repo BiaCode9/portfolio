@@ -275,4 +275,17 @@ align-items: center;
 .github-url, .projecturl a:link { color: blue; }
 .github-url, .projecturl a:visited { color: purple; }
 
+
+
  
+@media screen and (max-width: 1440px) {
+  .project-title {
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-weight: 300; 
+    letter-spacing: 2px; 
+    font-family: 'Raleway', sans-serif; 
+    color: white;
+    }
+
+}

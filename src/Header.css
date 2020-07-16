@@ -1,105 +1,87 @@
 
-.container{
-  /* border: 2px solid purple; */
-  display: flex;
+.container {
   align-items: center;
+  display: flex;
   justify-content: space-between;
   border-radius: 3px;
   align-items: flex-start;
   width: 100%;
-  /* background-image: url("https://i.imgur.com/noVfnyi.jpg"); */
   background-repeat: no-repeat; 
   background-size: 100%;
   background-attachment: fixed;
-  /* margin: 0 auto; */
   height: 1600px;
-  /* max-width: 100%; */
-
-
 }
 
+.overlay video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-position: center;
+  object-fit: cover;
+  overflow: hidden;
+}
 
-  .overlay video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    object-position: center;
-    object-fit: cover;
-    overflow: hidden;
+.main-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
   
-  
-  }
+.main-nav ul {
+  margin-top: 40px;
+  text-align: center;   
+}
 
-  .main-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    
-  }
-  
-  .main-nav ul {
-    margin-top: 40px;
-    text-align: center; 
-   
-  }
-  .main-nav li {
-    display: inline;
-    
-  }
-  .main-nav a {
-    display: inline-block;
-    padding: .30em 8em;
-    color: white;
-    justify-content: space-between;
-    font-size: 30px;
-    font-weight: 300; 
-    letter-spacing: 2px; 
-    font-family: 'Raleway', sans-serif;
-    justify-content: space-evenly;
-    position: static;
-    text-decoration: none;
-    box-shadow: 0 12px 18px #26c8ce;
-    border-radius: 10px;
+.main-nav li {
+  display: inline;   
+}
 
-    
+.main-nav a {
+  display: inline-block;
+  padding: .30em 8em;
+  color: white;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 300; 
+  letter-spacing: 2px; 
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-evenly;
+  position: static;
+  text-decoration: none;
+  box-shadow: 0 12px 18px #26c8ce;
+  border-radius: 10px;
+}
 
-  }
+li a:hover {
+  color: rgb(250, 30, 87);
+  transition: all 0.3s ease;
+}
 
-  /* .main-nav a:hover {
-    background-color: #aaeaf5
-    
-  } */
+li a:active {
+  /* background-color: rgb(250, 30, 87);
+  box-shadow: 0 5px #666; */
+  transform: translateY(20px);
+}
 
-  li a:hover {
-    color: rgb(250, 30, 87);
-    transition: all 0.3s ease;
-  }
-
-  li a:active {
-    /* background-color: rgb(250, 30, 87);
-    box-shadow: 0 5px #666; */
-    transform: translateY(20px);
-  }
-
-  .software-title {
-    margin-top: 500px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: heavy; 
-    letter-spacing: 3px; 
-    text-align: center;
-    font-size: 46px;
-    position: relative;
-    animation: slideright 1s 1;
-    -webkit-animation: slideright 1s 1;
-    -moz-animation: slideright 1s 1;
+.software-title {
+  margin-top: 500px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: heavy; 
+  letter-spacing: 3px; 
+  text-align: center;
+  font-size: 46px;
+  position: relative;
+  animation: slideright 1s 1;
+  -webkit-animation: slideright 1s 1;
+  -moz-animation: slideright 1s 1;
 }
 
 
@@ -118,29 +100,49 @@
   to {left: 0px;}
 }
   
+span {
+  color: rgb(250, 30, 87);
+  font-weight: heavy;
+  font-family: 'Raleway', sans-serif;
+}
 
-  span {
-    color: rgb(250, 30, 87);
-    font-weight: heavy;
-    font-family: 'Raleway', sans-serif;
-  }
+.sub-title {
+  /* animation: slideright 1s 1;
+  -webkit-animation: slideright 1s 1;
+  -moz-animation: slideright 1s 1; */
+  color: white;
+  letter-spacing: 4px; 
+  font-family: 'Fira Sans', sans-serif; 
+  text-align: center;
+  font-size: 40px;
+}
 
-
-  .sub-title {
-    /* animation: slideright 1s 1;
-    -webkit-animation: slideright 1s 1;
-    -moz-animation: slideright 1s 1; */
-    color: white;
-    letter-spacing: 4px; 
-    font-family: 'Fira Sans', sans-serif; 
-    text-align: center;
-    font-size: 40px;
-   
-
-  }
-
-
-  /* @keyframes slideleft {
+    /* @keyframes slideleft {
     from {right: -1200px;}
     to {right: 0px;}
   } */
+
+
+  
+@media screen and (max-width: 1440px) {
+  .software-title {
+    margin-top: 300px;
+    color: white;
+    letter-spacing: px; 
+    font-size: 36px;
+  }
+
+  .main-nav a {
+    padding: .30em 4em;
+    font-size: 28px;
+    font-weight: 400; 
+    letter-spacing: 2px; 
+  }
+
+  .sub-title {
+    font-size: 38px;
+  }
+
+
+
+}
