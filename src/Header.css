@@ -146,3 +146,26 @@ span {
 
 
 }
+
+@media screen and (max-width: 1366px) {
+  .software-title {
+    margin-top: 250px;
+    color: white;
+    letter-spacing: px; 
+    font-size: 34px;
+  }
+
+  .main-nav a {
+    padding: .30em 4em;
+    font-size: 26px;
+    font-weight: 400; 
+    letter-spacing: 2px; 
+  }
+
+  .sub-title {
+    font-size: 34px;
+  }
+
+
+
+}
