@@ -191,8 +191,8 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     border-radius: 4px;
     flex-wrap: wrap;
     height: 250px;
-    margin-top: -700px;
-    margin-bottom: 75px;
+    margin-top: -650px;
+    margin-bottom: 125px;
     justify-content: space-around;
     box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
     max-width: 100%;
