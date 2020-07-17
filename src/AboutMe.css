@@ -143,3 +143,48 @@
   }
 
 }
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .name {
+    font-size: 20px;
+    font-weight: 300; 
+    letter-spacing: 2px; 
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    margin-top: -1400px;
+  }
+  .bianca {
+    font-size: 34px;
+  }
+
+  .self-img {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-bottom: 25px;
+  }
+
+  .description {
+    width: 50%;
+    letter-spacing: 1px; 
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 20px;
+    margin-top: -10px;
+    line-height: 1.25;
+    /* margin-bottom: -600px; */
+  }
+
+  .title {
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 22px;
+    letter-spacing: 3px; 
+    font-family: 'Raleway', sans-serif; 
+    color: black;
+  }
+
+}
