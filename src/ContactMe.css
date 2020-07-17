@@ -31,12 +31,25 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   
 }
 
-.anytime-span {
+/* .anytime-span {
 color: black;
 font-size: 34px;
 letter-spacing: 6px; 
 font-style: oblique;
 text-shadow: 0 22px 22px rgb(218, 139, 139);
+} */
+
+.anytime {
+  font-size: 30px;
+  margin-right: 120px;
+  color: black;
+  font-style: oblique;
+ 
+}
+
+span.anywhere-span {
+  font-size: 30px;
+  font-style: oblique;
 }
 
 .get-back-span {
@@ -235,7 +248,7 @@ display: flex;
     border: solid black;
     margin-bottom: 35px;
     width: 50%;
-    height: 75%;
+    height: 55%;
     margin-top: -350px;
     margin-bottom: -350px;
     padding-bottom: 40px;
@@ -245,23 +258,84 @@ display: flex;
       font-size: 22px;
       justify-content: center;
       text-align: center;
-      margin-top: 20px;
-      margin-bottom: 20px;   
+      margin-top: -20px;
+      margin-bottom: -10px;   
     }
 
     .get-back-span {
       color: black;
-      font-size: 26px;    
+      font-size: 24px;    
     }
 
     .asap-span {
       font-weight: bold;
-      font-size: 34px;
+      font-size: 32px;
       font-style: oblique;
       text-shadow: 0 22px 22px rgb(218, 139, 139);  
     }
 
     div.contact-container {
       height: 850px;
-    }   
+    } 
+
+    ul.contact-box {
+      margin-top: -40px;
+    }
+    
+    .thanks {
+      font-size: 22px;
+      margin-bottom: 20px;
+     
+    
+    }
+
+    .contact-me-span {
+      font-size: 34px;
+       
+    }
+
+    .anytime {
+      font-size: 30px;
+      margin-right: 120px;
+      color: black;
+     
+    }
+
+    span.anywhere-span {
+      font-size: 30px;
+    }
+
+    .pin-drop {
+      height: 100px;
+      width: 100px;
+      margin-top: -40px;
+      margin-left: 20px;
+  /* display: flex;
+ align-items: center; */
+}
+
+.contact-form:blink {
+  margin-right: 60px;
+}
+
+/* @keyframes blink {
+  50% {
+    background: radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    background: -webkit-radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
+  }
+}
+
+@-moz-keyframes blink {
+  50% {
+    background: -moz-radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
+  }
+} */
+
+
+    
 } 

@@ -66,7 +66,7 @@
     letter-spacing: 2px; 
     font-family: 'Raleway', sans-serif;
     margin-bottom: 10px;
-    margin-top: -1100px;
+    margin-top: -1400px;
   }
   .bianca {
     font-size: 45px;
@@ -75,7 +75,7 @@
   .self-img {
     border: 2px solid black;
     border-radius: 50%;
-    margin-top: 25px;
+    margin-top: -10px;
     margin-bottom: 25px;
   }
 
@@ -84,10 +84,19 @@
     letter-spacing: 1px; 
     font-family: 'Fira Sans', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
-    font-size: 29px;
+    font-size: 22px;
     margin-top: -10px;
     line-height: 1.25;
     /* margin-bottom: -600px; */
+  }
+
+  .title {
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 26px;
+    letter-spacing: 3px; 
+    font-family: 'Raleway', sans-serif; 
+    color: black;
   }
 
 }
