@@ -314,28 +314,5 @@ display: flex;
  align-items: center; */
 }
 
-.contact-form:blink {
-  margin-right: 60px;
-}
-
-/* @keyframes blink {
-  50% {
-    background: radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
-  }
-}
-
-@-webkit-keyframes blink {
-  50% {
-    background: -webkit-radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
-  }
-}
-
-@-moz-keyframes blink {
-  50% {
-    background: -moz-radial-gradient(ellipse, #fa1e57 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
-  }
-} */
-
-
     
 } 
