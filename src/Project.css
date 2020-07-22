@@ -7,7 +7,6 @@ font-family: 'Raleway', sans-serif;
 color: white;
 }
 
-
 .all-projects {
 display: flex;
 flex-wrap: wrap;
@@ -18,48 +17,41 @@ background-attachment: fixed;
 padding-top: 40px;
  }
 
-
 .project-img {
-display: flex;
-
-padding: 15px;
-margin: 0 45px;;
-border: solid 2px black;
-height: 500px;
-width: 500px;
-background-color: rgb(80, 235, 235);
-border-radius: 50%;
-
+  display: flex;
+  padding: 15px;
+  margin: 0 45px;;
+  border: solid 2px black;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(80, 235, 235);
+  border-radius: 50%;
 }
 
 .project-img-instacart {
-display: flex;
-padding: 15px;
-border: solid 2px black;
-height: 500px;
-width: 500px;
-background-color: rgb(80, 235, 235);
-border-radius: 50%;
+  display: flex;
+  padding: 15px;
+  border: solid 2px black;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(80, 235, 235);
+  border-radius: 50%;
 }
 
 a {
   text-decoration: none;
 }
 
-
-
 .projects-name {
-font-size: 38px;
-font-weight: 100; 
-letter-spacing: 3px; 
-font-family: 'Raleway', sans-serif; 
-color: rgb(250, 30, 87);
-height: 0px;
-text-align: center;
-border: 2px solid black;
-
-
-text-shadow: 0px 8px 6px rgba(0,0,0,0.4),
+  font-size: 38px;
+  font-weight: 100; 
+  letter-spacing: 3px; 
+  font-family: 'Raleway', sans-serif; 
+  color: rgb(250, 30, 87);
+  height: 0px;
+  text-align: center;
+  border: 2px solid black;
+  text-shadow: 0px 8px 6px rgba(0,0,0,0.4),
              0px 16px 26px rgba(0,0,0,0.1),
              0px 28px 44px rgba(0,0,0,0.1);
 /* text-shadow: 16px 22px 11px  rgb(250, 30, 87); */
@@ -68,22 +60,21 @@ text-shadow: 0px 8px 6px rgba(0,0,0,0.4),
 
 
 
-
 }
 
 .mm-project-container {
-display: flex;
-margin: 200px;
-flex-direction: column;
-align-items: center;
-text-align: center;
-justify-content: space-evenly;
-padding: 45px;
-border: 2px solid black;
-width: 25%;
-justify-content: center;
-border-radius: 25%;
-/* background-color: rgba(245, 201, 201, 0.5); */
+  display: flex;
+  margin: 200px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 45px;
+  border: 2px solid black;
+  width: 25%;
+  justify-content: center;
+  border-radius: 25%;
+  /* background-color: rgba(245, 201, 201, 0.5); */
 }
 
 .mm-project-container::before {
@@ -111,20 +102,19 @@ border-radius: 25%;
   text-shadow: 0 0 15px rgb(80, 235, 235);
 }
 
-
 .instabook-project-container {
-display: flex;
-margin: 200px;
-flex-direction: column;
-align-items: center;
-justify-content: space-evenly;
-padding: 45px;
-border: 2px solid black;
-width: 25%;
-text-align: center;
-justify-content: center;
-background-color: rgba(0, 0, 0, 0.25);
-border-radius: 25%;
+  display: flex;
+  margin: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 45px;
+  border: 2px solid black;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 25%;
 }
 
 /* .instabook-project-container:hover {
@@ -157,25 +147,23 @@ border-radius: 25%;
   text-shadow: 0 0 15px rgb(80, 235, 235);
 }
 
-
 .instacart-project-container {
-display: flex;
-margin: 200px;
-flex-direction: column;
-align-items: center;
-justify-content: space-evenly;
-padding: 45px;
-border: 2px solid black;
-width: 25%;
-text-align: center;
-justify-content: center;
-background-repeat: no-repeat; 
-background-size: 100%;
-background-attachment: fixed;
-border-radius: 25%;
+  display: flex;
+  margin: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 45px;
+  border: 2px solid black;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-attachment: fixed;
+  border-radius: 25%;
 
 }
-
 
 .instacart-project-container::before {
   content: '';
@@ -203,67 +191,65 @@ border-radius: 25%;
 }
 
 .project-description {
-justify-content: center;
-text-align: center;
-letter-spacing: 1px; 
-font-family: 'Raleway', sans-serif; 
-text-align: center;
-font-size: 20px;
-margin: 20px;
-color: white;
-line-height: 1.5;
-
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px; 
+  font-family: 'Raleway', sans-serif; 
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  color: white;
+  line-height: 1.5;
 
 }
 
 .tech-description {
-justify-content: center;
-text-align: center;
-letter-spacing: 1px; 
-font-family: 'Raleway', sans-serif; 
-text-align: center;
-font-size: 18px;
-margin: 20px;
-color: white;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px; 
+  font-family: 'Raleway', sans-serif; 
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+  color: white;
 
 }
 
 .buttons {
-display: flex;
-padding: 45px;
+  display: flex;
+  padding: 45px;
 }
 
 .project-url {
-margin-right: 20px;
-background-color: rgb(80, 235, 235);
-height: 50px;
-width: 175px;
-border-radius: 5px;
-font-size: 18px;
-font-weight: bold;
-box-shadow: 0 12px 18px #999;
-margin-top: 60px;
-display: flex;
-justify-content: center;
-align-items: center;
-    
-  }
+  margin-right: 20px;
+  background-color: rgb(80, 235, 235);
+  height: 50px;
+  width: 175px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 12px 18px #999;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .project-url:hover {background-color: rgb(250, 30, 87)}
 
 .github-url {
-margin-left: 20px;
-background-color: rgb(80, 235, 235);
-height: 50px;
-width: 175px;
-border-radius: 5px;
-font-size: 18px;
-font-weight: bold;
-box-shadow: 0 12px 18px #999;
-margin-top: 60px;
-display: flex;
+  margin-left: 20px;
+  background-color: rgb(80, 235, 235);
+  height: 50px;
+  width: 175px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 12px 18px #999;
+  margin-top: 60px;
+  display: flex;
 justify-content: center;
-align-items: center;
+  align-items: center;
 }
     
 .github-url:hover {background-color: rgb(250, 30, 87)}
