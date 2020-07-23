@@ -34,8 +34,6 @@ ul.about-skill-list {
   padding: 20px 20px;
   max-width: 100%;
   justify-content: center;
-
- 
 }
 
 /* img {
@@ -264,7 +262,6 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     margin-right: 50px;
   }
 
-
   li {
     display: inline;
     text-align: center;
@@ -278,7 +275,11 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
   }
 }
 
-
+@media screen and (max-width: 1280px), screen and (max-height: 800px) {
+  .skills-tools-container {
+    margin-top: -665px;  
+  }
+}
 
 
 
