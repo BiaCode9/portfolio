@@ -1,3 +1,21 @@
+.projects-name {
+  font-size: 38px;
+  font-weight: 100; 
+  letter-spacing: 3px; 
+  font-family: 'Raleway', sans-serif; 
+  color: rgb(250, 30, 87);
+  height: 0px;
+  text-align: center;
+  border: 2px solid black;
+  text-shadow: 0px 8px 6px rgba(0,0,0,0.4),
+             0px 16px 26px rgba(0,0,0,0.1),
+             0px 28px 44px rgba(0,0,0,0.1);
+/* text-shadow: 16px 22px 11px  rgb(250, 30, 87); */
+
+/* text-shadow: 0px 0px 10px rgba(255,255,255,0.7); */
+
+}
+
 .project-title {
   margin-bottom: 45px;
   font-size: 30px;
@@ -40,26 +58,6 @@
 
 a {
   text-decoration: none;
-}
-
-.projects-name {
-  font-size: 38px;
-  font-weight: 100; 
-  letter-spacing: 3px; 
-  font-family: 'Raleway', sans-serif; 
-  color: rgb(250, 30, 87);
-  height: 0px;
-  text-align: center;
-  border: 2px solid black;
-  text-shadow: 0px 8px 6px rgba(0,0,0,0.4),
-             0px 16px 26px rgba(0,0,0,0.1),
-             0px 28px 44px rgba(0,0,0,0.1);
-/* text-shadow: 16px 22px 11px  rgb(250, 30, 87); */
-
-/* text-shadow: 0px 0px 10px rgba(255,255,255,0.7); */
-
-
-
 }
 
 .mm-project-container {
@@ -317,7 +315,7 @@ div.buttons {
     font-size: 28px;
     font-weight: 300; 
     letter-spacing: 2px; 
-    }
+  }
 
   .projects-name {
     font-size: 36px;
@@ -328,45 +326,47 @@ div.buttons {
     height: 0px;
     text-align: center;
     border: 2px solid black;
-}
+  }
 
-div.buttons {
-  width: 95%;
- 
-  
-}
-
-/* .all-projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-image: url(https://i.imgur.com/8MHUS6E.jpg);
-  background-size: 100%;
-  background-attachment: fixed;
-  padding-top: 40px;
-   }
-
-.mm-project-container {
-  display: flex;
-  margin: 200px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-evenly;
-  padding: 45px;
-  border: 2px solid black;
-  width: 25%;
-  justify-content: center;
-  border-radius: 25%;
-  } */
-
-
+  div.buttons {
+    width: 95%;  
+  }
 }
 
 
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
+  .projects-name {
+    font-size: 34px;
+  } 
+  .project-title {
+    margin-bottom: 45px;
+    font-size: 28px;   
+  }
+  .project-img {
+    padding: 15px;
+    margin: 0 45px;;
+    height: 450px;
+    width: 450px;
+  }
   
+  .project-img-instacart {
+    height: 450px;
+    width: 450px;
+  }
 
+  .project-description {
+    letter-spacing: .2px; 
+    font-size: 20px;
+    margin: 20px;
+    line-height: 1.2;
+  }
+
+  .tech-description {  
+    letter-spacing: 1px; 
+    font-size: 18px;
+    margin: 20px;
+    margin-bottom: -30px;  
+  }
 }
   
 
