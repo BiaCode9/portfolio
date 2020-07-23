@@ -125,6 +125,25 @@ span {
     to {right: 0px;}
   } */
 
+  /* @media screen and (max-width: 2880px), screen and (max-height: 1800px) {
+    .software-title {
+      margin-top: 255px;
+      color: white;
+      letter-spacing: px; 
+      font-size: 32px;
+    }
+  
+    .main-nav a {
+      padding: .30em 3.60em;
+      font-size: 24px;
+    }
+  
+    .sub-title {
+      font-size: 32px;
+    }
+  
+  } */
+
 
   
 @media screen and (max-width: 1440px) {
@@ -168,7 +187,7 @@ span {
 }
 
 
-@media screen and (max-width: 1280px), screen and (max-height: 800px) {
+@media screen and (-webkit-min-device-pixel-ratio: 1), screen and (max-width: 1280px), screen and (max-height: 800px) {
   .software-title {
     margin-top: 255px;
     color: white;
@@ -184,6 +203,7 @@ span {
   .sub-title {
     font-size: 32px;
   }
+
 }
 
 
