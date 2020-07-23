@@ -187,7 +187,7 @@ span {
 }
 
 
-@media screen and (-webkit-min-device-pixel-ratio: 1), screen and (max-width: 1280px), screen and (max-height: 800px) {
+@media screen and (min-width: 660px), screen and (max-width: 1280px), screen and (max-height: 800px) {
   .software-title {
     margin-top: 255px;
     color: white;
