@@ -60,7 +60,8 @@
   font-family: 'Raleway', sans-serif; 
 }
 
-@media screen and (max-width: 1440px) {
+/* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
+@media screen and (max-width: 1440px), screen and (max-height: 900px) {
   .name {
     font-size: 26px;
     font-weight: 300; 
@@ -144,7 +145,7 @@
 }
 
 
-
+/* Apple Macbook Pro 13inch (Mid 2009 - Mid 2012) */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
   .name {
     font-size: 24px;
