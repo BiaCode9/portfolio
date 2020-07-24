@@ -313,11 +313,10 @@ display: flex;
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .contact-container {
     border-radius: 4px;
-    height: 1300px;
-    height: 1300px;
+    height: 1800px;
     max-width: 100%;
     /* box-sizing: border-box; */
     /* background-repeat: no-repeat;  */

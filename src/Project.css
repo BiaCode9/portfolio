@@ -33,6 +33,7 @@
   background-size: 100%;
   background-attachment: fixed;
   padding-top: 40px;
+  border: solid rgb(80, 235, 235);
  }
 
 .project-img {
@@ -372,11 +373,11 @@ div.buttons {
 
 
 
-
-@media screen and (max-width: 1024px) {
+/* Ipad Pro */
+@media screen and (max-width: 1024px), screen and (max-height: 1366px)  {
   .project-title {
     margin-bottom: 45px;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 300; 
     letter-spacing: 2px; 
     }
@@ -390,72 +391,56 @@ div.buttons {
     height: 0px;
     text-align: center;
     border: 2px solid black;
+  }
 
-}
-
-div.buttons {
+  div.buttons {
   width: 85%;
- 
-  
-}
-
-/* .all-projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-image: url(https://i.imgur.com/8MHUS6E.jpg);
-  background-size: 100%;
-  background-attachment: fixed;
-  padding-top: 40px;
-   }
-
-.mm-project-container {
-  display: flex;
-  margin: 200px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-evenly;
-  padding: 45px;
-  border: 2px solid black;
-  width: 25%;
-  justify-content: center;
-  border-radius: 25%;
-  } */
-
+ }
 
   .tech-description {
     justify-content: center;
     text-align: center;
     letter-spacing: 1px; 
-    font-family: 'Raleway', sans-serif; 
-    text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     margin: 20px;
-    color: white;
+    margin-bottom: -30px; 
   }
 
   .project-description {
     justify-content: center;
     text-align: center;
     letter-spacing: 1px; 
-    font-family: 'Raleway', sans-serif; 
-    text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     margin: 20px;
-    color: white;
-    line-height: 1.5;
+    margin-bottom: -10px;
+    line-height: 1.2;
   }
 
   .project-img {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
   }
 
   .project-img-instacart {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
   }
 
+  .all-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(https://i.imgur.com/8MHUS6E.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    padding-top: 40px;
+    border: solid rgb(80, 235, 235);
+    /* background-repeat: no-repeat; */
+   }
+
+}
+
+/* Ipad */
+@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
 
 }
