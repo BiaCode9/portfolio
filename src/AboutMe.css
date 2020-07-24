@@ -222,9 +222,80 @@
   .description {
     width: 50%;
     letter-spacing: 1px; 
-    font-family: 'Fira Sans', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
     font-size: 21px;
+    margin-top: -10px;
+    line-height: 1.25;
+    /* margin-bottom: 175px; */
+  }
+}
+
+/* Iphone 6/7/8 Plus */
+@media screen and (max-width: 414px), screen and (max-height: 736px)  {
+  .name {
+    font-size: 16px;
+
+    margin-bottom: 10px;
+    margin-top: -1200px;
+  }
+
+  div.name {
+    margin-top: -1650px;
+  }
+  .title {
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 16px;
+    letter-spacing: .2px; 
+    text-align: center;
+    width: 75%;
+  }
+  .self-img {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    height: 200px;
+    width: 200px;
+  }
+  .description {
+    width: 50%;
+    letter-spacing: 1px; 
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 18px;
+    margin-top: -10px;
+    line-height: 1;
+    /* margin-bottom: 175px; */
+  }
+
+  div.description {
+    width: 75%;
+  }
+
+}
+
+/* Iphone X */
+@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+  .name {
+    font-size: 18px;
+
+    margin-bottom: 10px;
+    margin-top: -1200px;
+  }
+  .bianca {
+    font-size: 30px;
+  }
+  .title {
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 18px;
+    letter-spacing: .5px; 
+  }
+  .description {
+    width: 50%;
+    letter-spacing: 1px; 
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 18px;
     margin-top: -10px;
     line-height: 1.25;
     /* margin-bottom: 175px; */

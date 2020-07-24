@@ -366,5 +366,135 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     /* box-sizing: border-box; */
   
   }
+}
+
+/* Iphone 6/7/8 Plus */
+@media screen and (max-width: 414px), screen and (max-height: 736px)  {
+  .skills-tools-container {
+    /* display: flex; */
+    align-items: center;  
+    padding-bottom: 25px;
+    /* border: 2px solid black; */
+    /* margin: 0 auto; */
+    justify-content: center;
+    /* width: 75%; */
+    border-radius: 4px;
+    /* flex-wrap: wrap; */
+    height: 600px;
+    margin-top: -400px;
+    margin-bottom: 80px;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
+    max-width: 100%;
+    /* width: 100%; */
+    /* width: 100vh; */
+    /* box-sizing: border-box; */
+  }
+  .icon-html {
+    height: 58px;
+    width: 65px;
+  }
+  
+  .icon-css {
+    height: 56px;
+    width: 60px;
+  }
+  .icon-js {
+    height: 58px;
+    width: 42px;
+  }
+  .icon-react {
+    height: 52px;
+    width: 40px;
+  }
+  .icon-node {
+    height: 60px;
+    width: 90px;
+  }
+  
+  .icon-ruby {
+    height: 45px;
+    width: 45px;
+  }
+  
+  .icon-rails {
+    height: 80px;
+    width: 90px;
+  }
+  
+  .icon-sql {
+    height: 65px;
+    width: 90px;
+  }
+  
+  .icon-mongo {
+    width: 75px;
+    border-radius: 80%;
+  }
+  
+  .icon-postman {
+    width: 55px;
+  }
+  
+  .icon-express {
+    width: 55px; 
+  }
+  
+  .icon-storybook {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .icon-photoshop {
+    width: 65px;
+    height: 60px; 
+  }
+  
+  .icon-adobe {
+    width: 50px;
+    height: 40px; 
+  }
+  
+  .icon-netlify {
+    margin-top: 20px;
+    width: 80px;
+  }
+  
+  .icon-surge {
+    height: 55px;
+    width: 55px; 
+  }
+  
+  .icon-heroku {
+    height: 40px;
+    width: 105px;  
+  }
+
+}
+
+/* Iphone X */
+@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+  .skills-tools-container {
+    /* display: flex; */
+    align-items: center;  
+    padding-bottom: 25px;
+    /* border: 2px solid black; */
+    /* margin: 0 auto; */
+    justify-content: center;
+    /* width: 75%; */
+    border-radius: 4px;
+    /* flex-wrap: wrap; */
+    height: 800px;
+    margin-top: -800px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
+    max-width: 100%;
+    /* width: 100%; */
+    /* width: 100vh; */
+    /* box-sizing: border-box; */
+  
+  }
+
 
 }

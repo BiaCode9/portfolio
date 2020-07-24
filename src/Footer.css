@@ -14,3 +14,11 @@ footer {
   /* width: 100%; */
 }
 
+
+/* Iphone X */
+@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+  footer {
+  font-size: 12px;
+  }
+}
+

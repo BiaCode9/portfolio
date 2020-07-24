@@ -420,3 +420,55 @@ display: flex;
     padding-bottom: 40px;
   }
 }
+
+/* Iphone X */
+@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+  .contact-form {
+    border: solid black;
+    margin-bottom: 35px;
+    width: 90%;
+    height: 55%;
+    margin-top: -350px;
+    margin-bottom: -350px;
+    padding-bottom: 40px;
+  }
+
+  span.anywhere-span {
+    font-size: 20px;
+  }
+
+
+  .anytime {
+    font-size: 22px;
+    margin-right: 70px;
+    color: black;
+    font-style: oblique;
+  }
+  
+  span.anywhere-span {
+    font-size: 24px;
+    font-style: oblique;
+  }
+  
+  .get-back-span {
+    color: black;
+    font-size: 16px;
+  }
+
+  .asap-span {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: oblique;
+    text-shadow: 0 22px 22px rgb(218, 139, 139);
+  }
+
+  .thanks {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .contact-me-span {
+    font-size: 22px;   
+  }
+
+}
