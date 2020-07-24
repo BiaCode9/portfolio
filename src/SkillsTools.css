@@ -9,7 +9,6 @@
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
-  /* flex-wrap: wrap; */
   height: 250px;
   margin-top: -550px;
   margin-bottom: 200px;
@@ -17,20 +16,20 @@
   box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
   max-width: 100%;
   width: 100%;
+ 
   /* width: 100vh; */
   /* box-sizing: border-box; */
  
 
 }
 
-ul.about-skill-list {
+/* ul.about-skill-list {
   padding: 0px;
-  /* flex-wrap: wrap;
-  display: flex; */
-}
+}  */
 
 .about-skill-list img {
   display: flex;
+  /* flex-wrap: wrap; */
   list-style: none;
   align-content: space-around;
   justify-content: space-between;
@@ -155,6 +154,7 @@ li {
 
 .about-skill-list {
   display: flex;
+  /* flex-direction: wrap; */
   justify-content: space-between;
   list-style: none;
   justify-content: space-evenly;
@@ -183,7 +183,7 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
   .skills-tools-container {
     display: flex;
-    flex-direction: row;
+    /* flex-wrap: wrap; */
     align-items: center;  
     padding-bottom: 25px;
     /* border: 2px solid black; */
@@ -203,6 +203,10 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     /* box-sizing: border-box; */ 
   
   }
+
+  /* div.skills-tools-container {
+    height: 600px;
+  } */
 
   .about-skill-list img {
     display: flex;
@@ -285,7 +289,7 @@ Apple Macbook Pro 13inch (Mid 2009 - 2012) */
 /* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .skills-tools-container {
-    /* display: flex; */
+    display: flex;
     align-items: center;  
     padding-bottom: 25px;
     /* border: 2px solid black; */
@@ -306,11 +310,11 @@ Apple Macbook Pro 13inch (Mid 2009 - 2012) */
   
   }
 
-  ul.about-skill-list {
+  /* ul.about-skill-list {
     padding: 0px;
     flex-wrap: wrap;
     display: flex;
-  }
+  } */
 
 
   .about-skill-list img {

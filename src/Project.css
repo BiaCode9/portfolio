@@ -217,8 +217,14 @@ a {
 
 .buttons {
   display: flex;
-  padding: 45px;
+  /* padding-left: 35px; */
+  /* margin-left: 0px; */
+  /* width: 80%; */
 }
+
+/* div.buttons {
+  margin-right: 0px;
+} */
 
 .project-url {
   margin-right: 20px;
@@ -280,10 +286,11 @@ justify-content: center;
     border: 2px solid black;
 }
 
-.buttons {
+/* .buttons{
   width: 95%;
+  margin-right: 40px;
 
-}
+} */
 
 /* .all-projects {
   display: flex;

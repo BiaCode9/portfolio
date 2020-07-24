@@ -13,7 +13,7 @@ class Header extends Component {
             <nav className="main-nav">
               <ul className="main-nav-list">
                 <li >
-                  <a href="#"><span>Home</span></a>
+                  <a href="#home"><span>Home</span></a>
                 </li>
                 <li>
                   <a href="#about">About Me</a>

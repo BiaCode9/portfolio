@@ -50,7 +50,6 @@
 }
 
 .description {
-  width: 50%;
   justify-content: center;
   text-align: center;
   letter-spacing: 1px; 
@@ -61,7 +60,12 @@
   margin-top: -50px;
   line-height: 1.5;
   font-weight: 300; 
+ 
   /* margin-bottom: -600px; */
+}
+
+div.description {
+  width: 30%
 }
 
 
@@ -250,9 +254,9 @@
     margin-top: -1200px;
   }
 
-  div.name {
+  /* div.name {
     margin-top: -1650px;
-  }
+  } */
   .title {
     margin-bottom: 20px;
     margin-top: -40px;
@@ -279,9 +283,9 @@
     /* margin-bottom: 175px; */
   }
 
-  div.description {
+  /* div.description {
     width: 75%;
-  }
+  } */
 
 }
 
@@ -294,9 +298,9 @@
     margin-top: -1000px;
   }
 
-  div.name {
+  /* div.name {
     margin-top: -1600px;
-  }
+  } */
   .bianca {
     font-size: 30px;
   }

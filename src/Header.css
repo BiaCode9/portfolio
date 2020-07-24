@@ -51,7 +51,7 @@ ul.main-nav-list {
   padding: .30em 8em;
   color: white;
   justify-content: space-between;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 300; 
   letter-spacing: 2px; 
   font-family: 'Raleway', sans-serif;
@@ -62,14 +62,15 @@ ul.main-nav-list {
   border-radius: 10px;
 }
 
+
 li a:hover {
   color: rgb(250, 30, 87);
   transition: all 0.3s ease;
 }
 
 li a:active {
-  /* background-color: rgb(250, 30, 87);
-  box-shadow: 0 5px #666; */
+  background-color: rgb(250, 30, 87);
+  /* box-shadow: 0 5px #666;  */
   transform: translateY(20px);
 }
 
@@ -166,6 +167,10 @@ span {
   .sub-title {
     font-size: 38px;
   }
+
+  /* div.buttons {
+    margin-right: 20px;
+  } */
 }
 
 @media screen and (max-width: 1366px) {
