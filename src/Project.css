@@ -6,7 +6,7 @@
   color: rgb(250, 30, 87);
   height: 0px;
   text-align: center;
-  border: 2px solid black;
+  border: solid  rgba(80, 235, 235, .25);
   text-shadow: 0px 8px 6px rgba(0,0,0,0.4),
              0px 16px 26px rgba(0,0,0,0.1),
              0px 28px 44px rgba(0,0,0,0.1);
@@ -33,7 +33,7 @@
   background-size: 100%;
   background-attachment: fixed;
   padding-top: 40px;
-  border: solid rgb(80, 235, 235);
+  border: solid  rgba(80, 235, 235, .5);
  }
 
 .project-img {
@@ -280,7 +280,7 @@ justify-content: center;
     border: 2px solid black;
 }
 
-div.buttons {
+.buttons {
   width: 95%;
 
 }
@@ -331,9 +331,9 @@ div.buttons {
     border: 2px solid black;
   }
 
-  div.buttons {
+  /* div.buttons {
     width: 95%;  
-  }
+  } */
 }
 
 /* Apple MacBook Pro 13-inch  */
@@ -390,9 +390,9 @@ div.buttons {
     letter-spacing: 2px; 
     }
 
-  div.buttons {
+  /* div.buttons {
   width: 85%;
- }
+ } */
 
   .tech-description {
     justify-content: center;
@@ -450,10 +450,10 @@ div.buttons {
     letter-spacing: 2px; 
     }
 
-  div.buttons {
+  /* div.buttons {
   width: 100%;
   padding: 25px;
- }
+ } */
 
   .tech-description {
     justify-content: center;
@@ -528,10 +528,10 @@ div.buttons {
     width: 55%;
   }
 
-  div.buttons {
+  /* div.buttons {
     width: 200px;
-    /* padding: 25px; */
-   }
+
+   } */
 }
 
 
@@ -587,11 +587,11 @@ div.buttons {
       width: 55%;
     }
   
-    div.buttons {
+    /* div.buttons {
       width: 200px;
-      /* padding: 25px; */
+    
      }
-  
+   */
      .project-description {
       justify-content: center;
       text-align: center;

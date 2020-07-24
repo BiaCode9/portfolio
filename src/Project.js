@@ -29,7 +29,7 @@ class Project extends Component {
               <p>Music Triva Mayhem is a music trivia website that challenges the user with interesting and unknown facts about the music industry.</p>
             </div>
             <div className="tech-description">
-              <p>HTML5 | CSS3 | Javascript | Axios | RESTful API | DOM | Github Pages</p>
+              <p>HTML5 | CSS3 | Javascript | Axios | RESTful API | DOM | Github </p>
             </div>
             <div className="buttons">
               <div className="project-url">

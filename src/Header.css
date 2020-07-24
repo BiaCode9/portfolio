@@ -88,6 +88,8 @@ li a:active {
 }
 
 
+
+
 @keyframes slideright {
   from {left: -1200px;}
   to {left: 0px;}
@@ -250,15 +252,34 @@ span {
 }
 
 /* Iphone 6/7/8 Plus */
-/* @media screen and (max-width: 414px), screen and (max-height: 736px)  {
+@media screen and (max-width: 414px), screen and (max-height: 736px)  {
+
   .software-title {
-    margin-top: 225px;
-    font-size: 18px;
-    letter-spacing: .5px;
-    text-align: center; 
+    margin-top: 250px;
+    font-size: 22px;
+    letter-spacing: .5px; 
+  }
+  /* .web-developer{
+    font-size: 36px;
+  } */
+
+  .sub-title {
+    font-size: 20px;
+    letter-spacing: .5px; 
   }
 
-} */
+  /* div.software-title {
+    font-size: 26px;
+  }
+   */
+/* span.web-developer {
+    font-size: 28px;
+  }  */
+
+
+}
+
+
 /* Iphone X */
 @media screen and (max-width: 375px), screen and (max-height: 812px)  {
 
@@ -281,5 +302,14 @@ span {
     font-size: 20px;
     letter-spacing: .5px; 
   }
+  /* div.software-title {
+    font-size: 26px;
+  }
+  
+  span.web-developer {
+    font-size: 38px;
+  } */
+
+
 
 }
