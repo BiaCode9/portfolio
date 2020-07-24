@@ -16,32 +16,6 @@ class Project extends Component {
         <section className="all-projects">
 
 
-
-          <div className="mm-project-container">
-
-            <div className="project-title">
-              <h2>Music Trivia Mayhem</h2>
-            </div>
-            <div>
-              <img className="project-img" alt="music-app" src='https://i.imgur.com/gIFT77p.png'></img>
-            </div>
-            <div className="project-description">
-              <p>Music Triva Mayhem is a music trivia website that challenges the user with interesting and unknown facts about the music industry.</p>
-            </div>
-            <div className="tech-description">
-              <p>HTML5 | CSS3 | Javascript | Axios | RESTful API | DOM | Github </p>
-            </div>
-            <div className="buttons">
-              <div className="project-url">
-                <a href="https://pages.git.generalassemb.ly/BiaCode2020/Music-Trivia-Mayhem/" class="button">Website</a>
-              </div>
-              <div className="github-url">
-                <a href="https://github.com/BiaCode9/Music-Trivia-Mayhem" class="button">Github</a>
-              </div>
-            </div>
-          </div>
-
-
           <div className="instabook-project-container">
             <div className="project-title">
               <h2>InstaBook</h2>
@@ -84,6 +58,30 @@ class Project extends Component {
               </div>
               <div className="github-url">
                 <a href="https://github.com/BiaCode9/Instacart-Costco" class="button">Github</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="mm-project-container">
+
+            <div className="project-title">
+              <h2>Music Trivia Mayhem</h2>
+            </div>
+            <div>
+              <img className="project-img" alt="music-app" src='https://i.imgur.com/gIFT77p.png'></img>
+            </div>
+            <div className="project-description">
+              <p>Music Triva Mayhem is a music trivia website that challenges the user with interesting and unknown facts about the music industry.</p>
+            </div>
+            <div className="tech-description">
+              <p>HTML5 | CSS3 | Javascript | Axios | RESTful API | DOM | Github </p>
+            </div>
+            <div className="buttons">
+              <div className="project-url">
+                <a href="https://pages.git.generalassemb.ly/BiaCode2020/Music-Trivia-Mayhem/" class="button">Website</a>
+              </div>
+              <div className="github-url">
+                <a href="https://github.com/BiaCode9/Music-Trivia-Mayhem" class="button">Github</a>
               </div>
             </div>
           </div>
