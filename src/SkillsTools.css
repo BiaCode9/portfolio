@@ -287,7 +287,7 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
 }
 
 
-
+/* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .skills-tools-container {
     /* display: flex; */
@@ -335,11 +335,36 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     display: inline;
     text-align: center;
     color: #616161;
-    font-size: 10px;
-   
+    font-size: 10px;  
   }
 
   .skills-tools-title {
     font-size: 18px;
   }
+}
+
+/* Ipad */
+@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+  .skills-tools-container {
+    /* display: flex; */
+    align-items: center;  
+    padding-bottom: 25px;
+    /* border: 2px solid black; */
+    /* margin: 0 auto; */
+    justify-content: center;
+    /* width: 75%; */
+    border-radius: 4px;
+    /* flex-wrap: wrap; */
+    height: 600px;
+    margin-top: -600px;
+    margin-bottom: 80px;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
+    max-width: 100%;
+    /* width: 100%; */
+    /* width: 100vh; */
+    /* box-sizing: border-box; */
+  
+  }
+
 }

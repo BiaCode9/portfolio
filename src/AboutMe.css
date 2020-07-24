@@ -162,7 +162,7 @@
 }
 
 
-
+/* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .name {
     font-size: 20px;
@@ -172,6 +172,13 @@
   }
   .bianca {
     font-size: 34px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 22px;
+    letter-spacing: 3px; 
   }
 
   .self-img {
@@ -192,13 +199,34 @@
     /* margin-bottom: -600px; */
   }
 
+}
+
+/* Ipad */
+@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+  .name {
+    font-size: 20px;
+
+    margin-bottom: 10px;
+    margin-top: -1150px;
+  }
+  .bianca {
+    font-size: 34px;
+  }
+
   .title {
     margin-bottom: 20px;
     margin-top: -40px;
     font-size: 22px;
-    letter-spacing: 3px; 
-    font-family: 'Raleway', sans-serif; 
-    color: black;
+    letter-spacing: .5px; 
   }
-
+  .description {
+    width: 50%;
+    letter-spacing: 1px; 
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 21px;
+    margin-top: -10px;
+    line-height: 1.25;
+    /* margin-bottom: 175px; */
+  }
 }
