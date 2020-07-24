@@ -145,7 +145,7 @@ span {
   } */
 
 
-  
+ /* Macbook Pro 15inch Mid 2012 */ 
 @media screen and (max-width: 1440px) {
   .software-title {
     margin-top: 300px;
@@ -186,8 +186,8 @@ span {
   }
 }
 
-
-@media screen and (min-width: 660px), screen and (max-width: 1280px), screen and (max-height: 800px) {
+/* Macbook Pro 13inch Mid 2012 */
+@media screen and (max-width: 1280px), screen and (max-height: 800px) {
   .software-title {
     margin-top: 255px;
     color: white;
@@ -207,22 +207,42 @@ span {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .software-title {
-    margin-top: 275px;
-    color: white;
-    letter-spacing: 1px; 
-    font-size: 28px;
+    margin-top: 575px;
+    font-size: 30px;
   }
 
   .main-nav a {
     padding: .25em 3.5em;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400; 
     letter-spacing: 2px; 
   }
 
   .sub-title {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
+
+
+
+
+/* @media screen and (max-width: 768px), screen and (max-height: 1024px) {
+  .software-title {
+    margin-top: 255px;
+    color: white;
+    letter-spacing: px; 
+    font-size: 32px;
+  }
+
+  .main-nav a {
+    padding: .30em 3.60em;
+    font-size: 24px;
+  }
+
+  .sub-title {
+    font-size: 32px;
+  }
+
+} */

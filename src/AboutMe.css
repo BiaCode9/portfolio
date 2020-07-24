@@ -163,14 +163,12 @@
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .name {
     font-size: 20px;
-    font-weight: 300; 
-    letter-spacing: 2px; 
-    font-family: 'Raleway', sans-serif;
+
     margin-bottom: 10px;
-    margin-top: -1400px;
+    margin-top: -900px;
   }
   .bianca {
     font-size: 34px;
@@ -188,7 +186,7 @@
     letter-spacing: 1px; 
     font-family: 'Fira Sans', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
-    font-size: 20px;
+    font-size: 21px;
     margin-top: -10px;
     line-height: 1.25;
     /* margin-bottom: -600px; */

@@ -1,6 +1,7 @@
 .skills-tools-container {
   display: flex;
   flex-direction: row;
+  /* flex-wrap: wrap; */
   align-items: center;
   padding-bottom: 25px;
   /* border: 2px solid black; */
@@ -8,7 +9,7 @@
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   height: 250px;
   margin-top: -550px;
   margin-bottom: 200px;
@@ -24,6 +25,8 @@
 
 ul.about-skill-list {
   padding: 0px;
+  /* flex-wrap: wrap;
+  display: flex; */
 }
 
 .about-skill-list img {
@@ -279,11 +282,13 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
   .skills-tools-container {
     margin-top: -665px;  
   }
+
+
 }
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .skills-tools-container {
     /* display: flex; */
     align-items: center;  
@@ -293,9 +298,9 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     justify-content: center;
     /* width: 75%; */
     border-radius: 4px;
-    flex-wrap: wrap;
-    height: 250px;
-    margin-top: -650px;
+    /* flex-wrap: wrap; */
+    height: 500px;
+    margin-top: -700px;
     margin-bottom: 80px;
     justify-content: space-around;
     box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
@@ -303,9 +308,15 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     /* width: 100%; */
     /* width: 100vh; */
     /* box-sizing: border-box; */
-   
   
   }
+
+  ul.about-skill-list {
+    padding: 0px;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
 
   .about-skill-list img {
     /* display: flex;
@@ -314,7 +325,7 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     align-content: space-around;
     justify-content: space-between;
     padding: 20px 10px 3px 10px;
-    max-width: 80%;
+    max-width: 100%;
     justify-content: center;
     margin-right: 50px;
   }
