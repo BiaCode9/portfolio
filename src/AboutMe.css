@@ -31,12 +31,21 @@
   margin-top: -850px;
 }
 
+.fs-dev {
+  font-size: 26px;
+}
+
 .title {
   margin-bottom: 20px;
   font-size: 30px;
   letter-spacing: 3px; 
   font-family: 'Raleway', sans-serif; 
   color: black;
+}
+
+.fs-dev {
+  /* color: blue; */
+  font-size: 24px;
 }
 
 .description {
@@ -281,7 +290,11 @@
     font-size: 18px;
 
     margin-bottom: 10px;
-    margin-top: -1200px;
+    margin-top: -1000px;
+  }
+
+  div.name {
+    margin-top: -1600px;
   }
   .bianca {
     font-size: 30px;

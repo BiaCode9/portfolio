@@ -73,6 +73,7 @@ a {
   width: 25%;
   justify-content: center;
   border-radius: 25%;
+  background-color: rgba(0, 0, 0, 0.25);
   /* background-color: rgba(245, 201, 201, 0.5); */
 }
 
@@ -161,6 +162,7 @@ a {
   background-size: 100%;
   background-attachment: fixed;
   border-radius: 25%;
+  background-color: rgba(0, 0, 0, 0.25);
 
 }
 
@@ -510,7 +512,26 @@ div.buttons {
 
 /* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
+  .mm-project-container {
+    width: 80%;
+  }
 
+  /* div.mm-project-container {
+    margin-top: -800px;
+  } */
+
+  .instabook-project-container {
+    width: 55%;
+  }
+
+  .instacart-project-container {
+    width: 55%;
+  }
+
+  div.buttons {
+    width: 200px;
+    /* padding: 25px; */
+   }
 }
 
 
@@ -524,15 +545,16 @@ div.buttons {
     
     }
   
-    /* div.projects-name {
+    div.projects-name {
        background-image: url(https://i.imgur.com/8MHUS6E.jpg);
        background-color: rgb(80, 235, 235);
-    } */
+    }
   
-  div.projects-name  {
-  background-color: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, #008080);
+  /* h1 {
+  background: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, #008080);
+  height: 200px;
   
-  } 
+  }  */
   
     .project-img {
       height: 250px;
@@ -546,7 +568,12 @@ div.buttons {
   
     .mm-project-container {
       width: 80%;
+
     }
+
+    /* div.mm-project-container {
+      background: rgba(250, 30, 87, .25);
+    } */
   
     /* div.mm-project-container {
       margin-top: -800px;
@@ -584,9 +611,21 @@ img.project-img {
 }
 
 div.mm-project-container {
-  margin: 0px;
+  margin-top: 100px;
   padding: 0px;
 }
+
+.all-projects {
+  height: 4200px;
+  margin-top: -105px;
+}
+
+.project-title {
+  margin-bottom: 45px;
+  font-size: 21px;
+  font-weight: 300; 
+  letter-spacing: 2px; 
+  }
 
 /* div.instabook-project-container {
   margin: 0px;

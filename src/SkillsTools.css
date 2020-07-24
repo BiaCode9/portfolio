@@ -200,8 +200,7 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     max-width: 100%;
     width: 100%;
     /* width: 100vh; */
-    /* box-sizing: border-box; */
-   
+    /* box-sizing: border-box; */ 
   
   }
 
@@ -216,17 +215,13 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     margin-right: 50px;
   }
 
-
   li {
     display: inline;
     text-align: center;
     color: #616161;
-    font-size: 12px;
-   
+    font-size: 12px;   
   }
 }
-
-
 
 
 
@@ -484,7 +479,7 @@ Apple Macbook Pro 13inch (Mid 2009 - 2012) */
     /* width: 75%; */
     border-radius: 4px;
     /* flex-wrap: wrap; */
-    height: 800px;
+    height: 900px;
     margin-top: -800px;
     margin-bottom: 50px;
     justify-content: space-around;
@@ -496,5 +491,17 @@ Apple Macbook Pro 13inch (Mid 2009 - 2012) */
   
   }
 
+  .about-skill-list img {
+    /* display: flex;
+    flex-wrap: wrap; */
+    list-style: none;
+    align-content: space-around;
+    justify-content: space-between;
+    padding: 20px 10px 3px 10px;
+    max-width: 100%;
+    justify-content: center;
+    margin-right: 50px;
+    /* height: -300px; */
+  }
 
 }
