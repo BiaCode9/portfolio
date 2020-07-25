@@ -16,10 +16,12 @@
   box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
   max-width: 100%;
   width: 100%;
- 
   /* width: 100vh; */
   /* box-sizing: border-box; */
+}
 
+div.skills-tools-container {
+height: 0 auto;
 }
 
 .about-skill-list {
@@ -40,7 +42,7 @@
   list-style: none;
   align-content: space-around;
   justify-content: space-between;
-  padding: 20px 20px;
+  padding: 20px 10px;
   max-width: 100%;
   justify-content: center;
 }
@@ -192,7 +194,7 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     /* width: 75%; */
     border-radius: 4px;
     flex-wrap: wrap;
-    height: 250px;
+    height: 450px;
     margin-top: -650px;
     margin-bottom: 125px;
     justify-content: space-around;
@@ -201,7 +203,11 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
     width: 100%;
     /* width: 100vh; */
     /* box-sizing: border-box; */ 
-  
+  }
+
+  div.skills-tools-container {
+    height: 400px;
+    margin-top: -525px;
   }
 
   /* div.skills-tools-container {

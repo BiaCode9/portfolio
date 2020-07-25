@@ -43,12 +43,14 @@ ul.main-nav-list {
 }
 
 .main-nav li {
-  display: inline;   
+  display: inline;  
+
 }
 
 .main-nav a {
   display: inline-block;
   padding: .30em 8em;
+  width: 85%;
   color: white;
   justify-content: space-between;
   font-size: 34px;
@@ -86,6 +88,11 @@ li a:active {
   animation: slideright 1s 1;
   -webkit-animation: slideright 1s 1;
   -moz-animation: slideright 1s 1;
+}
+
+div.software-title {
+  font-size: 250%;
+  margin-top: 420px;
 }
 
 
@@ -167,6 +174,16 @@ span {
   .sub-title {
     font-size: 38px;
   }
+
+  div.software-title {
+    font-size: 225%;
+    margin-top: 250px;
+  }
+
+  span.web-developer {
+    font-size: 100%;
+  }
+  
 
   /* div.buttons {
     margin-right: 20px;
