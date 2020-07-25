@@ -12,7 +12,7 @@ class AboutMe extends Component {
           <h2>Hi, <span className="bianca">I'm Bianca!</span></h2>
         </div>
         <div className="title">
-          <h2>Software Engineer |<span className="fs-dev"> Full-Stack Developer</span></h2>
+          <h2>Software Engineer |<span className="fs-dev"> Web Designer</span></h2>
         </div>
         <div>
           <img className='self-img' alt="personal pic" src='https://i.imgur.com/pzPY0IN.png'></img>

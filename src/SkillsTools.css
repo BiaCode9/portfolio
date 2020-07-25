@@ -407,6 +407,12 @@ div.skills-tools-container {
     /* width: 100vh; */
     /* box-sizing: border-box; */
   }
+
+  div.skills-tools-container {
+    height: 1000px;
+    margin-top: -775px;
+  }
+  
   .icon-html {
     height: 58px;
     width: 65px;

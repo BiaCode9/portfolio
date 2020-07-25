@@ -318,10 +318,27 @@ span {
     letter-spacing: .5px; 
   }
 
-  /* div.software-title {
-    font-size: 26px;
+  div.sub-title {
+    font-size: 20px;
   }
-   */
+
+div.software-title {
+    font-size: 18px;
+    margin-top: -250px;
+    /* padding-left: 35px; */
+    
+  }
+
+  span.web-developer {
+    font-size: 100%;
+    white-space: pre;
+  }
+
+  .main-nav ul {
+    margin-top: 10px;
+     
+  }
+
 /* span.web-developer {
     font-size: 28px;
   }  */
