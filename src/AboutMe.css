@@ -168,8 +168,13 @@ div.description {
     letter-spacing: 1.75px; 
     margin-top: -1450px;
   }
-  .bianca {
-    font-size: 40px;
+  span.bianca {
+    font-size: 36px;
+   
+  }
+
+  div.name {
+    margin-top: -1250px;
   }
 
   .title {
@@ -233,8 +238,13 @@ div.description {
     margin-bottom: 10px;
     margin-top: -1000px;
   }
+
+  div.name {
+    margin-top: -800px;
+  }
   .bianca {
     font-size: 34px;
+    margin-top: -1000px;
   }
 
   .title {
@@ -298,7 +308,7 @@ div.description {
 
   div.description {
     width: 75%;
-    margin-bottom: 600px;
+    margin-bottom: 830px;
   }
 
 }

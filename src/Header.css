@@ -184,6 +184,9 @@ span {
     font-size: 100%;
   }
   
+  /* .sub-title {
+     margin-bottom: -250px;
+  } */
 
   /* div.buttons {
     margin-right: 20px;
@@ -222,10 +225,13 @@ span {
   .main-nav a {
     padding: .30em 3.60em;
     font-size: 28px;
-    width: 65%;
+    width: 75%;
   }
 
- 
+    /* ul.main-nav-list  {
+      margin-bottom: -200px;
+    }
+  */
 
   .sub-title {
     font-size: 38px;
@@ -237,7 +243,7 @@ span {
 
   div.software-title {
     font-size: 180%;
-    margin-top: 225px;
+    margin-top: -225px;
   }
 
   span.web-developer {
@@ -246,7 +252,7 @@ span {
 
 }
 
-
+/* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .software-title {
     margin-top: 575px;
@@ -283,10 +289,12 @@ span {
     margin-top: 275px;
     font-size: 22px;
     letter-spacing: 1.5px; 
+    
   }
 
   .web-developer{
     font-size: 48px;
+    white-space: pre;
   }
 
   .main-nav a {
