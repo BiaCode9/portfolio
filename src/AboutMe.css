@@ -20,6 +20,10 @@
   border: 2px solid black;
   border-radius: 50%;
   margin: 60px 60px;
+  /* height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px; */
 }
 
 .name {
@@ -78,24 +82,26 @@ div.description {
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
-  .name {
-    font-size: 26px;
-    font-weight: 300; 
-    letter-spacing: 2px; 
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 10px;
-    margin-top: -1400px;
-  }
-  .bianca {
+  .name .bianca {
     font-size: 45px;
   }
 
-  .self-img {
-    border: 2px solid black;
-    border-radius: 50%;
-    margin-top: -10px;
-    margin-bottom: 25px;
+  .name h2 {
+    font-size: 40px;
+    /* margin-top: -200px; */
   }
+
+  div.title {
+    font-size: 25px;
+    /* margin-top: -150px; */
+
+  } 
+
+  /* img.resize {
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+  } */
 
   .description {
     width: 50%;
