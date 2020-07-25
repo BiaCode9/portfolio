@@ -201,6 +201,7 @@ a {
   margin: 20px;
   color: white;
   line-height: 1.5;
+  width: 75%;
 
 }
 
@@ -271,22 +272,16 @@ a {
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
-  .project-title {
+  div.project-title {
     margin-bottom: 45px;
-    font-size: 28px;
+    margin-top: -40px;
+    font-size: 36px;
     font-weight: 300; 
     letter-spacing: 2px; 
     }
 
-  .projects-name {
-    font-size: 36px;
-    font-weight: 100; 
-    letter-spacing: 3px; 
-    font-family: 'Raleway', sans-serif; 
-    color: rgb(250, 30, 87);
-    height: 0px;
-    text-align: center;
-    border: 2px solid black;
+  div.projects-name {
+    font-size: 38px;
 }
 
 /* .buttons{

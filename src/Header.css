@@ -38,7 +38,7 @@ ul.main-nav-list {
 }
   
 .main-nav ul {
-  margin-top: 40px;
+  margin-top: 0px;
   text-align: center;   
 }
 
@@ -164,6 +164,8 @@ span {
     font-size: 64px;
   }
 
+
+
   .main-nav-list li {
     font-size: 40px;
   }
@@ -281,7 +283,7 @@ span {
     font-size: 28px;
   }
   .main-nav ul {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     margin-bottom: 440px;
     text-align: center;   
   }
@@ -351,10 +353,10 @@ div.software-title {
     white-space: pre;
   }
 
-  .main-nav ul {
+  /* .main-nav ul {
     margin-top: 10px;
      
-  }
+  } */
 
 /* span.web-developer {
     font-size: 28px;

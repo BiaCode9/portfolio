@@ -10,7 +10,7 @@
 }
 
 .contact-me-span {
-  font-size: 38px;
+  font-size: 42px;
   font-weight: bold;
   letter-spacing: 2px; 
   font-family: 'Raleway', sans-serif;
@@ -20,11 +20,12 @@
              0px 18px 23px rgba(0,0,0,0.1); 
 }
 
-.asap-span {
+span.asap-span {
   font-weight: bold;
-  font-size: 34px;
+  font-size: 32px;
   font-style: oblique;
   text-shadow: 0 22px 22px rgb(218, 139, 139);
+  margin-top: -20px; 
 }
 
 /* .anytime-span {
@@ -35,7 +36,7 @@ font-style: oblique;
 text-shadow: 0 22px 22px rgb(218, 139, 139);
 } */
 
-.anytime {
+span.anytime {
   font-size: 30px;
   margin-right: 120px;
   color: black;
@@ -50,6 +51,8 @@ span.anywhere-span {
 .get-back-span {
   color: black;
   font-size: 28px;
+  
+   
 }
 
 .contact-please {
@@ -250,14 +253,16 @@ display: flex;
 
   .get-back-span {
     color: black;
-    font-size: 24px;    
+    font-size: 24px;  
+  
   }
 
   .asap-span {
     font-weight: bold;
     font-size: 32px;
     font-style: oblique;
-    text-shadow: 0 22px 22px rgb(218, 139, 139);  
+    text-shadow: 0 22px 22px rgb(218, 139, 139); 
+    
   }
 
    div.contact-container {
@@ -373,7 +378,7 @@ display: flex;
     }
 
     .contact-me-span {
-      font-size: 28px;
+      font-size: 32px;
        
     }
 
@@ -386,6 +391,7 @@ display: flex;
 
     span.anywhere-span {
       font-size: 30px;
+      margin-right: -20px;
     }
 
     .pin-drop {
@@ -432,10 +438,6 @@ display: flex;
     margin-top: -250px;
     margin-bottom: -350px;
     padding-bottom: 40px;
-  }
-
-  span.anywhere-span {
-    font-size: 20px;
   }
 
 
