@@ -221,11 +221,27 @@ span {
 
   .main-nav a {
     padding: .30em 3.60em;
-    font-size: 24px;
+    font-size: 28px;
+    width: 65%;
   }
 
+ 
+
   .sub-title {
-    font-size: 32px;
+    font-size: 38px;
+  }
+
+  div.sub-title {
+    font-size: 185%;
+  }
+
+  div.software-title {
+    font-size: 180%;
+    margin-top: 225px;
+  }
+
+  span.web-developer {
+    font-size: 100%;
   }
 
 }
@@ -235,6 +251,7 @@ span {
   .software-title {
     margin-top: 575px;
     font-size: 30px;
+    /* margin-top: 200%; */
   }
 
   .main-nav a {
@@ -242,12 +259,23 @@ span {
     font-size: 22px;
     font-weight: 400; 
     letter-spacing: 2px; 
+    
   }
 
   .sub-title {
     font-size: 28px;
   }
+  .main-nav ul {
+    margin-top: 40px;
+    margin-bottom: 440px;
+    text-align: center;   
+  }
 }
+
+/* div.software-title {
+  font-size: 180%;
+  margin-top: 425px;
+} */
 
 /* Ipad */
 @media screen and (max-width: 768px), screen and (max-height: 1024px)  {

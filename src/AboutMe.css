@@ -60,12 +60,14 @@
   margin-top: -50px;
   line-height: 1.5;
   font-weight: 300; 
+  margin-bottom: 200px;
+
  
   /* margin-bottom: -600px; */
 }
 
 div.description {
-  width: 30%
+  width: 40%
 }
 
 
@@ -183,7 +185,7 @@ div.description {
     font-size: 20px;
 
     margin-bottom: 10px;
-    margin-top: -900px;
+    margin-top: -700px;
   }
   .bianca {
     font-size: 34px;
@@ -204,16 +206,23 @@ div.description {
   }
 
   .description {
-    width: 50%;
+    width: 70%;
     letter-spacing: 1px; 
     font-family: 'Fira Sans', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
-    font-size: 21px;
-    margin-top: -10px;
+    font-size: 22px;
+    margin-top: -20px;
     line-height: 1.25;
-    /* margin-bottom: -600px; */
+/* 
+    margin-bottom: -600px; */
   }
 
+ 
+
+  /* div.description {
+    width: 62%;
+
+} */
 }
 
 /* Ipad */

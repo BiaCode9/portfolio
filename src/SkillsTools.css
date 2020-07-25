@@ -22,6 +22,7 @@
 
 div.skills-tools-container {
 height: 0 auto;
+margin-top: -600px;
 }
 
 .about-skill-list {
@@ -288,6 +289,10 @@ Apple Macbook Pro 13inch (Mid 2009 - 2012) */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
   .skills-tools-container {
     margin-top: -665px;  
+  }
+  div.skills-tools-container {
+    height: 450px;
+    margin-top: -675px;
   }
 }
 
