@@ -72,25 +72,23 @@ li a:active {
 }
 
 .software-title {
-  margin-top: 500px;
+  margin-top: -200px;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: heavy; 
   letter-spacing: 3px; 
   text-align: center;
-  font-size: 46px;
+  font-size: 275%;
   position: relative;
   animation: slideright 1s 1;
   -webkit-animation: slideright 1s 1;
   -moz-animation: slideright 1s 1;
 }
 
-div.software-title {
+/* div.software-title {
   font-size: 250%;
-  margin-top: 420px;
-  /* -webkit-margin-top: 0px;
-  -moz-margin-top: 0px; */
-}
+  margin-top: 820px;
+} */
 
 
 
@@ -154,11 +152,10 @@ span {
 
  /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
-  .software-title h1 {
-    margin-top: -200px;
-    color: white;
-    letter-spacing: 3px; 
-    font-size: 64px;
+  .software-title {
+    /* margin-top: -200px; */
+    font-size: 34px;
+
   }
 
 
@@ -183,10 +180,10 @@ span {
     font-size: 42px;
   }
 
-  div.software-title {
+  /* div.software-title {
     font-size: 250%;
     margin-top: 250px;
-  }
+  } */
 
   span.web-developer {
     font-size: 100%;
@@ -201,7 +198,7 @@ span {
   } */
 }
 
-@media screen and (max-width: 1366px) {
+/* @media screen and (max-width: 1366px) {
   .software-title {
     margin-top: 250px;
     color: white;
@@ -219,12 +216,12 @@ span {
   .sub-title {
     font-size: 34px;
   }
-}
+} */
 
 /* Macbook Pro 13inch Mid 2012 */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
   .software-title {
-    margin-top: 255px;
+    /* margin-top: 255px; */
     color: white;
     letter-spacing: px; 
     font-size: 32px;
@@ -249,10 +246,10 @@ span {
     font-size: 185%;
   }
 
-  div.software-title {
+  /* div.software-title {
     font-size: 180%;
     margin-top: -225px;
-  }
+  } */
 
   span.web-developer {
     font-size: 100%;
@@ -262,11 +259,11 @@ span {
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
-  .software-title {
-    margin-top: 575px;
-    font-size: 30px;
-    /* margin-top: 200%; */
-  }
+  /* .software-title {  */
+    /* margin-top: 300px;  */
+    /* font-size: 50%;  */
+    /* margin-top: 200%;  */
+   /* } */
 
   .main-nav a {
     padding: .25em 3.5em;
@@ -284,6 +281,10 @@ span {
     margin-bottom: 440px;
     text-align: center;   
   }
+  /* .web-developer{
+    font-size: 48px;
+    white-space: pre;
+  } */
 }
 
 /* div.software-title {
@@ -294,8 +295,8 @@ span {
 /* Ipad */
 @media screen and (max-width: 768px), screen and (max-height: 1024px)  {
   .software-title {
-    margin-top: 275px;
-    font-size: 22px;
+    /* margin-top: 275px; */
+    /* font-size: 22px; */
     letter-spacing: 1.5px; 
     
   }
@@ -321,7 +322,7 @@ span {
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
 
   .software-title {
-    margin-top: 250px;
+    /* margin-top: 250px; */
     font-size: 22px;
     letter-spacing: .5px; 
   }
@@ -338,12 +339,12 @@ span {
     font-size: 20px;
   }
 
-div.software-title {
+/* div.software-title {
     font-size: 18px;
     margin-top: -250px;
-    /* padding-left: 35px; */
+  
     
-  }
+  } */
 
   span.web-developer {
     font-size: 100%;
@@ -373,7 +374,7 @@ div.software-title {
     letter-spacing: 2px; 
   }
   .software-title {
-    margin-top: 250px;
+    /* margin-top: 250px; */
     font-size: 18px;
     letter-spacing: .5px; 
   }

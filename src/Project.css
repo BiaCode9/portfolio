@@ -1,5 +1,5 @@
 .projects-name {
-  font-size: 38px;
+  font-size: 200%;
   font-weight: 100; 
   letter-spacing: 3px; 
   font-family: 'Raleway', sans-serif; 
@@ -17,8 +17,8 @@
 }
 
 .project-title {
-  margin-bottom: 45px;
-  font-size: 30px;
+  /* margin-top: -35%; */
+  font-size: 200%;
   font-weight: 300; 
   letter-spacing: 3px; 
   font-family: 'Raleway', sans-serif; 
@@ -59,6 +59,10 @@
 
 a {
   text-decoration: none;
+}
+
+a.button {
+  font-size: 120%;
 }
 
 .mm-project-container {
@@ -272,7 +276,7 @@ a {
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
-  div.project-title {
+  /* div.project-title {
     margin-bottom: 45px;
     margin-top: -40px;
     font-size: 36px;
@@ -282,42 +286,14 @@ a {
 
   div.projects-name {
     font-size: 38px;
-}
-
-/* .buttons{
-  width: 95%;
-  margin-right: 40px;
-
 } */
 
-/* .all-projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-image: url(https://i.imgur.com/8MHUS6E.jpg);
-  background-size: 100%;
-  background-attachment: fixed;
-  padding-top: 40px;
-   }
-
-.mm-project-container {
-  display: flex;
-  margin: 200px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  justify-content: space-evenly;
-  padding: 45px;
-  border: 2px solid black;
-  width: 25%;
-  justify-content: center;
-  border-radius: 25%;
-  } */
-
-
+/* a.button {
+  font-size: 50%;
+} */
 }
 
-@media screen and (max-width: 1366px) {
+/* @media screen and (max-width: 1366px) {
   .project-title {
     margin-bottom: 45px;
     font-size: 28px;
@@ -336,20 +312,18 @@ a {
     border: 2px solid black;
   }
 
-  /* div.buttons {
-    width: 95%;  
-  } */
-}
+} */
 
 /* Apple MacBook Pro 13-inch  */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
-  .projects-name {
+  /* .projects-name {
     font-size: 34px;
-  } 
+  }  */
   .project-title {
-    margin-bottom: 45px;
-    font-size: 28px;   
-  }
+    margin-top: -35%;
+     
+  }  
+
   .project-img {
     padding: 15px;
     margin: 0 45px;;
@@ -394,18 +368,18 @@ div.mm-project-container {
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px)  {
-
+/* 
   .projects-name {
     font-size: 32px;
     letter-spacing: 3px; 
-  }
+  } */
 
-  .project-title {
+  /* .project-title {
     margin-bottom: 45px;
     font-size: 24px;
     font-weight: 300; 
     letter-spacing: 2px; 
-    }
+    }  */
 
   /* div.buttons {
   width: 85%;
@@ -455,17 +429,17 @@ div.mm-project-container {
 
 /* Ipad */
 @media screen and (max-width: 768px), screen and (max-height: 1024px)  {
-  .projects-name {
+  /* /* .projects-name {
     font-size: 28px;
     letter-spacing: 3px; 
-  }
+  } */
 
-  .project-title {
+  /* .project-title {
     margin-bottom: 45px;
     font-size: 22px;
     font-weight: 300; 
     letter-spacing: 2px; 
-    }
+    } */
 
   /* div.buttons {
   width: 100%;
@@ -554,18 +528,18 @@ div.mm-project-container {
 
 /* Iphone X */
   @media screen and (max-width: 375px), screen and (max-height: 812px)  {
-    .projects-name {
+    /* .projects-name {
       font-size: 22px;
       letter-spacing: 2px; 
       margin-bottom: 100px;
-      /* background-image: url(https://i.imgur.com/8MHUS6E.jpg); */
+
     
-    }
+    } */
   
-    div.projects-name {
+    /* div.projects-name {
        background-image: url(https://i.imgur.com/8MHUS6E.jpg);
        background-color: rgb(80, 235, 235);
-    }
+    } */ 
   
   /* h1 {
   background: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, #008080);
@@ -637,12 +611,12 @@ div.mm-project-container {
   margin-top: -105px;
 }
 
-.project-title {
+/* .project-title {
   margin-bottom: 45px;
   font-size: 21px;
   font-weight: 300; 
   letter-spacing: 2px; 
-  }
+  } */
 
 /* div.instabook-project-container {
   margin: 0px;
