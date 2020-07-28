@@ -9,6 +9,9 @@
   background-size: 100%;
   background-attachment: fixed;
   height: 1600px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .overlay video {
@@ -25,13 +28,6 @@
   overflow: hidden;
 }
 
-.main-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-content: flex-start;
-}
 
 ul.main-nav-list {
  padding: 0px;
@@ -39,14 +35,11 @@ ul.main-nav-list {
   
 .main-nav ul {
   margin-top: 0px;
-  -webkit-margin-before: -800px;
-  -webkit-margin-before: -800px;
   text-align: center;   
 }
 
 .main-nav li {
   display: inline;  
-
 }
 
 .main-nav a {
