@@ -223,7 +223,7 @@ span {
   .software-title {
     /* margin-top: 255px; */
     color: white;
-    letter-spacing: px; 
+    letter-spacing: 1px; 
     font-size: 32px;
   }
 
@@ -375,7 +375,7 @@ span {
   }
   .software-title {
     /* margin-top: 250px; */
-    font-size: 18px;
+    /* font-size: 18px; */
     letter-spacing: .5px; 
   }
   .web-developer{
