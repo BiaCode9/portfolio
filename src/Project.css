@@ -351,15 +351,15 @@ a.button {
   }
 }
 
-div.instacart-project-container {
+.instacart-project-container {
   width: 50%;
 }
 
-div.instabook-project-container {
+.instabook-project-container {
   width: 50%;
 }
 
-div.mm-project-container {
+.mm-project-container {
   width: 57%;
 }
   
@@ -503,21 +503,21 @@ div.mm-project-container {
 
 /* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
-  .mm-project-container {
+  /* .mm-project-container {
     width: 80%;
-  }
+  } */
 
   /* div.mm-project-container {
     margin-top: -800px;
   } */
 
-  .instabook-project-container {
+  /* .instabook-project-container {
     width: 55%;
   }
 
   .instacart-project-container {
     width: 55%;
-  }
+  } */
 
   div.buttons {
     width: 200px;
@@ -546,6 +546,11 @@ div.mm-project-container {
   height: 200px;
   
   }  */
+
+  /* .project-title {
+    font-size: 26px;
+
+  } */
   
     .project-img {
       height: 250px;

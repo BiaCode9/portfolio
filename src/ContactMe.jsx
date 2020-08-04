@@ -15,7 +15,9 @@ class ContactMe extends Component {
             <h2>Thanks for Stopping By!</h2>
           </div>
           <div className="contact-please">
-            <p><span className="contact-me-span">CONTACT ME</span></p><p><span className="anytime">Anytime</span><span className="anywhere-span">Anywhere</span></p>
+            <div className="contact-aa">
+              <p><span className="contact-me-span">CONTACT ME</span></p><p><span className="anytime">Anytime</span><span className="anywhere-span">Anywhere</span></p>
+            </div>
             <img className="pin-drop" alt="pin-drop" src="https://i.imgur.com/iBeuWht.png" />
             <p><span className="get-back-span">I will get back to you</span> <span className="asap-span"> as soon as possible!</span></p>
           </div>

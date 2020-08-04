@@ -106,6 +106,7 @@ span.anywhere-span {
 }
 
 .contact-form {
+  /* margin: 0 auto; */
 
 border: solid black;
 /* padding: 45px; */
@@ -305,12 +306,13 @@ display: flex;
 /* Macbook Pro 13inch (Mid 2009 - 2012) */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
   .contact-form {
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     width: 50%;
     height: 55%;
-    margin-top: -250px;
-    margin-bottom: -350px;
-    padding-bottom: 40px;
+    /* margin-top: -250px;
+    margin-bottom: -350px; */
+    margin: 0 auto;
+    /* padding-bottom: 40px; */
   }
 }
 
@@ -332,12 +334,11 @@ display: flex;
 
   .contact-form {
     border: solid black;
-    margin-bottom: 35px;
-    width: 50%;
-    height: 55%;
-    margin-top: -350px;
-    margin-bottom: -350px;
-    padding-bottom: 40px;
+    /* margin-bottom: 35px; */
+    width: 60%;
+    height: 65%;
+    margin: 0 auto;
+    /* padding-bottom: 40px; */
   
     }
     .thanks {
@@ -420,11 +421,15 @@ display: flex;
   .contact-form {
     border: solid black;
     margin-bottom: 35px;
-    width: 65%;
+    width: 75%;
     height: 55%;
     margin-top: -350px;
     margin-bottom: -350px;
     padding-bottom: 40px;
+  }
+
+  .asap-span {
+    font-size: 40px;
   }
 }
 
@@ -433,17 +438,19 @@ display: flex;
   .contact-form {
     border: solid black;
     margin-bottom: 35px;
-    width: 90%;
+    width: 96%;
     height: 55%;
     margin-top: -250px;
     margin-bottom: -350px;
     padding-bottom: 40px;
+    margin: 0 auto;
   }
 
 
-  .anytime {
-    font-size: 22px;
-    margin-right: 70px;
+  span.anytime {
+    font-size: 26px;
+    margin-right: 90px;
+    /* margin: 0 auto; */
     color: black;
     font-style: oblique;
   }
@@ -451,6 +458,9 @@ display: flex;
   span.anywhere-span {
     font-size: 24px;
     font-style: oblique;
+  
+    /* padding-left: -40px; */
+    /* margin-left: -10px; */
   }
   
   .get-back-span {
@@ -458,9 +468,9 @@ display: flex;
     font-size: 16px;
   }
 
-  .asap-span {
+  span.asap-span {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     font-style: oblique;
     text-shadow: 0 22px 22px rgb(218, 139, 139);
   }
@@ -471,7 +481,19 @@ display: flex;
   }
 
   .contact-me-span {
-    font-size: 22px;   
+    font-size: 22px; 
+    /* display: flex;
+    flex-wrap: wrap; */
+  
   }
+
+  /* .contact-aa {
+    
+  } */
+
+  /* .contact-please {
+  display: flex;
+  flex-direction: column;
+  } */
 
 }
