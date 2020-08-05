@@ -12,7 +12,7 @@ class Header extends Component {
             </video>
             <nav className="main-nav">
               <ul className="main-nav-list">
-                <li >
+                <li>
                   <a href="#home"><span>Home</span></a>
                 </li>
                 <li>
@@ -32,23 +32,12 @@ class Header extends Component {
             <div className="sub-title">
               <p> Development  <span>| Innovation |</span>  Design </p>
             </div>
-
-
           </div>
-
-
-
-
-          {/* <h1 className="animate__animated animate__bounce">An animated element</h1> */}
         </div>
       </header >
-
-
     )
   }
 }
-
-
 
 export default Header
 
