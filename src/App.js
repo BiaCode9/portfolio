@@ -11,8 +11,8 @@ function App() {
   return (
     <body>
       <div >
-        <Header
-        />
+
+        <Header />
 
         <main>
 
@@ -24,12 +24,10 @@ function App() {
 
           <ContactMe />
 
-
         </main>
 
-        <Footer
+        <Footer />
 
-        />
       </div>
     </body>
   );

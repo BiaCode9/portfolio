@@ -27,14 +27,14 @@ class Header extends Component {
               </ul>
             </nav>
             <div className="software-title">
-              <h1>FULL-STACK <span className="web-developer">WEB DEVELOPER</span>  </h1>
+              <h1>FULL-STACK <span className="web-developer">WEB DEVELOPER</span></h1>
             </div>
             <div className="sub-title">
-              <p> Development  <span>| Innovation |</span>  Design </p>
+              <p> Development  <span>| Innovation |</span>  Design</p>
             </div>
           </div>
         </div>
-      </header >
+      </header>
     )
   }
 }

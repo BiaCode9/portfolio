@@ -30,7 +30,7 @@
 
 
 ul.main-nav-list {
- padding: 0px;
+  padding: 0px;
 }
   
 .main-nav ul {
@@ -85,13 +85,6 @@ li a:active {
   -moz-animation: slideright 1s 1;
 }
 
-/* div.software-title {
-  font-size: 250%;
-  margin-top: 820px;
-} */
-
-
-
 
 @keyframes slideright {
   from {left: -1200px;}
@@ -130,35 +123,20 @@ span {
     to {right: 0px;}
   } */
 
-  /* @media screen and (max-width: 2880px), screen and (max-height: 1800px) {
-    .software-title {
-      margin-top: 255px;
-      color: white;
-      letter-spacing: px; 
-      font-size: 32px;
-    }
-  
-    .main-nav a {
-      padding: .30em 3.60em;
-      font-size: 24px;
-    }
-  
-    .sub-title {
-      font-size: 32px;
-    }
-  
-  } */
 
 
- /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
+/*  ===================================================================================
+    Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch
+    ===================================================================================  */
+
+
+   /* !!!!!  DONE FOR NOW !!!!!! */
+
+
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
   .software-title {
-    /* margin-top: -200px; */
     font-size: 34px;
-
   }
-
-
 
   .main-nav-list li {
     font-size: 40px;
@@ -166,7 +144,6 @@ span {
 
   a {
     font-size: 32px;
-
   }
 
   .main-nav a {
@@ -180,45 +157,21 @@ span {
     font-size: 42px;
   }
 
-  /* div.software-title {
-    font-size: 250%;
-    margin-top: 250px;
-  } */
-
   span.web-developer {
     font-size: 100%;
   }
-  
-  /* .sub-title {
-     margin-bottom: -250px;
-  } */
-
-  /* div.buttons {
-    margin-right: 20px;
-  } */
 }
 
-/* @media screen and (max-width: 1366px) {
-  .software-title {
-    margin-top: 250px;
-    color: white;
-    letter-spacing: px; 
-    font-size: 34px;
-  }
 
-  .main-nav a {
-    padding: .30em 4em;
-    font-size: 26px;
-    font-weight: 400; 
-    letter-spacing: 2px; 
-  }
+/*  ===================================================================================
+    Apple MacBook Pro Retina 15-inch (Mid 2014)
+    ===================================================================================  */
 
-  .sub-title {
-    font-size: 34px;
-  }
-} */
 
-/* Macbook Pro 13inch Mid 2012 */
+/*  ===================================================================================
+    Apple Macbook Pro 13inch ( Mid 2009 - 2012 )
+    ===================================================================================  */
+
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
   .software-title {
     /* margin-top: 255px; */
@@ -233,11 +186,6 @@ span {
     width: 75%;
   }
 
-    /* ul.main-nav-list  {
-      margin-bottom: -200px;
-    }
-  */
-
   .sub-title {
     font-size: 38px;
   }
@@ -246,18 +194,16 @@ span {
     font-size: 185%;
   }
 
-  /* div.software-title {
-    font-size: 180%;
-    margin-top: -225px;
-  } */
-
   span.web-developer {
     font-size: 100%;
   }
-
 }
 
-/* Ipad Pro */
+
+/*  ===================================================================================
+    Ipad Pro
+    ===================================================================================  */
+
 @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   /* .software-title {  */
     /* margin-top: 300px;  */
@@ -292,7 +238,12 @@ span {
   margin-top: 425px;
 } */
 
-/* Ipad */
+
+
+/*  ===================================================================================
+    Ipad
+    ===================================================================================  */
+
 @media screen and (max-width: 768px), screen and (max-height: 1024px)  {
   .software-title {
     /* margin-top: 275px; */
@@ -318,7 +269,11 @@ span {
   }
 }
 
-/* Iphone 6/7/8 Plus */
+
+/*  ===================================================================================
+    Iphone 6/7/8 Plus
+    ===================================================================================  */
+
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
 
   .software-title {
@@ -364,7 +319,10 @@ span {
 }
 
 
-/* Iphone X */
+/*  ===================================================================================
+    Iphone X
+    ===================================================================================  */
+
 @media screen and (max-width: 375px), screen and (max-height: 812px)  {
 
   .main-nav a {
@@ -393,7 +351,6 @@ span {
   span.web-developer {
     font-size: 38px;
   } */
-
 
 
 }
