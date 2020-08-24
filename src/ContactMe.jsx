@@ -12,7 +12,7 @@ class ContactMe extends Component {
         <a id="contact"></a>
         <div className="contact-form">
           <div className="thanks">
-            <h2>Let's Work Together!</h2>
+            <h2></h2>
           </div>
           <div className="contact-please">
             <div className="contact-aa">
