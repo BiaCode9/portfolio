@@ -1,3 +1,26 @@
 /* main {
   background-color: white;
 } */
+
+/* body {
+  overflow-y: scroll;
+}
+ */
+
+::-webkit-scrollbar{
+  width: 15px;
+  background-color: rgb(211, 53, 53);;
+}
+
+::-webkit-scrollbar-track {
+	border: 7px solid black;
+  box-shadow: inset 0 0 2.5px 2px rgb(230, 13, 96); 
+ 
+
+}
+::-webkit-scrollbar-thumb {
+ /* Background: linear-gradient(45def, #06dee1, #79ff6c); */
+ background-color: rgba(79, 243, 229, 0.65);
+Border-radius: 40%;
+
+}
