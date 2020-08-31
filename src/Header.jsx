@@ -2,6 +2,8 @@
 import React, { Component } from "react"
 import "./Header.css"
 
+
+
 class Header extends Component {
   render() {
     return (
@@ -13,24 +15,26 @@ class Header extends Component {
             <nav className="main-nav">
               <ul className="main-nav-list">
                 <li>
-                  <a href="#home"><span>Home</span></a>
+                  <a className="scroll" href="#home"><span>Home</span></a>
                 </li>
                 <li>
-                  <a href="#about">About Me</a>
+                  <a className="scroll" href="#about">About Me</a>
                 </li>
                 <li>
-                  <a href="#projects">Projects</a>
+                  <a className="scroll" href="#projects">Projects</a>
                 </li>
                 <li>
-                  <a href="#contact">Contact</a>
+                  <a className="scroll" href="#contact">Contact</a>
                 </li>
               </ul>
             </nav>
-            <div className="software-title">
-              <h1>FULL-STACK <span className="web-developer">WEB DEVELOPER</span></h1>
-            </div>
-            <div className="sub-title">
-              <p> Development  <span>| Innovation |</span>  Design</p>
+            <div className="titles">
+              <div className="software-title">
+                <h1>FULL-STACK <span className="web-developer">WEB DEVELOPER</span></h1>
+              </div>
+              <div className="sub-title">
+                <p> Development  <span>| Innovation |</span>  Design</p>
+              </div>
             </div>
           </div>
         </div>
@@ -38,6 +42,7 @@ class Header extends Component {
     )
   }
 }
+
 
 export default Header
 

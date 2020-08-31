@@ -21,6 +21,6 @@
 ::-webkit-scrollbar-thumb {
  /* Background: linear-gradient(45def, #06dee1, #79ff6c); */
  background-color: rgba(79, 243, 229, 0.65);
-Border-radius: 40%;
+border-radius: 40%;
 
 }
