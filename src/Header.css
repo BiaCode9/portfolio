@@ -8,7 +8,8 @@
   background-repeat: no-repeat; 
   background-size: 100%;
   background-attachment: fixed;
-  height: 1600px;
+  /* height: 1600px; */
+  height: 100vh;
   justify-content: space-around;
   flex-wrap: wrap;
   align-content: flex-start;

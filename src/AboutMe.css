@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   /* align-content: flex-start; */
   justify-content: space-evenly;
   /* padding: 45px 45px; */
@@ -9,8 +10,13 @@
   justify-content: center;
   /* width: 75%; */
   border-radius: 4px;
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  margin-bottom: 400px;
+
+
+
+  
 
 /* background-image: url(https://i.imgur.com/f7A65pl.jpg); */
 
@@ -31,8 +37,9 @@
   font-weight: 300; 
   letter-spacing: 2px; 
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 20px;
-  margin-top: -750px;
+  /* margin-bottom: 20px; */
+  /* margin-top: -750px; */
+  margin: 0 auto;
 }
 
 .fs-dev {
@@ -78,13 +85,16 @@ div.description {
 .bianca {
   font-size: 50px;
   font-family: 'Raleway', sans-serif; 
+  /* display: flex;
+  align-content: center;
+  align-items: center; */
 }
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
-  .name {
+  /* .name {
     margin-top: -950px;
-  }
+  } */
 
   div.title {
     font-size: 25px;
@@ -161,14 +171,24 @@ div.description {
     margin-top: -1250px;
   } */
 
-  .name {
-    margin-top: -1150px;
+  .description {
+    max-width: 50%;
+
+
   }
+
+  /* .name {
+    margin-top: -1150px;
+  } */
 
   .title {
     margin-bottom: 20px;
     font-size: 24px;
   }
+
+  /* div.name {
+    margin-top: -500px;
+  } */
 }
 
 
@@ -186,6 +206,7 @@ div.description {
 
   /* .name {
     margin-top: -400px;
+    
   } */
 
   /* .name {
@@ -193,14 +214,20 @@ div.description {
     margin-bottom: 10px;
     margin-top: -500px;
   } */
-
-  /* div.name {
+/* 
+  div.name {
     margin-top: -500px;
   } */
 
   /* .bianca 1024 x 136
     font-size: 34px;
   }  */
+
+  /* div.name {
+    margin-top: -500px;
+  } */
+
+  
 
   .title {
     margin-bottom: 20px;
@@ -227,6 +254,10 @@ div.description {
 /* 
     margin-bottom: -600px; */
   }
+
+  /* .about-me-container {
+    object-fit: contain;
+  } */
  
 
   /* div.description {
@@ -237,6 +268,16 @@ div.description {
 
 /* Ipad */
 @media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+
+  /* .name {
+    margin-top: -900px;
+  } */
+
+  /* .bianca {
+    font-size: 34px;
+    margin-top: -1000px;
+  }  */
+
   /* .name {
     font-size: 20px;
 
@@ -250,7 +291,7 @@ div.description {
   .bianca {
     font-size: 34px;
     margin-top: -1000px;
-  } */
+  } 
 
   .title {
     margin-bottom: 20px;
@@ -262,12 +303,12 @@ div.description {
     width: 50%;
     letter-spacing: 1px; 
     /* font-family: 'Raleway', sans-serif; */
-    font-size: 21px;
+    /* font-size: 21px;
     margin-top: -10px;
-    line-height: 1.25;
+    line-height: 1.25; */
     /* margin-bottom: 175px; */
   }
-}
+
 
 /* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {

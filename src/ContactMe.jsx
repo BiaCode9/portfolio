@@ -19,7 +19,10 @@ class ContactMe extends Component {
               <p><span className="contact-me-span">CONTACT ME</span></p><p><span className="anytime">Anytime</span><span className="anywhere-span">Anywhere</span></p>
             </div>
             <img className="pin-drop" alt="pin-drop" src="https://i.imgur.com/iBeuWht.png" />
-            <p><span className="get-back-span">I Will Get Back</span> <span className="asap-span"> as soon as possible!</span></p>
+            <div className="blinklight"></div>
+            <div className="get-asap-full">
+              <p><span className="get-back-span">I Will Get Back To You</span> <span className="asap-span"> as soon as possible!</span></p>
+            </div>
           </div>
 
           <div>

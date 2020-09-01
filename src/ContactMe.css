@@ -25,7 +25,7 @@ span.asap-span {
   font-size: 32px;
   font-style: oblique;
   text-shadow: 0 22px 22px rgb(218, 139, 139);
-  margin-top: -20px; 
+  /* margin-top: -20px;  */
 }
 
 /* .anytime-span {
@@ -85,6 +85,8 @@ span.anywhere-span {
   background-size: 100%;
   background-size: cover;
   /* background-size: contain; */
+  
+
 }
 
 @keyframes blink {
@@ -120,7 +122,8 @@ width: 35%;
 animation: blink 1.25s infinite;
 -webkit-animation: blink 1.25s infinite;
 -moz-animation: blink 1.25s infinite;
-background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
+background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223, 223, 0.70);
+border-radius: 80px;
 }
 /* .contact-box {
   display: flex;
@@ -157,9 +160,18 @@ background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223,
   height: 120px;
   width: 120px;
   margin: 20px 20px;
+  
+  /* margin-top: 80px; */
   /* display: flex;
  align-items: center; */
 }
+
+/* .blinklight {
+  animation: blink 1.25s infinite;
+-webkit-animation: blink 1.25s infinite;
+-moz-animation: blink 1.25s infinite;
+background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
+} */
 
 
 .icon-email {
@@ -200,6 +212,10 @@ background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223,
 
 ul.contact-box {
   padding: 0px;
+}
+
+.get-asap-full {
+  margin-top: 100px;
 }
 
 
@@ -301,6 +317,10 @@ display: flex;
     /* display: flex;
     align-items: center; */
   }   
+
+  /* .get-asap-full {
+    margin-top: 50px;
+  } */
 } 
 
 /* Macbook Pro 13inch (Mid 2009 - 2012) */
