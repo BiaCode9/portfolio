@@ -6,7 +6,7 @@ class SkillsTools extends Component {
   render() {
     return (
 
-      <div>
+      <div className="main-skills">
         <a id="skills"></a>
         <div className="skills-tools-container">
           <div className="skills-tools-title">

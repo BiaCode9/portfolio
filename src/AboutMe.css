@@ -12,15 +12,16 @@
   border-radius: 4px;
   height: 100%;
   width: 100%;
-  margin-bottom: 400px;
-
-
-
-  
+  /* margin-bottom: 550px; */
+  /* margin: 0 auto; */
 
 /* background-image: url(https://i.imgur.com/f7A65pl.jpg); */
 
 }
+
+/* div.about-me-container {
+  margin-bottom: 0 auto;
+} */
 
 .self-img {
   border: 2px solid black;
@@ -71,8 +72,6 @@
   margin-top: -50px;
   line-height: 1.5;
   font-weight: 300; 
-  margin-bottom: 200px;
-
  
   /* margin-bottom: -600px; */
 }
@@ -310,7 +309,7 @@ div.description {
   }
 
 
-/* Iphone 6/7/8 Plus */
+/* Iphone 6/7/8 Plus */414
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
   /* .name {
     font-size: 16px;

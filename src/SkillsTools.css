@@ -22,12 +22,16 @@
 
 }
 
-div.skills-tools-container {
-
-/* height: 0 auto; */
-/* margin-top: -600px; */
-/* margin-bottom: 400px; */
+.main-skills {
+  margin-top: 0 auto;
 }
+
+/* div.skills-tools-container {
+
+height: 0 auto; 
+margin-top: -600px;
+margin-bottom: 400px;
+} */
 
 .about-skill-list {
   display: flex;
@@ -212,7 +216,7 @@ text-decoration: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, 
 
   div.skills-tools-container {
     height: 400px;
-    margin-top: -525px;
+    /* margin-top: -525px; */
   }
 
   /* div.skills-tools-container {
@@ -380,6 +384,10 @@ Apple Macbook Pro 13inch (Mid 2009 - 2012) */
     /* box-sizing: border-box; */
 
   }
+
+  /* .main-skills {
+    margin-top: 0 auto;
+  } */
 
 div.skills-tools-container {
   height: 560px;
