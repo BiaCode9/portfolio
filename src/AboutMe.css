@@ -35,6 +35,7 @@
 
 .name {
   font-size: 28px;
+  color: black;
   font-weight: 300; 
   letter-spacing: 2px; 
   font-family: 'Raleway', sans-serif;
@@ -84,6 +85,7 @@ div.description {
 .bianca {
   font-size: 50px;
   font-family: 'Raleway', sans-serif; 
+  color: rgb(250, 30, 87);
   /* display: flex;
   align-content: center;
   align-items: center; */
@@ -309,7 +311,7 @@ div.description {
   }
 
 
-/* Iphone 6/7/8 Plus */414
+/* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
   /* .name {
     font-size: 16px;
