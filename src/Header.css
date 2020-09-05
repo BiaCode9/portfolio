@@ -1,19 +1,18 @@
 .container {
-  align-items: center;
   display: flex;
   justify-content: space-between;
   border-radius: 3px;
-  align-items: flex-start;
   width: 100%;
   background-repeat: no-repeat; 
   background-size: 100%;
   background-attachment: fixed;
-  /* height: 1600px; */
   height: 100vh;
   justify-content: space-around;
-  flex-wrap: wrap;
-  align-content: flex-start;
 }
+
+/* .main-nav {
+  margin-bottom: 25%;
+} */
 
 .overlay video {
   position: absolute;
@@ -84,8 +83,18 @@ li a:active {
   vertical-align: middle; */
 /* } */
 
+/* .titles {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+} */
+
+/* div.software-title {
+  margin-top: 50%;
+} */
+
 .software-title {
-  /* margin-top: -200px; */
   color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: heavy; 
@@ -96,6 +105,16 @@ li a:active {
   animation: slideright 1s 1;
   -webkit-animation: slideright 1s 1;
   -moz-animation: slideright 1s 1;
+  margin-top: 25%;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; 
+  margin-top: 30%;
+  
+  /* display: inline-block;
+  vertical-align: middle; */
+  /* line-height: 500px; */
+
 }
 
 
@@ -133,7 +152,14 @@ html {
   font-family: 'Fira Sans', sans-serif; 
   text-align: center;
   font-size: 40px;
+  /* margin-bottom: -80%;
+   */
 }
+/* 
+.titles {
+  display: table-cell;
+  vertical-align: middle;
+} */
 
     /* @keyframes slideleft {
     from {right: -1200px;}
@@ -153,7 +179,7 @@ html {
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
   .software-title {
     font-size: 34px;
-    margin-top: -200px;
+    /* margin-top: -200px; */
   }
 
   .main-nav-list li {
@@ -199,7 +225,7 @@ html {
   }
 
   .main-nav a {
-    padding: .30em 3.60em;
+    /* padding: .30em 3.60em; */
     font-size: 28px;
     width: 75%;
   }
@@ -223,11 +249,10 @@ html {
     ===================================================================================  */
 
 @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
-  /* .software-title {  */
-    /* margin-top: 300px;  */
-    /* font-size: 50%;  */
-    /* margin-top: 200%;  */
-   /* } */
+  /* .software-title {
+    margin-top: 400px;
+  
+    } */
 
   .main-nav a {
     padding: .25em 3.5em;
@@ -237,13 +262,16 @@ html {
     
   }
 
+  /* .main-nav {
+    margin-bottom: 400px;
+  } */
   .sub-title {
     font-size: 28px;
   }
   .main-nav ul {
     /* margin-top: 40px; */
-    margin-bottom: 440px;
-    text-align: center;   
+    /* margin-bottom: 420px; */
+    /* text-align: center;    */
   }
   /* .web-developer{
     font-size: 48px;

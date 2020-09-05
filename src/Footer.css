@@ -15,6 +15,34 @@ footer {
 }
 
 
+/* path {
+  margin
+} */
+
+div.svg {
+  /* margin-bottom: 300px; */
+/* margin-left: 25%; */
+/* position: sticky; */
+/* margin-top: -40%; */
+/* display: inline-block; */
+display: flex;
+justify-content: flex-end;
+/* margin-right: 60px; */
+
+}
+
+/* .path {
+  width: 50%;
+  margin-right: 20%;
+} */
+
+.copyright {
+  font-size: 80%;
+  
+  
+}
+
+
 /* Iphone X */
 @media screen and (max-width: 375px), screen and (max-height: 812px)  {
   footer {
@@ -22,3 +50,23 @@ footer {
   }
 }
 
+@media screen and (max-width: 1280px), screen and (max-height: 800px)  {
+ 
+
+}
+
+@media screen and (max-width: 1024px), screen and (max-height: 768px)  {
+  div.svg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+
+}
+
+@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+/* .svg {
+  width: 75%;
+} */
+}

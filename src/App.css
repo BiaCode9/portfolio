@@ -1,11 +1,7 @@
-/* main {
-  background-color: white;
-} */
-
-/* body {
-  overflow-y: scroll;
+.svg {
+  /* display: inline; */
+  
 }
- */
 
 ::-webkit-scrollbar{
   width: 15px;
