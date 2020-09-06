@@ -580,6 +580,21 @@ display: flex;
     margin: auto;
   } */
 }
+@media screen and (max-width: 414px) {
+div.contact-form {
+  width: 70%;
+  border-radius: 90px;
+  height: 50%;
+}
+
+span.anytime {
+  font-size: 30px;
+  margin-right: 80px;
+  color: black;
+  font-style: oblique;
+  
+}
+}
 
 /* Iphone X */
 @media screen and (max-width: 375px), screen and (max-height: 812px)  {

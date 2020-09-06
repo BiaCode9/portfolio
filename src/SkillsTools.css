@@ -289,7 +289,7 @@ li {
 
 
 /* Iphone 6/7/8 Plus */
-@media screen and (max-width: 414px), screen and (max-height: 736px)  {
+@media screen and (max-width: 414px) {
   .skills-tools-container {
     align-items: center;  
     padding-bottom: 25px;
@@ -299,6 +299,21 @@ li {
     justify-content: space-around;
     box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
     max-width: 100%;
+  }
+
+  .skills-tools-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 25px;
+    justify-content: center;
+    border-radius: 4px;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 8px rgba(226, 218, 218, 0.5);
+    max-width: 100%;
+    width: 100%;
+    margin-top: 40px;
   }
   
   .icon-html {

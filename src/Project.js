@@ -76,6 +76,7 @@ class Project extends Component {
                 <p>HTML5 | CSS3 | Javascript | Axios | RESTful API | DOM | Github </p>
               </div>
               <div className="buttons">
+
                 <div className="project-url">
                   <a href="https://pages.git.generalassemb.ly/BiaCode2020/Music-Trivia-Mayhem/" class="button">Website</a>
                 </div>

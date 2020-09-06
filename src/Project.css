@@ -273,6 +273,7 @@ a.button {
   justify-content: center;
   width: 85%;
  
+ 
   /* padding-left: 35px; */
   /* margin-left: 0px; */
   /* width: 80%; */
@@ -290,7 +291,7 @@ a.button {
   border-radius: 5px;
   font-size: 18px;
   font-weight: bold;
-  box-shadow: 0 12px 18px #999;
+  /* box-shadow: 0 0px 18px rgb(36, 223, 236); */
   margin-top: 60px;
   display: flex;
   justify-content: center;
@@ -307,7 +308,7 @@ a.button {
   border-radius: 5px;
   font-size: 18px;
   font-weight: bold;
-  box-shadow: 0 12px 18px #999;
+  /* box-shadow: 0 12px 18px #999; */
   margin-top: 60px;
   display: flex;
   justify-content: center;
@@ -489,22 +490,36 @@ a.button {
 
   } 
   .instacart-project-container {
-    display: flex;
-    margin: 200px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 45px;
     border: 2px solid rgb(83, 199, 219);
-    width: 25%;
-    text-align: center;
-    justify-content: center;
-    background-repeat: no-repeat; 
-    /* background-size: 100%; */
-    background-attachment: fixed;
-    border-radius: 25%;
+    width: 55%;
+    background-color: rgba(33, 175, 194, 0.25);
+    
+  
+  }
+
+  .mm-project-container {
+    border: 2px solid rgb(83, 199, 219);
+    width: 53%;
+    background-color: rgba(33, 175, 194, 0.25);
+    /* background-color: rgba(245, 201, 201, 0.5); */
+  }
+
+  .instabook-project-container {
+   
+    border: 2px solid rgb(83, 199, 219);
+    width: 55%;
+    
     background-color: rgba(33, 175, 194, 0.25);
   
+  }
+
+  .project-title {
+    font-size: 200%;
+    font-weight: 300; 
+    letter-spacing: 3px; 
+    font-family: 'Raleway', sans-serif; 
+    color: white;
+    margin-top: 15px;
   }
 
   /* .all-projects { 

@@ -54,7 +54,7 @@
   justify-content: space-evenly;
   position: static;
   text-decoration: none;
-  box-shadow: 0px 12px 18px #26c8ce;
+  box-shadow: 0px 12px 10px #26c8ce;
   border-radius: 10px;
 }
 
@@ -320,16 +320,34 @@ html {
     Iphone 6/7/8 Plus
     ===================================================================================  */
 
-@media screen and (max-width: 414px), screen and (max-height: 736px)  {
+@media screen and (max-width: 414px)  {
 
   .software-title {
     /* margin-top: 250px; */
     font-size: 22px;
     letter-spacing: .5px; 
+    margin-top: 35%;
   }
   /* .web-developer{
     font-size: 36px;
   } */
+
+  .main-nav a {
+
+box-shadow: 0px 12px 10px #26c8ce;
+    /* padding: .30em 8em;
+    width: 20px;
+    color: white;
+    justify-content: space-between;
+    font-size: 34px;
+
+    letter-spacing: 2px;   */
+
+ 
+
+  }
+
+
 
   .sub-title {
     font-size: 20px;
@@ -369,7 +387,7 @@ html {
     Iphone X
     ===================================================================================  */
 
-@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+@media screen and (max-width: 375px) {
 
   .main-nav a {
     padding: .25em 2.5em;
@@ -379,9 +397,12 @@ html {
   }
   .software-title {
     /* margin-top: 250px; */
-    /* font-size: 18px; */
+    font-size: 18px;
     letter-spacing: .5px; 
-  }
+    
+      margin-top: 55%;
+    }
+  
   .web-developer{
     font-size: 36px;
   }
