@@ -47,7 +47,7 @@
  } */
 
  html .all-projects { 
-  background: url(https://i.imgur.com/wMYT3YC.jpg?2) no-repeat center fixed; 
+  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -449,6 +449,10 @@ a.button {
 
 /* Ipad */
 @media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+
+  html .all-projects { 
+    background: url(https://i.imgur.com/1gsFzlW.jpg?1);
+  }  
   /* /* .projects-name {
     font-size: 28px;
     letter-spacing: 3px; 
