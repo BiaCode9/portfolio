@@ -46,7 +46,7 @@
   background-size: cover;
  } */
 
- html .all-projects { 
+ .all-projects { 
   background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -324,7 +324,13 @@ a.button {
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
-
+  /* .all-projects { 
+    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
 }
 
 /* Apple MacBook Pro 13-inch  */
@@ -334,8 +340,24 @@ a.button {
   }  */
   .project-title {
     margin-top: -35%;
-     
+    
   }  
+
+  /* .all-projects { 
+    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
+  /* .all-projects { 
+    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
 
   .project-img {
     padding: 15px;
@@ -382,8 +404,14 @@ a.button {
 /* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px)  {
 
- 
 
+  /* .all-projects { 
+    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
 
 /* 
   .projects-name {
@@ -448,11 +476,62 @@ a.button {
 }
 
 /* Ipad */
-@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+@media screen and (max-width: 768px)
+/* , screen and (max-height: 1024px)   */
+{
 
-  html .all-projects { 
-    background: url(https://i.imgur.com/9DRT96o.jpg?1) cover;
-  }  
+  .all-projects { 
+    background: black; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  } 
+  .instacart-project-container {
+    display: flex;
+    margin: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 45px;
+    border: 2px solid rgb(83, 199, 219);
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat; 
+    /* background-size: 100%; */
+    background-attachment: fixed;
+    border-radius: 25%;
+    background-color: rgba(33, 175, 194, 0.25);
+  
+  }
+
+  /* .all-projects { 
+    background: black; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }  */
+/* 
+  .all-projects { 
+    background: black; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }  */
+
+  /* .all-projects { 
+    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
   /* /* .projects-name {
     font-size: 28px;
     letter-spacing: 3px; 
@@ -522,8 +601,19 @@ a.button {
 
 
 /* Iphone 6/7/8 Plus */
-@media screen and (max-width: 414px), screen and (max-height: 736px)  {
+@media screen and (max-width: 414px), 
+/* screen and (max-height: 736px)   */
+{
 
+
+  .all-projects { 
+    background: black; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  } 
 
   /* .mm-project-container {
     width: 80%;
@@ -555,7 +645,9 @@ a.button {
 
 
 /* Iphone X */
-  @media screen and (max-width: 375px), screen and (max-height: 812px)  {
+  @media screen and (max-width: 375px)
+  /* , screen and (max-height: 812px)   */
+  {
 
  /* html.all-projects {
   background: black;
