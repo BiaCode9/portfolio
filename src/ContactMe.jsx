@@ -17,8 +17,11 @@ class ContactMe extends Component {
           <div className="contact-please"> */}
           <div className="contact-aa">
             <p><h1 className="contact-me-span">CONTACT ME</h1></p><p><span className="anytime">Anytime</span><span className="anywhere-span">Anywhere</span></p>
+            <img className="pin-drop" alt="pin-drop" src="https://i.imgur.com/Q3iqEHG.png" />
+            {/* <img src-="https://i.imgur.com/8LA4tO7.jpg"/> */}
             <div className="contact-box">
-            {/* <ul> */}
+              {/* <ul> */}
+              
               <li className="link-list">
                 <a href="mailto:biacode2020@gmail.com" target="_blank"><img className="icon-email" alt="icon-email" src="https://i.imgur.com/qorTRFp.png" /></a>
               </li>
@@ -56,7 +59,7 @@ class ContactMe extends Component {
 
 
 
-          {/* <img className="pin-drop" alt="pin-drop" src="https://i.imgur.com/Zo43qtd.png" /> */}
+          
           {/* <div className="blinklight"></div> */}
 
 
