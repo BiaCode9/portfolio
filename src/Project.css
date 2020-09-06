@@ -376,12 +376,17 @@ a.button {
 /* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px)  {
 
-  .all-projects {
-    
-    image-rendering: -webkit-optimize-contrast;
+ 
+html.all-projects {
 
-  
-   }
+image-rendering: crisp-edges;
+image-rendering: -moz-crisp-edges;          
+image-rendering: -o-crisp-edges;            
+image-rendering: -webkit-optimize-contrast; 
+-ms-interpolation-mode: nearest-neighbor; 
+
+}
+
 /* 
   .projects-name {
     font-size: 32px;
@@ -399,14 +404,7 @@ a.button {
   width: 85%;
  } */
 
- html .all-projects { 
-  /* background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat cover fixed;  */
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
-  /* background-size:  */
-  /* background-repeat: repeat; */
-}
+
 
 
   .tech-description {
@@ -469,13 +467,23 @@ a.button {
   width: 100%;
   padding: 25px;
  } */
-
+/* 
  .all-projects {
     
-  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
 
 
- }
+ } */
+
+ html.all-projects {
+
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;          
+  image-rendering: -o-crisp-edges;            
+  image-rendering: -webkit-optimize-contrast; 
+  -ms-interpolation-mode: nearest-neighbor; 
+  
+  }
 
   .tech-description {
     justify-content: center;
@@ -522,6 +530,16 @@ a.button {
 
 /* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
+
+  html.all-projects {
+
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;          
+    image-rendering: -o-crisp-edges;            
+    image-rendering: -webkit-optimize-contrast; 
+    -ms-interpolation-mode: nearest-neighbor; 
+    
+    }
   /* .mm-project-container {
     width: 80%;
   } */
@@ -537,12 +555,12 @@ a.button {
   .instacart-project-container {
     width: 55%;
   } */
-  .all-projects {
+  /* .all-projects {
     
-    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
 
   
-   }
+   } */
 
   div.buttons {
     width: 200px;
@@ -554,14 +572,16 @@ a.button {
 /* Iphone X */
   @media screen and (max-width: 375px), screen and (max-height: 812px)  {
 
-    image-rendering: -webkit-optimize-contrast;
+ 
+    html.all-projects {
 
-    .all-projects {
-    
-      image-rendering: -webkit-optimize-contrast;
-  
-    
-     }
+      image-rendering: crisp-edges;
+      image-rendering: -moz-crisp-edges;          
+      image-rendering: -o-crisp-edges;            
+      image-rendering: -webkit-optimize-contrast; 
+      -ms-interpolation-mode: nearest-neighbor; 
+      
+      }
 
     /* .projects-name {
       font-size: 22px;
