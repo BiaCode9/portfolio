@@ -9,61 +9,104 @@ footer {
   font-family: 'Fira Sans', sans-serif; 
   font-size: 18px;
   background-repeat: no-repeat; 
-  background-size: 100%;
+  background-size: 50%;
   align-items: center;
   /* width: 100%; */
 }
 
-
-/* path {
-  margin
-} */
-
 div.svg {
-  /* margin-bottom: 300px; */
-/* margin-left: 25%; */
-/* position: sticky; */
-/* margin-top: -40%; */
-/* display: inline-block; */
+
 display: flex;
 justify-content: flex-end;
-/* margin-right: 60px; */
 
+  margin-left: 650px;
+  margin-bottom: 230px;
 }
 
-/* .path {
-  width: 50%;
-  margin-right: 20%;
+/* .footer-div {
+  display: flex;
+  flex-direction: column;
 } */
 
 .copyright {
-  font-size: 80%;
-  
+  font-size: 18px;
+  color: white;
+  display: block;
+  border: solid black;
+  width: 100%;
+  background-color: black;
   
 }
 
 
 /* Iphone X */
-@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+@media screen and (max-width: 375px)  {
   footer {
   font-size: 12px;
   }
 }
 
-@media screen and (max-width: 1280px), screen and (max-height: 800px)  {
- 
+@media screen and (max-width: 1440px) {
+div.svg {
+  margin-right: 400px;
+  margin-bottom: 130px;
+}
+
+.footer-div {
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  display: block;
+  border: solid black;
+  width: 100%;
+  background-color: black;
+  
+}
+
+.copyright {
+  font-size: 18px;
+  color: white;
+  display: block;
+  border: solid black;
+  width: 100%;
+  background-color: black;
+  /* margin-left: 500px; */
+  
+}
+}
+
+@media screen and (max-width: 1280px) {
+  div.svg {
+    margin-right: 600px;
+    margin-bottom: 130px;
+  }
+  /* .copyright {
+    font-size: 80%;
+   
+    
+    
+  } */
 
 }
 
-@media screen and (max-width: 1024px), screen and (max-height: 768px)  {
+@media screen and (max-width: 1024px)  {
+  /* div.svg {
+    display: none;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  div.svg {
+    margin-right: 450px;
+  }
+}
+
+@media screen and (max-width: 414px) {
   div.svg {
     display: none;
   }
 }
 
-@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
-
-}
 
 @media screen and (max-width: 375px), screen and (max-height: 812px)  {
 /* .svg {

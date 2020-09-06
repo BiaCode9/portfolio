@@ -335,9 +335,14 @@ display: flex;
 
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
-@media screen and (max-width: 1440px), screen and (max-height: 900px) {
+@media screen and (max-width: 1440px) {
 
-
+  div.svg {
+    margin-right: 400px;
+    /* margin-bottom: 4000px; */
+    z-index: 1;
+  }
+  
   /* .link-list {
     margin: 0px 60px 0px 60px;
     max-width: 100%;
@@ -463,7 +468,7 @@ display: flex;
 
 
 /* Ipad Pro */
-@media screen and (max-width: 1024px), screen and (max-height: 1366px) {
+@media screen and (max-width: 1024px) {
   .contact-container {
     border-radius: 4px;
     height: 1800px;
@@ -473,25 +478,10 @@ display: flex;
     background-size: 75%;
     background-size: cover; 
   }    
-  /* .link-list {
-    margin: auto;
+  div.contact-form {
+    width: 70%;
+   
   }
-  */
-
-  /* .contact-form {
-    border: solid black;
-    height: 65%;
-    margin: 0 auto;
-  
-    } */
-    /* .thanks {
-      font-size: 22px;
-      justify-content: center;
-      text-align: center;
-      margin-top: -20px;
-     
-    } */
-
     .get-back-span {
       color: black;
       font-size: 22px;  
@@ -559,7 +549,7 @@ display: flex;
 }
 
 /* Ipad */
-@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+@media screen and (max-width: 768px) {
   /* .contact-form {
     border: solid black;
     margin-bottom: 35px;

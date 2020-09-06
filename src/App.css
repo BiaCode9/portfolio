@@ -1,6 +1,7 @@
-.svg {
-  /* display: inline; */
-  
+div.svg {
+  margin-right: 400px;
+  margin-bottom: 4000px;
+  z-index: 1;
 }
 
 ::-webkit-scrollbar{

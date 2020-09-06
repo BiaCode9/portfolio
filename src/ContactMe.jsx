@@ -21,7 +21,7 @@ class ContactMe extends Component {
             {/* <img src-="https://i.imgur.com/8LA4tO7.jpg"/> */}
             <div className="contact-box">
               {/* <ul> */}
-              
+
               <li className="link-list">
                 <a href="mailto:biacode2020@gmail.com" target="_blank"><img className="icon-email" alt="icon-email" src="https://i.imgur.com/qorTRFp.png" /></a>
               </li>
@@ -34,57 +34,32 @@ class ContactMe extends Component {
               <li className="link-list">
                 <a href="https://drive.google.com/file/d/1q1tHXVl-Q84gRv7CxHYPWra1BLlTx9OH/view?usp=sharing" target="_blank"><img className="icon-resume" alt="icon-resume" src="https://i.imgur.com/tGjhB2E.png" /></a>
               </li>
-            {/* </ul> */}
+              {/* </ul> */}
+
+
+            </div>
+
+
+
+
+
+
+
+            {/* <div className="blinklight"></div> */}
 
 
           </div>
-
-
-          {/* <div>
-            <ul className="contact-box">
-              <li>
-                <a href="mailto:biacode2020@gmail.com" target="_blank"><img className="icon-email" alt="icon-email" src="https://i.imgur.com/qorTRFp.png" /></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/biancabiagioni/" target="_blank"><img className="icon-linkedin" alt="icon-linkedin" src="https://i.imgur.com/ySrvm6e.png" /></a>
-              </li>
-              <li>
-                <a href="https://github.com/BiaCode9" target="_blank"><img className="icon-github" alt="icon-github" src="https://i.imgur.com/xSnqBXy.png" /></a>
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/1q1tHXVl-Q84gRv7CxHYPWra1BLlTx9OH/view?usp=sharing" target="_blank"><img className="icon-resume" alt="icon-resume" src="https://i.imgur.com/tGjhB2E.png" /></a>
-              </li>
-            </ul>
-          </div> */}
-
-
-
-          
-          {/* <div className="blinklight"></div> */}
-
-
         </div>
+
+
+
+
+
+
+
       </div>
 
-      // {/* <div>
-      //     <ul className="contact-box">
-      //       <li>
-      //         <a href="mailto:biacode2020@gmail.com" target="_blank"><img className="icon-email" alt="icon-email" src="https://i.imgur.com/qorTRFp.png" /></a>
-      //       </li>
-      //       <li>
-      //         <a href="https://www.linkedin.com/in/biancabiagioni/" target="_blank"><img className="icon-linkedin" alt="icon-linkedin" src="https://i.imgur.com/ySrvm6e.png" /></a>
-      //       </li>
-      //       <li>
-      //         <a href="https://github.com/BiaCode9" target="_blank"><img className="icon-github" alt="icon-github" src="https://i.imgur.com/xSnqBXy.png" /></a>
-      //       </li>
-      //       <li>
-      //         <a href="https://drive.google.com/file/d/1q1tHXVl-Q84gRv7CxHYPWra1BLlTx9OH/view?usp=sharing" target="_blank"><img className="icon-resume" alt="icon-resume" src="https://i.imgur.com/tGjhB2E.png" /></a>
-      //       </li>
-      //     </ul>
-      //   </div> */}
-      // </div>
 
-      // </div >
     )
   }
 }
