@@ -19,7 +19,7 @@ div.svg {
 display: flex;
 justify-content: flex-end;
 
-  margin-left: 650px;
+  margin-left: 850px;
   margin-bottom: 230px;
 }
 
@@ -102,13 +102,13 @@ div.svg {
 }
 
 @media screen and (max-width: 414px) {
-  div.svg {
+  /* div.svg {
     display: none;
-  }
+  } */
 }
 
 
-@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+@media screen and (max-width: 375px) {
 /* .svg {
   width: 75%;
 } */

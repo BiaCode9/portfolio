@@ -330,6 +330,11 @@ display: flex;
 .contact-box a:visited { color: #fa1e57; }
 
 
+div.svg {
+  margin-left: 400px;
+  /* margin-bottom: 4000px; */
+
+}
 
 
 
@@ -433,22 +438,17 @@ display: flex;
 } 
 
 /* Macbook Pro 13inch (Mid 2009 - 2012) */
-@media screen and (max-width: 1280px), screen and (max-height: 800px) {
-  /* .contact-form { */
-    /* margin-bottom: 35px; */
-    /* width: 50%; */
-    /* height: 55%; */
-    /* margin-top: -250px;
-    margin-bottom: -350px; */
-    /* margin: 0 auto; */
-    /* padding-bottom: 40px; */
-    /* width: 50%; */
-  /* } */
+@media screen and (max-width: 1280px) {
+  .contact-form { 
+   
+    width: 70%; 
+   
+  }
 
-  img.pin-drop {
+  /* img.pin-drop {
     margin-top: 20px;
 
-  }
+  } */
   /* .link-list {
 
     margin: 0px 60px 0px 60px;
@@ -587,7 +587,7 @@ span.anytime {
 }
 
 /* Iphone X */
-@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+@media screen and (max-width: 375px) {
   /* .contact-form {
    
    width: 96%;
