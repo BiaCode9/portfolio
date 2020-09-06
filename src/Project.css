@@ -35,15 +35,52 @@
   height: auto;
  }
 
-
- html .all-projects { 
+ .parent-project {
   background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: auto;
-}
+
+ }
+
+ /* html .all-projects { 
+  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+
+  
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-position: center;
+  object-fit: cover; */
+ 
+  
+/* } */
+
+
+/* 
+html.all-projects {
+  background: url(https://i.imgur.com/8MHUS6E.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-position: center;
+  object-fit: cover;
+} */
 
 .project-img {
   display: flex;
@@ -285,43 +322,8 @@ a.button {
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
-  /* div.project-title {
-    margin-bottom: 45px;
-    margin-top: -40px;
-    font-size: 36px;
-    font-weight: 300; 
-    letter-spacing: 2px; 
-    }
 
-  div.projects-name {
-    font-size: 38px;
-} */
-
-/* a.button {
-  font-size: 50%;
-} */
 }
-
-/* @media screen and (max-width: 1366px) {
-  .project-title {
-    margin-bottom: 45px;
-    font-size: 28px;
-    font-weight: 300; 
-    letter-spacing: 2px; 
-  }
-
-  .projects-name {
-    font-size: 36px;
-    font-weight: 100; 
-    letter-spacing: 3px; 
-    font-family: 'Raleway', sans-serif; 
-    color: rgb(250, 30, 87);
-    height: 0px;
-    text-align: center;
-    border: 2px solid black;
-  }
-
-} */
 
 /* Apple MacBook Pro 13-inch  */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
@@ -379,14 +381,7 @@ a.button {
 @media screen and (max-width: 1024px), screen and (max-height: 1366px)  {
 
  
-  html .all-projects { 
-    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: auto;
-  }
+
 
 /* 
   .projects-name {
@@ -437,7 +432,7 @@ a.button {
     width: 350px;
   }
 
-  .all-projects {
+  /* .all-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -446,7 +441,7 @@ a.button {
     background-attachment: fixed;
     padding-top: 40px;
     background-repeat: no-repeat;
-   }
+   } */
 
 }
 
@@ -476,14 +471,6 @@ a.button {
 
  } */
 
- html .all-projects { 
-  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: auto;
-}
 
   .tech-description {
     justify-content: center;
@@ -531,14 +518,7 @@ a.button {
 /* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
 
-  html .all-projects { 
-    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: auto;
-  }
+
   /* .mm-project-container {
     width: 80%;
   } */
@@ -572,14 +552,7 @@ a.button {
   @media screen and (max-width: 375px), screen and (max-height: 812px)  {
 
  
-    html .all-projects { 
-      background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      height: auto;
-    }
+  
 
     /* .projects-name {
       font-size: 22px;
