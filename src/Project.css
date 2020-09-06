@@ -375,6 +375,13 @@ a.button {
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px)  {
+
+  .all-projects {
+    
+    image-rendering: -webkit-optimize-contrast;
+
+  
+   }
 /* 
   .projects-name {
     font-size: 32px;
@@ -393,12 +400,12 @@ a.button {
  } */
 
  html .all-projects { 
-  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+  /* background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat cover fixed;  */
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
   /* background-size:  */
-  background-repeat: repeat;
+  /* background-repeat: repeat; */
 }
 
 
@@ -439,7 +446,7 @@ a.button {
     background-size: 100%;
     background-attachment: fixed;
     padding-top: 40px;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
    }
 
 }
@@ -462,6 +469,13 @@ a.button {
   width: 100%;
   padding: 25px;
  } */
+
+ .all-projects {
+    
+  image-rendering: -webkit-optimize-contrast;
+
+
+ }
 
   .tech-description {
     justify-content: center;
@@ -523,6 +537,12 @@ a.button {
   .instacart-project-container {
     width: 55%;
   } */
+  .all-projects {
+    
+    image-rendering: -webkit-optimize-contrast;
+
+  
+   }
 
   div.buttons {
     width: 200px;
@@ -533,6 +553,16 @@ a.button {
 
 /* Iphone X */
   @media screen and (max-width: 375px), screen and (max-height: 812px)  {
+
+    image-rendering: -webkit-optimize-contrast;
+
+    .all-projects {
+    
+      image-rendering: -webkit-optimize-contrast;
+  
+    
+     }
+
     /* .projects-name {
       font-size: 22px;
       letter-spacing: 2px; 
