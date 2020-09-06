@@ -35,23 +35,25 @@
   height: auto;
  }
 
- .parent-project {
+
+
+
+ /* .parent-project {
   background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ } */
 
- }
-
- /* html .all-projects { 
-  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+ html .all-projects { 
+  background: url(https://i.imgur.com/rmOoKoS.jpg?1) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
 
-  
+
   /* position: absolute; */
   /* top: 0;
   left: 0;
@@ -64,7 +66,7 @@
   object-fit: cover; */
  
   
-/* } */
+}
 
 
 /* 
@@ -551,7 +553,10 @@ a.button {
 /* Iphone X */
   @media screen and (max-width: 375px), screen and (max-height: 812px)  {
 
- 
+ /* html.all-projects {
+  background: black;
+
+ } */
   
 
     /* .projects-name {

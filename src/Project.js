@@ -15,7 +15,6 @@ class Project extends Component {
         <div className="parent-project">
           <section className="all-projects">
 
-
             <div className="instabook-project-container">
               <div className="project-title">
                 <h2>InstaBook</h2>
