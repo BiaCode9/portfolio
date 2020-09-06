@@ -32,6 +32,7 @@
   padding-top: 40px;
   border: black;
   margin: 0 auto;
+  height: auto;
  }
 
 
@@ -41,6 +42,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: auto;
 }
 
 .project-img {
@@ -377,15 +379,14 @@ a.button {
 @media screen and (max-width: 1024px), screen and (max-height: 1366px)  {
 
  
-html.all-projects {
-
-image-rendering: crisp-edges;
-image-rendering: -moz-crisp-edges;          
-image-rendering: -o-crisp-edges;            
-image-rendering: -webkit-optimize-contrast; 
--ms-interpolation-mode: nearest-neighbor; 
-
-}
+  html .all-projects { 
+    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+  }
 
 /* 
   .projects-name {
@@ -475,15 +476,14 @@ image-rendering: -webkit-optimize-contrast;
 
  } */
 
- html.all-projects {
-
-  image-rendering: crisp-edges;
-  image-rendering: -moz-crisp-edges;          
-  image-rendering: -o-crisp-edges;            
-  image-rendering: -webkit-optimize-contrast; 
-  -ms-interpolation-mode: nearest-neighbor; 
-  
-  }
+ html .all-projects { 
+  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
 
   .tech-description {
     justify-content: center;
@@ -531,15 +531,14 @@ image-rendering: -webkit-optimize-contrast;
 /* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px), screen and (max-height: 736px)  {
 
-  html.all-projects {
-
-    image-rendering: crisp-edges;
-    image-rendering: -moz-crisp-edges;          
-    image-rendering: -o-crisp-edges;            
-    image-rendering: -webkit-optimize-contrast; 
-    -ms-interpolation-mode: nearest-neighbor; 
-    
-    }
+  html .all-projects { 
+    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+  }
   /* .mm-project-container {
     width: 80%;
   } */
@@ -573,15 +572,14 @@ image-rendering: -webkit-optimize-contrast;
   @media screen and (max-width: 375px), screen and (max-height: 812px)  {
 
  
-    html.all-projects {
-
-      image-rendering: crisp-edges;
-      image-rendering: -moz-crisp-edges;          
-      image-rendering: -o-crisp-edges;            
-      image-rendering: -webkit-optimize-contrast; 
-      -ms-interpolation-mode: nearest-neighbor; 
-      
-      }
+    html .all-projects { 
+      background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: auto;
+    }
 
     /* .projects-name {
       font-size: 22px;
@@ -666,9 +664,9 @@ img.project-img {
   padding: 0px;
 } */
 
-.all-projects {
+/* .all-projects {
  margin: 0 auto;
-}
+} */
 
 /* .project-title {
   margin-bottom: 45px;
