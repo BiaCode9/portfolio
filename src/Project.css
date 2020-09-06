@@ -332,6 +332,33 @@ a.button {
     -o-background-size: cover;
     background-size: cover;
   } */
+
+  .instacart-project-container {
+    /* border: 2px solid rgb(83, 199, 219);
+    width: 55%;
+    background-color: rgba(33, 175, 194, 0.25);
+     */
+    
+  
+  }
+
+  .mm-project-container {
+    /* border: 2px solid rgb(83, 199, 219);
+    width: 53%;
+    background-color: rgba(33, 175, 194, 0.25); */
+    /* background-color: rgba(245, 201, 201, 0.5); */
+  }
+
+  .instabook-project-container {
+   
+    /* border: 2px solid rgb(83, 199, 219);
+    width: 55%;
+    
+    background-color: rgba(33, 175, 194, 0.25); */
+  
+  }
+
+
 }
 
 /* Apple MacBook Pro 13-inch  */

@@ -80,7 +80,7 @@ div.description {
 }
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
-@media screen and (max-width: 1440px), screen and (max-height: 900px) {
+@media screen and (max-width: 1440px) {
   /* .name {
     margin-top: -950px;
   } */
@@ -89,6 +89,16 @@ div.description {
     font-size: 25px;
     
   } 
+
+  .self-img {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 20px;
+    /* height: auto; 
+      width: auto; 
+      max-width: 600px; 
+      max-height: 600px; */
+  }
 
 
   .description {
@@ -162,10 +172,9 @@ div.description {
 
   .description {
     max-width: 50%;
-
-
+   
+      font-size: 24px;
   }
-
   /* .name {
     margin-top: -1150px;
   } */
@@ -182,7 +191,7 @@ div.description {
 
 
 /* Ipad Pro */
-@media screen and (max-width: 1024px), screen and (max-height: 1366px) {
+@media screen and (max-width: 1024px){
   /* .name {
     font-size: 20px;
 
@@ -237,8 +246,8 @@ div.description {
     letter-spacing: 1px; 
     font-family: 'Fira Sans', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
-    font-size: 22px;
-    margin-top: -20px;
+    font-size: 26px;
+    /* margin-top: -20px; */
     line-height: 1.25;
 /* 
     margin-bottom: -600px; */
@@ -253,10 +262,14 @@ div.description {
     width: 62%;
 
 } */
+
+.bianca {
+  font-size: 50px;
+}
 }
 
 /* Ipad */
-@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+@media screen and (max-width: 768px) {
 
   /* .name {
     margin-top: -900px;
@@ -300,7 +313,7 @@ div.description {
 
 
 /* Iphone 6/7/8 Plus */
-@media screen and (max-width: 414px), screen and (max-height: 736px)  {
+@media screen and (max-width: 414px) {
   /* .name {
     font-size: 16px;
 
@@ -349,7 +362,7 @@ div.description {
 }
 
 /* Iphone X */
-@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+@media screen and (max-width: 375px)  {
   /* .name {
     font-size: 16px;
     margin-bottom: 10px;

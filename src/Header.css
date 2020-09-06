@@ -44,7 +44,7 @@
 .main-nav a {
   display: inline-block;
   padding: .30em 8em;
-  width: 85%;
+  width: 65%;
   color: white;
   justify-content: space-between;
   font-size: 34px;
@@ -105,7 +105,7 @@ li a:active {
   animation: slideright 1s 1;
   -webkit-animation: slideright 1s 1;
   -moz-animation: slideright 1s 1;
-  margin-top: 25%;
+  margin-top: 15%;
   /* display: flex; */
   /* justify-content: center;
   align-items: center; 
@@ -176,7 +176,7 @@ html {
    /* !!!!!  DONE FOR NOW !!!!!! */
 
 
-@media screen and (max-width: 1440px), screen and (max-height: 900px) {
+@media screen and (max-width: 1440px) {
   .software-title {
     font-size: 34px;
     /* margin-top: -200px; */
@@ -216,7 +216,7 @@ html {
     Apple Macbook Pro 13inch ( Mid 2009 - 2012 )
     ===================================================================================  */
 
-@media screen and (max-width: 1280px), screen and (max-height: 800px) {
+@media screen and (max-width: 1280px){
   .software-title {
     /* margin-top: 255px; */
     color: white;
@@ -226,8 +226,8 @@ html {
 
   .main-nav a {
     /* padding: .30em 3.60em; */
-    font-size: 28px;
-    width: 75%;
+    font-size: 24px;
+    width: 50%;
   }
 
   .sub-title {
@@ -248,7 +248,7 @@ html {
     Ipad Pro
     ===================================================================================  */
 
-@media screen and (max-width: 1024px), screen and (max-height: 1366px) {
+@media screen and (max-width: 1024px) {
   /* .software-title {
     margin-top: 400px;
   
@@ -279,10 +279,10 @@ html {
   } */
 }
 
-/* div.software-title {
-  font-size: 180%;
-  margin-top: 425px;
-} */
+.software-title {
+  font-size: 150%;
+  margin-top: 200px;
+}
 
 
 
@@ -290,10 +290,10 @@ html {
     Ipad
     ===================================================================================  */
 
-@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+@media screen and (max-width: 768px) {
   .software-title {
     /* margin-top: 275px; */
-    /* font-size: 22px; */
+    font-size: 22px;
     letter-spacing: 1.5px; 
     
   }
