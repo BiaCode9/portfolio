@@ -44,6 +44,16 @@ class SkillsTools extends Component {
               ></img>
             </li>
             <li>
+              REDUX
+              <img
+                className="icon-redux"
+                alt="icon-redux"
+                src="https://i.imgur.com/GfQEkBt.png"
+              ></img>
+            </li>
+
+
+            <li>
               NODE.JS
               <img
                 className="icon-node"
