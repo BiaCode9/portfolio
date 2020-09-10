@@ -11,6 +11,7 @@
   max-width: 100%;
   width: 100%;
   margin-top: 40px;
+  /* color: linear-gradient(to bottom, rgb(75, 209, 243), blue); */
 }
 
 .main-skills {
@@ -37,7 +38,7 @@
 
 .skills-tools-container li:hover {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 li {
@@ -96,7 +97,7 @@ li {
 }
 
 .icon-express {
-  width: 75px; 
+  width: 75px;
 }
 
 .icon-storybook {
@@ -106,17 +107,23 @@ li {
 
 .icon-figma {
   width: 65px;
-  height: 65px; 
+  height: 65px;
 }
 
 .icon-photoshop {
   width: 95px;
-  height: 90px; 
+  height: 90px;
+}
+
+.icon-firebase {
+  width: 95px;
+  height: 90px;
+  margin-top: -10px;
 }
 
 .icon-adobe {
   width: 70px;
-  height: 60px; 
+  height: 60px;
 }
 
 .icon-netlify {
@@ -126,30 +133,29 @@ li {
 
 .icon-surge {
   height: 75px;
-  width: 75px; 
+  width: 75px;
 }
 
 .icon-heroku {
   height: 60px;
-  width: 125px;  
+  width: 125px;
 }
 
 .skills-tools-title {
   font-size: 22px;
-  font-weight: 300; 
-  letter-spacing: 3px; 
-  font-family: 'Raleway', sans-serif; 
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-family: "Raleway", sans-serif;
   justify-content: center;
   list-style: none;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
-
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
   .skills-tools-container {
     display: flex;
-    align-items: center;  
+    align-items: center;
     padding-bottom: 25px;
     justify-content: center;
     border-radius: 4px;
@@ -176,17 +182,15 @@ li {
     display: inline;
     text-align: center;
     color: #616161;
-    font-size: 12px;   
+    font-size: 12px;
   }
 }
-
-
 
 @media screen and (max-width: 1366px) {
   .skills-tools-container {
     display: flex;
     flex-direction: row;
-    align-items: center;  
+    align-items: center;
     padding-bottom: 25px;
     justify-content: center;
     border-radius: 4px;
@@ -221,21 +225,18 @@ li {
   }
 }
 
-
 /* Apple Macbook Pro 13inch (Mid 2009 - 2012) */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
-
   div.skills-tools-container {
     height: 450px;
   }
 }
 
-
 /* Ipad Pro */
 @media screen and (max-width: 1024px), screen and (max-height: 1366px) {
   .skills-tools-container {
     display: flex;
-    align-items: center;  
+    align-items: center;
     padding-bottom: 25px;
     justify-content: center;
     border-radius: 4px;
@@ -259,7 +260,7 @@ li {
     display: inline;
     text-align: center;
     color: #616161;
-    font-size: 10px;  
+    font-size: 10px;
   }
 
   .skills-tools-title {
@@ -267,11 +268,10 @@ li {
   }
 }
 
-
 /* Ipad */
-@media screen and (max-width: 768px), screen and (max-height: 1024px)  {
+@media screen and (max-width: 768px), screen and (max-height: 1024px) {
   .skills-tools-container {
-    align-items: center;  
+    align-items: center;
     padding-bottom: 25px;
     justify-content: center;
     border-radius: 4px;
@@ -287,11 +287,10 @@ li {
   }
 }
 
-
 /* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px) {
   .skills-tools-container {
-    align-items: center;  
+    align-items: center;
     padding-bottom: 25px;
     justify-content: center;
     border-radius: 4px;
@@ -315,12 +314,12 @@ li {
     width: 100%;
     margin-top: 40px;
   }
-  
+
   .icon-html {
     height: 58px;
     width: 65px;
   }
-  
+
   .icon-css {
     height: 56px;
     width: 60px;
@@ -340,71 +339,70 @@ li {
     height: 60px;
     width: 90px;
   }
-  
+
   .icon-ruby {
     height: 45px;
     width: 45px;
   }
-  
+
   .icon-rails {
     height: 80px;
     width: 90px;
   }
-  
+
   .icon-sql {
     height: 65px;
     width: 90px;
   }
-  
+
   .icon-mongo {
     width: 75px;
     border-radius: 80%;
   }
-  
+
   .icon-postman {
     width: 55px;
   }
-  
+
   .icon-express {
-    width: 55px; 
+    width: 55px;
   }
-  
+
   .icon-storybook {
     width: 45px;
     height: 45px;
   }
-  
+
   .icon-photoshop {
     width: 65px;
-    height: 60px; 
+    height: 60px;
   }
-  
+
   .icon-adobe {
     width: 50px;
-    height: 40px; 
+    height: 40px;
   }
-  
+
   .icon-netlify {
     margin-top: 20px;
     width: 80px;
   }
-  
+
   .icon-surge {
     height: 55px;
-    width: 55px; 
+    width: 55px;
   }
-  
+
   .icon-heroku {
     height: 40px;
-    width: 105px;  
+    width: 105px;
   }
 }
 
-
 /* Iphone X */
-@media screen and (max-width: 375px), screen and (max-height: 812px)  {
+@media screen and (max-width: 375px), screen and (max-height: 812px) {
   .skills-tools-container {
-    align-items: center;  
+    align-items: center;
     padding-bottom: 25px;
     justify-content: center;
     border-radius: 4px;

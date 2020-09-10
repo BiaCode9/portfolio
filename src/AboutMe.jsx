@@ -11,7 +11,6 @@ class AboutMe extends Component {
           <a id="about"></a>
           <h2>Hi, <span className="bianca">I'm Bianca!</span></h2>
         </div>
-
         <div className="title">
           <h2>Software Engineer |<span className="fs-dev"> Web Designer</span></h2>
         </div>
