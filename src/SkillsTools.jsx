@@ -52,7 +52,6 @@ class SkillsTools extends Component {
               ></img>
             </li>
 
-
             <li>
               NODE.JS
               <img
@@ -125,14 +124,7 @@ class SkillsTools extends Component {
                 src="https://i.imgur.com/ld16pHL.png"
               ></img>
             </li>
-            <li>
-              FIREBASE
-              <img
-                className="icon-firebase"
-                alt="icon-firebase"
-                src="https://i.imgur.com/iGn1I5R.png"
-              ></img>
-            </li>
+
             {/* <li>PHOTOSHOP<img className="icon-photoshop" alt="icon-photoshop" src='https://i.imgur.com/spVNuCw.png'></img></li> */}
             <li>
               ADOBE CREATIVE CLOUD
@@ -142,6 +134,24 @@ class SkillsTools extends Component {
                 src="https://i.imgur.com/G367NGy.png"
               ></img>
             </li>
+
+            <li>
+              STRIPE
+              <img
+                className="icon-stripe"
+                alt="icon-stripe"
+                src="https://i.imgur.com/Fk6dpCb.png"
+              ></img>
+            </li>
+            <li>
+              FIREBASE
+              <img
+                className="icon-firebase"
+                alt="icon-firebase"
+                src="https://i.imgur.com/iGn1I5R.png"
+              ></img>
+            </li>
+
             <li>
               HEROKU
               <img

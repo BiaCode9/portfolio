@@ -36,53 +36,15 @@
  }
 
 
-
-
- /* .parent-project {
-  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- } */
-
  .all-projects { 
   background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
-  /* position: absolute; */
-  /* top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-  object-position: center;
-  object-fit: cover; */
- 
-  
 }
 
 
-/* 
-html.all-projects {
-  background: url(https://i.imgur.com/8MHUS6E.jpg);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-  object-position: center;
-  object-fit: cover;
-} */
 
 .project-img {
   display: flex;
@@ -168,6 +130,47 @@ a.button {
   background-color: rgba(0, 0, 0, 0.25);
   border-radius: 25%;
 }
+
+.amazon-project-container {
+  display: flex;
+  margin: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 45px;
+  border: 2px solid black;
+  width: 25%;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 25%;
+}
+
+.amazon-project-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* background:  rgb(80, 235, 235); */
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.amazon-project-container:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px  rgb(80, 235, 235);
+}
+
+.amazon-project-container:hover {
+  /* color:  rgb(80, 235, 235); */
+  box-shadow: 0 0 35px rgb(80, 235, 235);
+  text-shadow: 0 0 15px rgb(80, 235, 235);
+}
+
 
 /* .instabook-project-container:hover {
   background-color: blue;
@@ -279,9 +282,6 @@ a.button {
   /* width: 80%; */
 }
 
-/* div.buttons {
-  margin-right: 0px;
-} */
 
 .project-url {
   margin-right: 20px;
@@ -333,59 +333,22 @@ a.button {
     background-size: cover;
   } */
 
-  .instacart-project-container {
-    /* border: 2px solid rgb(83, 199, 219);
-    width: 55%;
-    background-color: rgba(33, 175, 194, 0.25);
-     */
-    
-  
-  }
 
-  .mm-project-container {
-    /* border: 2px solid rgb(83, 199, 219);
-    width: 53%;
-    background-color: rgba(33, 175, 194, 0.25); */
-    /* background-color: rgba(245, 201, 201, 0.5); */
-  }
-
-  .instabook-project-container {
-   
-    /* border: 2px solid rgb(83, 199, 219);
-    width: 55%;
-    
-    background-color: rgba(33, 175, 194, 0.25); */
-  
-  }
 
 
 }
 
 /* Apple MacBook Pro 13-inch  */
-@media screen and (max-width: 1280px), screen and (max-height: 800px) {
+@media screen and (max-width: 1280px) {
   /* .projects-name {
     font-size: 34px;
   }  */
-  .project-title {
+  /* .project-title {
     margin-top: -35%;
     
-  }  
+  }   */
 
-  /* .all-projects { 
-    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
-
-  /* .all-projects { 
-    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
+  
 
   .project-img {
     padding: 15px;
@@ -413,24 +376,12 @@ a.button {
     margin-bottom: -30px;  
   }
 }
-/* 
-.instacart-project-container {
-  width: 50%;
-}
 
-.instabook-project-container {
-  width: 50%;
-}
-
-.mm-project-container {
-  width: 57%;
-}
-   */
 
 
 
 /* Ipad Pro */
-@media screen and (max-width: 1024px), screen and (max-height: 1366px)  {
+@media screen and (max-width: 1024px) {
 
 
   /* .all-projects { 

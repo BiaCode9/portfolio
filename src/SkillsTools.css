@@ -122,15 +122,20 @@ li {
   height: 90px;
 }
 
+.icon-adobe {
+  width: 70px;
+  height: 60px;
+}
+
+.icon-stripe {
+  width: 60px;
+  height: 60px;
+}
+
 .icon-firebase {
   width: 95px;
   height: 90px;
   margin-top: -10px;
-}
-
-.icon-adobe {
-  width: 70px;
-  height: 60px;
 }
 
 .icon-netlify {
