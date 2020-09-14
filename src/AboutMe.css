@@ -14,10 +14,6 @@
   border: 2px solid black;
   border-radius: 50%;
   margin: 60px 60px;
-  /* height: auto; 
-    width: auto; 
-    max-width: 600px; 
-    max-height: 600px; */
 }
 
 .name {
@@ -26,9 +22,6 @@
   font-weight: 300;
   letter-spacing: 2px;
   font-family: "Raleway", sans-serif;
-  /* margin-bottom: 20px; */
-  /* margin-top: -750px; */
-  /* margin: 0 auto; */
   margin-top: 30px;
 }
 
@@ -45,8 +38,7 @@
 }
 
 .fs-dev {
-  /* color: blue; */
-  font-size: 28px;
+  font-size: 34px;
   font-family: "Fire Sans", sans-serif;
 }
 
@@ -55,14 +47,11 @@
   text-align: center;
   letter-spacing: 1px;
   font-family: "Fira Sans", sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
   text-align: center;
   font-size: 28px;
   margin-top: -50px;
   line-height: 1.5;
-  font-weight: 300;
-
-  /* margin-bottom: -600px; */
+  font-weight: 500;
 }
 
 div.description {
@@ -73,16 +62,10 @@ div.description {
   font-size: 50px;
   font-family: "Raleway", sans-serif;
   color: rgb(250, 30, 87);
-  /* display: flex;
-  align-content: center;
-  align-items: center; */
 }
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px) {
-  /* .name {
-    margin-top: -950px;
-  } */
 
   div.title {
     font-size: 25px;
@@ -92,21 +75,14 @@ div.description {
     border: 2px solid black;
     border-radius: 50%;
     margin-top: 20px;
-    /* height: auto; 
-      width: auto; 
-      max-width: 600px; 
-      max-height: 600px; */
   }
 
   .description {
     width: 50%;
     letter-spacing: 1px;
     font-family: "Fira Sans", sans-serif;
-    /* font-family: 'Raleway', sans-serif; */
     font-size: 22px;
     margin-top: -10px;
-    line-height: 1.25;
-    /* margin-bottom: -600px; */
   }
 
   .title {
@@ -150,73 +126,20 @@ div.description {
 
 /* Apple Macbook Pro 13inch (Mid 2009 - Mid 2012) */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
-  /* .name {
-    font-size: 24px;
-    letter-spacing: 1.75px; 
-    margin-top: -1450px;
-  }
-  span.bianca {
-    font-size: 36px;
-   
-  }
 
-  div.name {
-    margin-top: -1250px;
-  } */
-
-  .description {
+   .description {
     max-width: 50%;
-
     font-size: 24px;
   }
-  /* .name {
-    margin-top: -1150px;
-  } */
 
   .title {
     margin-bottom: 20px;
     font-size: 24px;
   }
-
-  /* div.name {
-    margin-top: -500px;
-  } */
 }
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px) {
-  /* .name {
-    font-size: 20px;
-
-    margin-bottom: 10px;
-    margin-top: -700px;
-  }
-  .bianca {
-    font-size: 34px;
-  } */
-
-  /* .name {
-    margin-top: -400px;
-    
-  } */
-
-  /* .name {
-    font-size: 16px;
-    margin-bottom: 10px;
-    margin-top: -500px;
-  } */
-  /* 
-  div.name {
-    margin-top: -500px;
-  } */
-
-  /* .bianca 1024 x 136
-    font-size: 34px;
-  }  */
-
-  /* div.name {
-    margin-top: -500px;
-  } */
 
   .title {
     margin-bottom: 20px;
@@ -236,22 +159,9 @@ div.description {
     width: 70%;
     letter-spacing: 1px;
     font-family: "Fira Sans", sans-serif;
-    /* font-family: 'Raleway', sans-serif; */
     font-size: 26px;
-    /* margin-top: -20px; */
     line-height: 1.25;
-    /* 
-    margin-bottom: -600px; */
   }
-
-  /* .about-me-container {
-    object-fit: contain;
-  } */
-
-  /* div.description {
-    width: 62%;
-
-} */
 
   .bianca {
     font-size: 50px;
@@ -302,20 +212,7 @@ div.description {
 
 /* Iphone 6/7/8 Plus */
 @media screen and (max-width: 414px) {
-  /* .name {
-    font-size: 16px;
 
-    margin-bottom: 10px;
-    margin-top: -1200px;
-  } */
-
-  /* span.bianca{
-    margin-top: -1000px;
-  } */
-
-  /* div.name {
-    margin-top: -1650px;
-  } */
   .title {
     margin-bottom: 20px;
     margin-top: -40px;
@@ -335,30 +232,13 @@ div.description {
   .description {
     width: 75%;
     letter-spacing: 1px;
-    /* font-family: 'Raleway', sans-serif; */
     font-size: 18px;
-    /* margin-top: -10px; */
     line-height: 1;
-    /* margin-bottom: 175px; */
   }
-
-  /* div.description {
-    width: 75%;
-    margin-bottom: 830px;
-  } */
 }
 
 /* Iphone X */
 @media screen and (max-width: 375px) {
-  /* .name {
-    font-size: 16px;
-    margin-bottom: 10px;
-    margin-top: -800px;
-  }
-
-  .bianca {
-    font-size: 30px;
-  } */
 
   .title {
     margin-bottom: 20px;
@@ -369,10 +249,7 @@ div.description {
   div.description {
     width: 75%;
     letter-spacing: 1px;
-    /* font-family: 'Raleway', sans-serif; */
     font-size: 16px;
-    /* margin-top: -10px; */
     line-height: 1.25;
-    /* margin-bottom: 175px; */
   }
 }

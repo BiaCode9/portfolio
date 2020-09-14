@@ -3,16 +3,12 @@
   justify-content: space-between;
   border-radius: 3px;
   width: 100%;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   height: 100vh;
   justify-content: space-around;
 }
-
-/* .main-nav {
-  margin-bottom: 25%;
-} */
 
 .overlay video {
   position: absolute;
@@ -25,32 +21,31 @@
   z-index: -1;
   object-position: center;
   object-fit: cover;
-  /* overflow: hidden; */
 }
 
 .main-nav-list {
   padding: 0px;
 }
-  
+
 .main-nav ul {
   margin-top: 0px;
-  text-align: center;   
+  text-align: center;
 }
 
 .main-nav li {
-  display: inline;  
+  display: inline;
 }
 
 .main-nav a {
   display: inline-block;
-  padding: .30em 8em;
+  padding: 0.3em 8em;
   width: 55%;
   color: white;
   justify-content: space-between;
   font-size: 34px;
-  font-weight: 300; 
-  letter-spacing: 2px; 
-  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-family: "Raleway", sans-serif;
   justify-content: space-evenly;
   position: static;
   text-decoration: none;
@@ -64,41 +59,15 @@ li a:hover {
 }
 
 li a:active {
-  background-color: rgba(38, 200, 206, .25);
-  /* box-shadow: 0 5px #666;  */
+  background-color: rgba(38, 200, 206, 0.25);
   transform: translateY(15px);
 }
 
-/* .titles { */
-  /* top: 50%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  vertical-align: 50px; */
-  /* display: table-cell;
-  text-align: center;
-  vertical-align: middle; */
-/* } */
-
-/* .titles {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-} */
-
-/* div.software-title {
-  margin-top: 50%;
-} */
-
 .software-title {
   color: white;
-  font-family: 'Raleway', sans-serif;
-  font-weight: heavy; 
-  letter-spacing: 3px; 
+  font-family: "Raleway", sans-serif;
+  font-weight: heavy;
+  letter-spacing: 3px;
   text-align: center;
   font-size: 55px;
   position: relative;
@@ -106,41 +75,43 @@ li a:active {
   -webkit-animation: slideright 1s 1;
   -moz-animation: slideright 1s 1;
   margin-top: 15%;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; 
-  margin-top: 30%;
-  
-  /* display: inline-block;
-  vertical-align: middle; */
-  /* line-height: 500px; */
-
 }
 
-
 @keyframes slideright {
-  from {left: -1200px;}
-  to {left: 0px;}
+  from {
+    left: -1200px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
 @-webkit-keyframes slideright {
-  from {left: -1200px;}
-  to {left: 0px;}
+  from {
+    left: -1200px;
+  }
+  to {
+    left: 0px;
+  }
 }
 
 @-moz-keyframes slideright {
-  from {left: -1200px;}
-  to {left: 0px;}
+  from {
+    left: -1200px;
+  }
+  to {
+    left: 0px;
+  }
 }
-  
+
 span {
   color: rgb(250, 30, 87);
   font-weight: heavy;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .sub-title {
@@ -148,8 +119,8 @@ html {
   -webkit-animation: slideright 1s 1;
   -moz-animation: slideright 1s 1; */
   color: white;
-  letter-spacing: 4px; 
-  font-family: 'Fira Sans', sans-serif; 
+  letter-spacing: 4px;
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
   font-size: 40px;
   /* margin-bottom: -80%;
@@ -161,20 +132,14 @@ html {
   vertical-align: middle;
 } */
 
-    /* @keyframes slideleft {
+/* @keyframes slideleft {
     from {right: -1200px;}
     to {right: 0px;}
   } */
 
-
-
 /*  ===================================================================================
     Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch
     ===================================================================================  */
-
-
-   /* !!!!!  DONE FOR NOW !!!!!! */
-
 
 @media screen and (max-width: 1440px) {
   .software-title {
@@ -191,10 +156,10 @@ html {
   }
 
   .main-nav a {
-    padding: .30em 4em;
+    padding: 0.3em 4em;
     font-size: 28px;
-    font-weight: 400; 
-    letter-spacing: 2px; 
+    font-weight: 400;
+    letter-spacing: 2px;
   }
 
   .sub-title {
@@ -206,34 +171,35 @@ html {
   }
 }
 
-
 /*  ===================================================================================
     Apple MacBook Pro Retina 15-inch (Mid 2014)
     ===================================================================================  */
-
 
 /*  ===================================================================================
     Apple Macbook Pro 13inch ( Mid 2009 - 2012 )
     ===================================================================================  */
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
   .software-title {
-    /* margin-top: 255px; */
+    margin-top: 12%;
     color: white;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     font-size: 32px;
   }
 
   .main-nav a {
     /* padding: .30em 3.60em; */
-    font-size: 24px;
-    width: 50%;
+    font-size: 20px;
+    width: 37%;
+    height: 20px;
+    text-align: center;
+    align-items: center;
   }
 
   .sub-title {
     font-size: 38px;
   }
-
+ 
   div.sub-title {
     font-size: 185%;
   }
@@ -243,23 +209,20 @@ html {
   }
 }
 
-
 /*  ===================================================================================
     Ipad Pro
     ===================================================================================  */
 
 @media screen and (max-width: 1024px) {
-  /* .software-title {
+  .software-title {
     margin-top: 400px;
-  
-    } */
+  }
 
   .main-nav a {
-    padding: .25em 3.5em;
+    padding: 0.25em 3.5em;
     font-size: 22px;
-    font-weight: 400; 
-    letter-spacing: 2px; 
-    
+    font-weight: 400;
+    letter-spacing: 2px;
   }
 
   /* .main-nav {
@@ -280,34 +243,35 @@ html {
 }
 
 .software-title {
-  /* font-size: 150%; */
-  /* margin-top: 200px; */
+  font-size: 175%;
+  /* margin-top: 400px; */
 }
-
-
 
 /*  ===================================================================================
     Ipad
     ===================================================================================  */
 
 @media screen and (max-width: 768px) {
+  /* .software-title {
+    font-size: 175%;
+    margin-top: 275px;
+  } */
+
   .software-title {
-    margin-top: 175px;
-    font-size: 22px;
-    letter-spacing: 1.5px; 
-    
+    font-size: 175%;
+    margin-top: 300px;
   }
 
-  .web-developer{
+  .web-developer {
     font-size: 48px;
     white-space: pre;
   }
 
   .main-nav a {
-    padding: .25em 2.5em;
+    padding: 0.25em 2.5em;
     font-size: 20px;
-    font-weight: 400; 
-    letter-spacing: 2px; 
+    font-weight: 400;
+    letter-spacing: 2px;
   }
 
   .sub-title {
@@ -315,109 +279,61 @@ html {
   }
 }
 
-
 /*  ===================================================================================
     Iphone 6/7/8 Plus
     ===================================================================================  */
 
-@media screen and (max-width: 414px)  {
-
+@media screen and (max-width: 414px) {
   .software-title {
     /* margin-top: 250px; */
     font-size: 22px;
-    letter-spacing: .5px; 
+    letter-spacing: 0.5px;
     /* margin-top: 35%; */
   }
-  /* .web-developer{
-    font-size: 36px;
-  } */
-
-  .main-nav a {
-
-box-shadow: 0px 12px 10px #26c8ce;
-    /* padding: .30em 8em;
-    width: 20px;
-    color: white;
-    justify-content: space-between;
-    font-size: 34px;
-
-    letter-spacing: 2px;   */
-
- 
-
-  }
-
-
 
   .sub-title {
     font-size: 20px;
-    letter-spacing: .5px; 
+    letter-spacing: 0.5px;
   }
 
   div.sub-title {
     font-size: 20px;
   }
 
-/* div.software-title {
+  .software-title {
     font-size: 18px;
-    margin-top: -250px;
-  
-    
-  } */
+    margin-top: 175px;
+  }
 
   span.web-developer {
     font-size: 100%;
     white-space: pre;
   }
-
-  /* .main-nav ul {
-    margin-top: 10px;
-     
-  } */
-
-/* span.web-developer {
-    font-size: 28px;
-  }  */
-
-
 }
-
 
 /*  ===================================================================================
     Iphone X
     ===================================================================================  */
 
 @media screen and (max-width: 375px) {
-
   .main-nav a {
-    padding: .25em 2.5em;
+    padding: 0.25em 2.5em;
     font-size: 18px;
-    font-weight: 400; 
-    letter-spacing: 2px; 
+    font-weight: 400;
+    letter-spacing: 2px;
   }
   .software-title {
-    /* margin-top: 250px; */
+    margin-top: 37%;
     font-size: 18px;
-    letter-spacing: .5px; 
-    
-      /* margin-top: 55%; */
-    }
-  
-  .web-developer{
+    letter-spacing: 0.5px;
+  }
+
+  .web-developer {
     font-size: 36px;
   }
 
   .sub-title {
     font-size: 20px;
-    letter-spacing: .5px; 
+    letter-spacing: 0.5px;
   }
-  /* div.software-title {
-    font-size: 26px;
-  }
-  
-  span.web-developer {
-    font-size: 38px;
-  } */
-
-
 }

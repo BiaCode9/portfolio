@@ -1,29 +1,5 @@
-#VECTORS {
-  animation: bounce 0.7s linear;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  transform-origin: center;
-
-  /* animation: float .8s ease-in-out infinite alternate; */
-}
-
-@keyframes bounce {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(0, -30px, 0);
-  }
-}
-
-/* @keyframes float {
-  from { transform: rotateX(0deg);} 
-    to { transform: rotateX(20deg);}
-} */
-
 .thanks {
   font-size: 24px;
-  /* font-weight: 300;  */
   letter-spacing: 2px;
   font-family: "Raleway", sans-serif;
   margin: 50px 50px;
@@ -38,18 +14,15 @@
   font-weight: bold;
   letter-spacing: 2px;
   font-family: "Raleway", sans-serif;
-  /* text-shadow: 0px 0px 10px rgba(243, 237, 237, 0.7); */
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
     0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 span.asap-span {
   font-weight: bold;
-  /* margin-right: 35%; */
   font-size: 32px;
   font-style: oblique;
   text-shadow: 0 22px 22px rgb(218, 139, 139);
-  /* margin-top: -20px;  */
 }
 
 span.anytime {
@@ -71,40 +44,27 @@ span.anywhere-span {
 .contact-container {
   display: flex;
   flex-direction: column;
-  /* position: fixed; */
-  /* align-items: left; */
-  /* justify-content: space-evenly; */
   border: 2px solid black;
   margin: 0 auto;
   justify-content: center;
-  /* width: 75%; */
   border-radius: 4px;
   height: 1300px;
   align-content: flex-start;
   max-width: 100%;
-  /* box-sizing: border-box; */
   background: url(https://i.imgur.com/YJGJ53d.jpg);
-  /* background-repeat: no-repeat;  */
   background-size: 100%;
   background-size: cover;
-  /* background-size: contain; */
 }
 
 .link-list {
-  /* 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;  */
   margin: 0px 60px 0px 60px;
-  /* margin: 0 auto; */
+  object-fit: contain;
 }
 
 .contact-box {
   display: flex;
-  /* background-image: url("https://i.imgur.com/8LA4tO7.jpg"); */
   justify-content: center;
   justify-content: space-between;
-  /* margin-top: 75px; */
   padding: 20px;
 }
 
@@ -129,18 +89,9 @@ span.anywhere-span {
   }
 }
 
-/* div.contact-form {
-  height: 70%;
-} */
-
-/* div.contact-form {
-  margin: 0 auto;
-}  */
-
 div.contact-form {
   width: 50%;
   border-radius: 50%;
-  /* margin-bottom: 10%; */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -149,71 +100,24 @@ div.contact-form {
   align-content: center;
   align-items: center;
   height: 50%;
-
-  /* display: inline; */
-  /* margin-left: 20px; */
-  /* display: flex;
-  justify-items: center;
-  align-items: center; */
-  /* margin-right: 50%; */
 }
+
 .contact-form {
   border: solid black;
   padding: 40px;
   padding-top: 30px;
   border-radius: 20px;
-  /* border-radius: 60px 60px 10px 10px; */
   box-shadow: 0 0 17px 6px rgba(0, 0, 0, 1);
-  /* background-color: rgba(243, 223, 223, 0.80); */
-  /* height: 60%; */
-  /* width: 35%; */
   animation: blink 1s linear infinite;
   -webkit-animation: blink 1.25s infinite;
   -moz-animation: blink 1.25s infinite;
   background: radial-gradient(ellipse, white 5%, transparent 10%),
     rgba(243, 223, 223, 0.7);
-  /* border-radius: 30%; */
 }
-/* .contact-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  align-content: center;
-  border-bottom: 1px solid #453886;
-  color: #42cee0;
-  padding-bottom: .25em;
-  text-decoration: none;
-  list-style: none;
-  width: 100%;
-  
-}
-
-.contact-box a:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-  background-position: bottom;
-  background-repeat: repeat-x;
-  background-size: 20%;
-  border-bottom: 0;
-  padding-bottom: .3em;
-  text-decoration: none;
-} */
 
 .pin-drop {
-  /* height: 120px; */
   width: 20%;
-  /* margin: 20px 20px; */
-
-  /* margin-top: 80px; */
-  /* display: flex;
- align-items: center; */
 }
-
-/* .blinklight {
-  animation: blink 1.25s infinite;
--webkit-animation: blink 1.25s infinite;
--moz-animation: blink 1.25s infinite;
-background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223, 223, 0.80);
-} */
 
 .icon-email {
   height: 65px;
@@ -251,28 +155,6 @@ background: radial-gradient(ellipse, white 5%, transparent 10%),  rgba(243, 223,
   opacity: 0.7;
 }
 
-/* ul.contact-box {
-  padding: 0px;
-} */
-
-.get-asap-full {
-  /* margin-top: 100px; */
-}
-
-/* position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 50%;
-z-index: -1;
-object-fit: cover;
-overflow: hidden;
-display: flex;
-}
-
-
- */
-
 .contact-box a:link {
   color: black;
 }
@@ -282,50 +164,23 @@ display: flex;
 
 div.svg {
   margin-left: 400px;
-  /* margin-bottom: 4000px; */
 }
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px) {
   div.svg {
     margin-right: 400px;
-    /* margin-bottom: 4000px; */
     z-index: 1;
   }
-
-  /* .link-list {
-    margin: 0px 60px 0px 60px;
-    max-width: 100%;
-  
-  } */
 
   .contact-container {
     border-radius: 4px;
     height: 1300px;
     height: 1300px;
     max-width: 100%;
-    /* box-sizing: border-box; */
-    /* background-repeat: no-repeat;  */
     background-size: 75%;
     background-size: cover;
   }
-
-  /* .contact-form {
-    border: solid black;
-    margin-bottom: 35px;
-    height: 55%;
-    margin-top: -350px;
-    margin-bottom: -350px;
-    padding-bottom: 40px;
-  } */
-
-  /* .thanks {
-    font-size: 22px;
-    justify-content: center;
-    text-align: center;
-    margin-top: -20px;
-    margin-bottom: -10px;   
-  } */
 
   .get-back-span {
     color: black;
@@ -343,22 +198,12 @@ div.svg {
     height: 850px;
   }
 
-  /* ul.contact-box {
-     margin-top: -40px;
-  } */
-
-  /* .thanks {
-    font-size: 22px;
-    margin-bottom: 20px;
-  } */
-
   .contact-me-span {
     font-size: 34px;
   }
 
   .anytime {
     font-size: 30px;
-    /* margin-right: 120px; */
     color: black;
   }
 
@@ -371,13 +216,7 @@ div.svg {
     width: 100px;
     margin-top: -40px;
     margin-left: 20px;
-    /* display: flex;
-    align-items: center; */
   }
-
-  /* .get-asap-full {
-    margin-top: 50px;
-  } */
 }
 
 /* Macbook Pro 13inch (Mid 2009 - 2012) */
@@ -385,22 +224,6 @@ div.svg {
   .contact-form {
     width: 70%;
   }
-
-  /* img.pin-drop {
-    margin-top: 20px;
-
-  } */
-  /* .link-list {
-
-    margin: 0px 60px 0px 60px;
-    max-width: 100%;
-  
-  } */
-
-  /* .contact-me-span {
-    font-size: 36px;
-     
-  } */
 }
 
 /* Ipad Pro */
@@ -409,11 +232,10 @@ div.svg {
     border-radius: 4px;
     height: 1800px;
     max-width: 100%;
-    /* box-sizing: border-box; */
-    /* background-repeat: no-repeat;  */
     background-size: 75%;
     background-size: cover;
   }
+
   div.contact-form {
     width: 70%;
   }
@@ -437,25 +259,13 @@ div.svg {
     margin-top: -40px;
   }
 
-  /* .thanks {
-      font-size: 18px;
-      margin-bottom: 70px;
-  
-    
-    } */
-
   .contact-me-span {
     font-size: 32px;
   }
 
   .anytime {
     font-size: 26px;
-    /* margin-right: 120px; */
     color: black;
-  }
-
-  span.anywhere-span {
-    /* margin-right: -20px; */
   }
 
   .pin-drop {
@@ -463,42 +273,17 @@ div.svg {
     width: 80px;
     margin-top: -40px;
     margin-left: 20px;
-    /* display: flex;
- align-items: center; */
   }
-
-  /* .icon-email, .icon-github, .icon-linkedin {
-  width: 40%;
-  height: 65%;
-}
-
-.icon-resume {
-  width: 55%;
-  height: 80%;
-    
-}  */
 }
 
 /* Ipad */
 @media screen and (max-width: 768px) {
-  /* .contact-form {
-    border: solid black;
-    margin-bottom: 35px;
-    margin-top: -350px;
-    margin-bottom: -350px;
-    padding-bottom: 40px;
-  } */
-
   .asap-span {
     font-size: 40px;
   }
   .link-list {
     margin: auto;
   }
-
-  /* li {
-    margin: auto;
-  } */
 }
 @media screen and (max-width: 414px) {
   div.contact-form {
@@ -517,33 +302,8 @@ div.svg {
 
 /* Iphone X */
 @media screen and (max-width: 375px) {
-  /* .contact-form {
-   
-   width: 96%;
-  } */
-
-  /* .pindrop {
-   width: 20%;
- } */
-
-  /* .link-list {
-   margin: auto;
- } */
-
-  /* .link-list {
-  margin: 0px;
-  max-width: 100%;
-
-} */
-
-  /* ul {
-   margin: auto;
- } */
-
   span.anytime {
     font-size: 28px;
-    /* margin-right: 15%; */
-    /* margin: 0 auto; */
     color: black;
     font-style: oblique;
   }
@@ -551,9 +311,6 @@ div.svg {
   span.anywhere-span {
     font-size: 28px;
     font-style: oblique;
-
-    /* padding-left: -40px; */
-    /* margin-left: -10px; */
   }
 
   .get-back-span {
@@ -568,27 +325,11 @@ div.svg {
     text-shadow: 0 22px 22px rgb(218, 139, 139);
   }
 
-  /* .thanks {
-    font-size: 16px;
-    margin-bottom: 20px;
-  } */
-
   img.pin-drop {
     margin-top: 80px;
   }
 
   .contact-me-span {
     font-size: 26px;
-    /* display: flex;
-    flex-wrap: wrap; */
   }
-
-  /* .contact-aa {
-    
-  } */
-
-  /* .contact-please {
-  display: flex;
-  flex-direction: column;
-  } */
 }

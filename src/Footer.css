@@ -5,28 +5,50 @@ footer {
   height: 50px;
   justify-content: center;
   text-align: center;
-  letter-spacing: 2px; 
-  font-family: 'Fira Sans', sans-serif; 
+  letter-spacing: 2px;
+  font-family: "Fira Sans", sans-serif;
   font-size: 18px;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: 50%;
   align-items: center;
-  /* width: 100%; */
 }
 
 div.svg {
-
-display: flex;
-justify-content: flex-end;
-
-  margin-left: 850px;
   margin-bottom: 230px;
 }
 
-/* .footer-div {
-  display: flex;
-  flex-direction: column;
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -30px, 0);
+  }
+}
+
+#VECTORS {
+  animation: bounce 0.7s linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  transform-origin: center;
+
+  /* animation: float .8s ease-in-out infinite alternate; */
+}
+
+
+/* @keyframes wave {
+  from { transform: rotateY(-20deg);} 
+    to { transform: rotateY(20deg);}
+} 
+
+
+#Hair {
+  animation: wave 0.7s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  transform-origin: top;
 } */
+
 
 .copyright {
   font-size: 18px;
@@ -35,68 +57,41 @@ justify-content: flex-end;
   border: solid black;
   width: 100%;
   background-color: black;
-  
 }
 
-
 /* Iphone X */
-@media screen and (max-width: 375px)  {
+@media screen and (max-width: 375px) {
   footer {
-  font-size: 12px;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 1440px) {
-div.svg {
-  margin-right: 400px;
-  margin-bottom: 130px;
-}
+  .svg {
+    margin-right: 400px;
+    margin-bottom: 130px;
+  }
 
-.footer-div {
-  width: 100%;
-  font-size: 18px;
-  color: white;
-  display: block;
-  border: solid black;
-  width: 100%;
-  background-color: black;
-  
-}
-
-.copyright {
-  font-size: 18px;
-  color: white;
-  display: block;
-  border: solid black;
-  width: 100%;
-  background-color: black;
-  /* margin-left: 500px; */
-  
-}
+  .footer-div {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    display: block;
+    border: solid black;
+    width: 100%;
+    background-color: black;
+  }
 }
 
 @media screen and (max-width: 1280px) {
-  div.svg {
+  .svg {
     margin-right: 600px;
     margin-bottom: 130px;
   }
-  /* .copyright {
-    font-size: 80%;
-   
-    
-    
-  } */
-
-}
-
-@media screen and (max-width: 1024px)  {
-  /* div.svg {
-    display: none;
-  } */
 }
 
 @media screen and (max-width: 768px) {
-  div.svg {
+  .svg {
     margin-right: 450px;
   }
 }
@@ -107,9 +102,8 @@ div.svg {
   } */
 }
 
-
 @media screen and (max-width: 375px) {
-/* .svg {
+  /* .svg {
   width: 75%;
 } */
 }

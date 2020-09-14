@@ -1,27 +1,21 @@
-
 .projects-name {
   font-size: 200%;
-  font-weight: 100; 
-  letter-spacing: 3px; 
-  font-family: 'Raleway', sans-serif; 
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-family: "Raleway", sans-serif;
   color: rgb(250, 30, 87);
   height: 0px;
   text-align: center;
   border: solid rgb(18, 67, 80);
-  text-shadow: 0px 8px 6px rgba(0,0,0,0.4),
-             0px 16px 26px rgba(0,0,0,0.1),
-             0px 28px 44px rgba(0,0,0,0.1);
-/* text-shadow: 16px 22px 11px  rgb(250, 30, 87); */
-
-/* text-shadow: 0px 0px 10px rgba(255,255,255,0.7); */
-
+  text-shadow: 0px 8px 6px rgba(0, 0, 0, 0.4), 0px 16px 26px rgba(0, 0, 0, 0.1),
+    0px 28px 44px rgba(0, 0, 0, 0.1);
 }
 
 .project-title {
   font-size: 200%;
-  font-weight: 300; 
-  letter-spacing: 3px; 
-  font-family: 'Raleway', sans-serif; 
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-family: "Raleway", sans-serif;
   color: white;
 }
 
@@ -33,23 +27,20 @@
   border: black;
   margin: 0 auto;
   height: auto;
- }
+}
 
-
- .all-projects { 
-  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
+.all-projects {
+  background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-
-
 .project-img {
   display: flex;
   padding: 15px;
-  margin: 0 45px;;
+  margin: 0 45px;
   border: solid 2px black;
   height: 500px;
   width: 500px;
@@ -92,26 +83,24 @@ a.button {
 }
 
 .mm-project-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  /* background:  rgb(80, 235, 235); */
-  transition: .5s;
-  transform: scale(.9);
+  transition: 0.5s;
+  transform: scale(0.9);
   z-index: -1;
 }
 
 .mm-project-container:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px  rgb(80, 235, 235);
+  box-shadow: 0 0 15px rgb(80, 235, 235);
 }
 
 .mm-project-container:hover {
-  /* color:  rgb(80, 235, 235); */
   box-shadow: 0 0 35px rgb(80, 235, 235);
   text-shadow: 0 0 15px rgb(80, 235, 235);
 }
@@ -147,57 +136,47 @@ a.button {
 }
 
 .amazon-project-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  /* background:  rgb(80, 235, 235); */
-  transition: .5s;
-  transform: scale(.9);
+  transition: 0.5s;
+  transform: scale(0.9);
   z-index: -1;
 }
 
 .amazon-project-container:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px  rgb(80, 235, 235);
+  box-shadow: 0 0 15px rgb(80, 235, 235);
 }
 
 .amazon-project-container:hover {
-  /* color:  rgb(80, 235, 235); */
   box-shadow: 0 0 35px rgb(80, 235, 235);
   text-shadow: 0 0 15px rgb(80, 235, 235);
 }
 
-
-/* .instabook-project-container:hover {
-  background-color: blue;
-  opacity: 1.0;
-} */
-
 .instabook-project-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  /* background:  rgb(80, 235, 235); */
-  transition: .5s;
-  transform: scale(.9);
+  transition: 0.5s;
+  transform: scale(0.9);
   z-index: -1;
 }
 
 .instabook-project-container:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px  rgb(80, 235, 235);
+  box-shadow: 0 0 15px rgb(80, 235, 235);
 }
 
 .instabook-project-container:hover {
-  /* color:  rgb(80, 235, 235); */
   box-shadow: 0 0 35px rgb(80, 235, 235);
   text-shadow: 0 0 15px rgb(80, 235, 235);
 }
@@ -213,35 +192,31 @@ a.button {
   width: 25%;
   text-align: center;
   justify-content: center;
-  background-repeat: no-repeat; 
-  /* background-size: 100%; */
+  background-repeat: no-repeat;
   background-attachment: fixed;
   border-radius: 25%;
   background-color: rgba(0, 0, 0, 0.25);
-
 }
 
 .instacart-project-container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  /* background:  rgb(80, 235, 235); */
-  transition: .5s;
-  transform: scale(.9);
+  transition: 0.5s;
+  transform: scale(0.9);
   z-index: -1;
 }
 
 .instacart-project-container:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px  rgb(80, 235, 235);
+  box-shadow: 0 0 15px rgb(80, 235, 235);
 }
 
 .instacart-project-container:hover {
-  /* color:  rgb(80, 235, 235); */
   box-shadow: 0 0 35px rgb(80, 235, 235);
   text-shadow: 0 0 15px rgb(80, 235, 235);
 }
@@ -249,22 +224,21 @@ a.button {
 .project-description {
   justify-content: center;
   text-align: center;
-  letter-spacing: 1px; 
-  font-family: 'Raleway', sans-serif; 
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   font-size: 20px;
   margin: 20px;
   color: white;
   line-height: 1.5;
   width: 75%;
-
 }
 
 .tech-description {
   justify-content: center;
   text-align: center;
-  letter-spacing: 1px; 
-  font-family: 'Raleway', sans-serif; 
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
   text-align: center;
   font-size: 18px;
   margin: 20px;
@@ -274,14 +248,8 @@ a.button {
 .buttons {
   display: flex;
   justify-content: center;
-  width: 85%;
- 
- 
-  /* padding-left: 35px; */
-  /* margin-left: 0px; */
-  /* width: 80%; */
-}
-
+  width: 85%
+};
 
 .project-url {
   margin-right: 20px;
@@ -291,14 +259,15 @@ a.button {
   border-radius: 5px;
   font-size: 18px;
   font-weight: bold;
-  /* box-shadow: 0 0px 18px rgb(36, 223, 236); */
   margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.project-url:hover {background-color: rgb(250, 30, 87)}
+.project-url:hover {
+  background-color: rgb(250, 30, 87);
+}
 
 .github-url {
   margin-left: 20px;
@@ -308,20 +277,24 @@ a.button {
   border-radius: 5px;
   font-size: 18px;
   font-weight: bold;
-  /* box-shadow: 0 12px 18px #999; */
   margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-    
-.github-url:hover {background-color: rgb(250, 30, 87)}
-     
-  
 
-.github-url, .projecturl a:link { color: blue; }
-.github-url, .projecturl a:visited { color: purple; }
+.github-url:hover {
+  background-color: rgb(250, 30, 87);
+}
 
+.github-url,
+.projecturl a:link {
+  color: blue;
+}
+.github-url,
+.projecturl a:visited {
+  color: purple;
+}
 
 /* Apple MacBook Pro 15-inch (Early 2006 - Mid 2012) AND Apple MacBook Air 13-inch */
 @media screen and (max-width: 1440px), screen and (max-height: 900px) {
@@ -332,105 +305,39 @@ a.button {
     -o-background-size: cover;
     background-size: cover;
   } */
-
-
-
-
 }
 
 /* Apple MacBook Pro 13-inch  */
 @media screen and (max-width: 1280px) {
-  /* .projects-name {
-    font-size: 34px;
-  }  */
-  /* .project-title {
-    margin-top: -35%;
-    
-  }   */
-
-  
-
   .project-img {
     padding: 15px;
-    margin: 0 45px;;
+    margin: 0 45px;
     height: 450px;
     width: 450px;
   }
-  
+
   .project-img-instacart {
     height: 450px;
     width: 450px;
   }
 
   .project-description {
-    letter-spacing: .2px; 
+    letter-spacing: 0.2px;
     font-size: 20px;
     margin: 20px;
     line-height: 1.2;
   }
 
-  .tech-description {  
-    letter-spacing: 1px; 
+  .tech-description {
+    letter-spacing: 1px;
     font-size: 18px;
     margin: 20px;
-    margin-bottom: -30px;  
+    margin-bottom: -30px;
   }
 }
-
-
-
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px) {
-
-
-  /* .all-projects { 
-    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
-
-/* 
-  .projects-name {
-    font-size: 32px;
-    letter-spacing: 3px; 
-  } */
-
-  /* .project-title {
-    margin-bottom: 45px;
-    font-size: 24px;
-    font-weight: 300; 
-    letter-spacing: 2px; 
-    }  */
-
-  /* div.buttons {
-  width: 85%;
- } */
-
-
-
-
-  .tech-description {
-    justify-content: center;
-    text-align: center;
-    letter-spacing: 1px; 
-    font-size: 18px;
-    margin: 20px;
-    margin-bottom: -30px; 
-  }
-
-  .project-description {
-    justify-content: center;
-    text-align: center;
-    letter-spacing: 1px; 
-    font-size: 20px;
-    margin: 20px;
-    margin-bottom: -10px;
-    line-height: 1.2;
-  }
-
   .project-img {
     height: 350px;
     width: 350px;
@@ -440,39 +347,21 @@ a.button {
     height: 350px;
     width: 350px;
   }
-
-  /* .all-projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-image: url(https://i.imgur.com/8MHUS6E.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
-    padding-top: 40px;
-    background-repeat: no-repeat;
-   } */
-
 }
 
 /* Ipad */
-@media screen and (max-width: 768px)
-/* , screen and (max-height: 1024px)   */
-{
-
-  .all-projects { 
-    background: black; 
+@media screen and (max-width: 768px) /*, screen and (max-height: 1024px) */ {
+  .all-projects {
+    background: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-  } 
+  }
   .instacart-project-container {
     border: 2px solid rgb(83, 199, 219);
     width: 55%;
     background-color: rgba(33, 175, 194, 0.25);
-    
-  
   }
 
   .mm-project-container {
@@ -483,86 +372,40 @@ a.button {
   }
 
   .instabook-project-container {
-   
     border: 2px solid rgb(83, 199, 219);
     width: 55%;
-    
+
     background-color: rgba(33, 175, 194, 0.25);
-  
+  }
+
+  .amazon-project-container {
+    border: 2px solid rgb(83, 199, 219);
+    width: 55%;
+    background-color: rgba(33, 175, 194, 0.25);
   }
 
   .project-title {
     font-size: 200%;
-    font-weight: 300; 
-    letter-spacing: 3px; 
-    font-family: 'Raleway', sans-serif; 
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: "Raleway", sans-serif;
     color: white;
     margin-top: 15px;
   }
 
-  /* .all-projects { 
-    background: black; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-  }  */
-/* 
-  .all-projects { 
-    background: black; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-  }  */
-
-  /* .all-projects { 
-    background: url(https://i.imgur.com/8MHUS6E.jpg) no-repeat center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
-  /* /* .projects-name {
-    font-size: 28px;
-    letter-spacing: 3px; 
-  } */
-
-  /* .project-title {
-    margin-bottom: 45px;
-    font-size: 22px;
-    font-weight: 300; 
-    letter-spacing: 2px; 
-    } */
-
-  /* div.buttons 
-  width: 100%;
-  padding: 25px;
- } */
-/* 
- .all-projects {
-    
-  image-rendering: pixelated;
-
-
- } */
-
-
   .tech-description {
     justify-content: center;
     text-align: center;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     font-size: 18px;
     margin: 20px;
-    margin-bottom: -30px; 
+    margin-bottom: -30px;
   }
 
   .project-description {
     justify-content: center;
     text-align: center;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     font-size: 20px;
     margin: 20px;
     margin-bottom: -10px;
@@ -578,177 +421,52 @@ a.button {
     height: 350px;
     width: 350px;
   }
-
-   /* .mm-project-container {
-    width: 40%;
-  }
-
-  .instabook-project-container {
-    width: 40%;
-  }
-
-  .instacart-project-container {
-    width: 40%;
-  } */
 }
 
-
 /* Iphone 6/7/8 Plus */
-@media screen and (max-width: 414px), 
-/* screen and (max-height: 736px)   */
-{
-
-
-  .all-projects { 
-    background: black; 
+@media screen and (max-width: 414px), /* screen and (max-height: 736px) */ {
+  .all-projects {
+    background: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-  } 
-
-  /* .mm-project-container {
-    width: 80%;
-  } */
-
-  /* div.mm-project-container {
-    margin-top: -800px;
-  } */
-
-  /* .instabook-project-container {
-    width: 55%;
   }
-
-  .instacart-project-container {
-    width: 55%;
-  } */
-  /* .all-projects {
-    
-    image-rendering: pixelated;
-
-  
-   } */
 
   div.buttons {
     width: 200px;
-
-   }
+  }
 }
-
 
 /* Iphone X */
-  @media screen and (max-width: 375px)
-  /* , screen and (max-height: 812px)   */
-  {
+@media screen and (max-width: 375px) /*, screen and (max-height: 812px) */ {
 
- /* html.all-projects {
-  background: black;
+  .project-img {
+    height: 250px;
+    width: 250px;
+  }
 
- } */
+  .project-img-instacart {
+    height: 250px;
+    width: 250px;
+  }
+
+  .project-description {
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 20px;
+    margin-bottom: -10px;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .tech-description {
+    font-size: 16px;
+  }
   
-
-    /* .projects-name {
-      font-size: 22px;
-      letter-spacing: 2px; 
-      margin-bottom: 100px;
-
-    
-    } */
-  
-    /* div.projects-name {
-       background-image: url(https://i.imgur.com/8MHUS6E.jpg);
-       background-color: rgb(80, 235, 235);
-    } */ 
-  
-  /* h1 {
-  background: linear-gradient(to bottom, #06090e, #16252f, #15414f, #06606b, #008080);
-  height: 200px;
-  
-  }  */
-
-  /* .project-title {
-    font-size: 26px;
-
-  } */
-  
-    .project-img {
-      height: 250px;
-      width: 250px;
-    }
-  
-    .project-img-instacart {
-      height: 250px;
-      width: 250px;
-    }
-  
-    /* .mm-project-container {
-      width: 80%;
-
-    } */
-
-    /* div.mm-project-container {
-      background: rgba(250, 30, 87, .25);
-    } */
-  
-    /* div.mm-project-container {
-      margin-top: -800px;
-    } */
-  
-    /* .instabook-project-container {
-      width: 55%;
-    }
-  
-    .instacart-project-container {
-      width: 55%;
-    } */
-  
-    /* div.buttons {
-      width: 200px;
-    
-     }
-   */
-     .project-description {
-      justify-content: center;
-      text-align: center;
-      letter-spacing: 1px; 
-      font-size: 16px;
-      margin: 20px;
-      margin-bottom: -10px;
-      line-height: 1.5;
-      width: 100%;
-    }
-  
-    .tech-description {
-      font-size: 16px;
-    }
-img.project-img {
-  margin: 0px;
-}
-
-/* div.mm-project-container {
-  margin-top: 100px;
-  padding: 0px;
-} */
-
-/* .all-projects {
- margin: 0 auto;
-} */
-
-/* .project-title {
-  margin-bottom: 45px;
-  font-size: 21px;
-  font-weight: 300; 
-  letter-spacing: 2px; 
-  } */
-
-/* div.instabook-project-container {
-  margin: 0px;
-  padding: 0px;
-} */
-
-/* div.instacart-project-container {
-  margin: 0px;
-  padding: 0px;
-} */
+  img.project-img {
+    margin: 0px;
+  }
 }
