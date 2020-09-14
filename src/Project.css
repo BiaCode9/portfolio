@@ -245,11 +245,11 @@ a.button {
   color: white;
 }
 
-.buttons {
+/* .buttons {
   display: flex;
   justify-content: center;
   width: 85%
-};
+};  */
 
 .project-url {
   margin-right: 20px;
@@ -270,17 +270,18 @@ a.button {
 }
 
 .github-url {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   background-color: rgb(80, 235, 235);
   height: 50px;
   width: 175px;
   border-radius: 5px;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .github-url:hover {
@@ -433,7 +434,7 @@ a.button {
     background-size: cover;
   }
 
-  div.buttons {
+  .buttons {
     width: 200px;
   }
 }
@@ -465,7 +466,7 @@ a.button {
   .tech-description {
     font-size: 16px;
   }
-  
+
   img.project-img {
     margin: 0px;
   }
