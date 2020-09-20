@@ -16,13 +16,13 @@ class Project extends Component {
               <div className="project-title">
                 <h2>InstaBook</h2>
               </div>
-              <div>
+              {/* <div className='img-container'> */}
                 <img
                   className="project-img"
                   alt="instabook-app"
                   src="https://i.imgur.com/j18uPq7.png"
                 ></img>
-              </div>
+              {/* </div> */}
               <div className="project-description">
                 <p>
                   InstaBook is a real-time job post and search platform for
@@ -58,13 +58,13 @@ class Project extends Component {
               <div className="project-title">
                 <h2>Amazon</h2>
               </div>
-              <div>
+              {/* <div className='img-container'> */}
                 <img
                   className="project-img"
                   alt="amazon-clone"
                   src="https://i.imgur.com/SmvjiEO.png"
                 ></img>
-              </div>
+              {/* </div> */}
               <div className="project-description">
                 <p>
                   This is a full-stack clone of Amazon's website. A
@@ -99,13 +99,13 @@ class Project extends Component {
               <div className="project-title">
                 <h2>InstaCart-Costco</h2>
               </div>
-              <div>
+              {/* <div className='img-container'> */}
                 <img
                   className="project-img-instacart"
                   alt="instacart-clone-app"
                   src="https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif"
                 ></img>
-              </div>
+              {/* </div> */}
               <div className="project-description">
                 <p>
                   A re-creation of the Instacart-Costco website and mobile
@@ -141,13 +141,13 @@ class Project extends Component {
               <div className="project-title">
                 <h2>Music Trivia Mayhem</h2>
               </div>
-              <div>
+              {/* <div className='img-container'> */}
                 <img
                   className="project-img"
                   alt="music-app"
                   src="https://i.imgur.com/gIFT77p.png"
                 ></img>
-              </div>
+              {/* </div> */}
               <div className="project-description">
                 <p>
                   Music Triva Mayhem is a music trivia website that challenges

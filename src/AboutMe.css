@@ -77,7 +77,7 @@ div.description {
     margin-top: 20px;
   }
 
-  .description {
+  div.description {
     width: 50%;
     letter-spacing: 1px;
     font-family: "Fira Sans", sans-serif;
@@ -127,7 +127,7 @@ div.description {
 /* Apple Macbook Pro 13inch (Mid 2009 - Mid 2012) */
 @media screen and (max-width: 1280px), screen and (max-height: 800px) {
 
-   .description {
+   div.description {
     max-width: 50%;
     font-size: 24px;
   }
@@ -155,7 +155,7 @@ div.description {
     margin-bottom: 25px;
   }
 
-  .description {
+  div.description {
     width: 70%;
     letter-spacing: 1px;
     font-family: "Fira Sans", sans-serif;
@@ -170,6 +170,11 @@ div.description {
 
 /* Ipad */
 @media screen and (max-width: 768px) {
+
+div.description {
+  width: 75%;
+}
+
   /* .name {
     margin-top: -900px;
   } */
@@ -264,7 +269,7 @@ div.description {
     letter-spacing: 0.5px;
   }
   div.description {
-    width: 75%;
+    width: 85%;
     letter-spacing: 1px;
     font-size: 16px;
     line-height: 1.25;
