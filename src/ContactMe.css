@@ -8,6 +8,13 @@
   text-shadow: 0 22px 22px rgb(218, 139, 139);
 }
 
+.list {
+  display: flex;
+  object-fit: contain;
+  max-width: 100%;
+}
+
+
 .contact-me-span {
   font-size: 42px;
   color: rgb(250, 30, 87);
@@ -58,7 +65,6 @@ span.anywhere-span {
 
 .link-list {
   margin: 0px 60px 0px 60px;
-  object-fit: contain;
 }
 
 .contact-box {
@@ -90,7 +96,7 @@ span.anywhere-span {
 }
 
 div.contact-form {
-  width: 50%;
+  width: 70%;
   border-radius: 50%;
   margin: 0 auto;
   display: flex;
@@ -100,6 +106,7 @@ div.contact-form {
   align-content: center;
   align-items: center;
   height: 50%;
+  
 }
 
 .contact-form {
@@ -116,7 +123,7 @@ div.contact-form {
 }
 
 .pin-drop {
-  width: 20%;
+  width: 15%;
 }
 
 .icon-email {
@@ -183,14 +190,23 @@ div.svg {
     z-index: 1;
   }
 
-  .contact-container {
+  /* .contact-box {
+    object-fit: contain;
+    max-width: 75%;
+  } */
+
+  /* .contact-form {
+    max-width: 70%;
+  } */
+
+  /* .contact-container {
     border-radius: 4px;
     height: 1300px;
     height: 1300px;
     max-width: 100%;
     background-size: 75%;
     background-size: cover;
-  }
+  } */
 
   .get-back-span {
     color: black;
@@ -205,7 +221,8 @@ div.svg {
   }
 
   div.contact-container {
-    height: 850px;
+    height: 950px;
+    object-fit: contain;
   }
 
   .contact-me-span {
@@ -231,24 +248,39 @@ div.svg {
 
 /* Macbook Pro 13inch (Mid 2009 - 2012) */
 @media screen and (max-width: 1280px) {
-  .contact-form {
+  /* .contact-form {
     width: 70%;
-  }
+  }  */
+    /* .contact-box {
+    max-width: 70%;
+    object-fit: contain;
+  }  */
 }
 
 /* Ipad Pro */
 @media screen and (max-width: 1024px) {
-  .contact-container {
+  /* .contact-container {
     border-radius: 4px;
     height: 1800px;
     max-width: 100%;
     background-size: 75%;
     background-size: cover;
+  } */
+
+  /* div.contact-box {
+    max-width: 70%;
+    object-fit: contain;
+  } */
+
+  .link-list {
+    margin: 0px 30px 0px 30px;
+  }
+  
+  ul.list {
+    margin-top: 20px;
+    padding: 0px;
   }
 
-  div.contact-form {
-    width: 70%;
-  }
   .get-back-span {
     color: black;
     font-size: 22px;
@@ -261,13 +293,13 @@ div.svg {
     text-shadow: 0 22px 22px rgb(218, 139, 139);
   }
 
-  div.contact-container {
+  /* div.contact-container {
     height: 850px;
-  }
+  } */
 
-  ul.contact-box {
+  /* ul.contact-box {
     margin-top: -40px;
-  }
+  } */
 
   .contact-me-span {
     font-size: 32px;
@@ -292,7 +324,16 @@ div.svg {
     font-size: 40px;
   }
   .link-list {
-    margin: auto;
+    margin: 0px 25px 0px 25px;
+  }
+  
+  ul.list {
+    margin-top: 20px;
+    padding: 0px;
+  }
+
+  img.pin-drop {
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 414px) {
@@ -308,8 +349,15 @@ div.svg {
     color: black;
     font-style: oblique;
   }
+
+  .link-list {
+    margin: auto;
 }
 
+img.pin-drop {
+  margin-top: 10px;
+}
+}
 /* Iphone X */
 @media screen and (max-width: 375px) {
   span.anytime {
@@ -336,10 +384,14 @@ div.svg {
   }
 
   img.pin-drop {
-    margin-top: 80px;
+    margin-top: 10px;
   }
 
   .contact-me-span {
     font-size: 26px;
+  }
+
+  .link-list {
+    margin: auto;
   }
 }
