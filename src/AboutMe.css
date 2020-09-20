@@ -229,11 +229,28 @@ div.description {
     height: 200px;
     width: 200px;
   }
-  .description {
+  div.description {
     width: 75%;
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 1;
+  }
+
+  .bianca {
+    font-size: 40px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  div.title {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+
+  .fs-dev {
+    font-size: 28px;
   }
 }
 
@@ -252,4 +269,47 @@ div.description {
     font-size: 16px;
     line-height: 1.25;
   }
+
+  .bianca {
+    font-size: 40px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  div.title {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+
+  .fs-dev {
+    font-size: 28px;
+  }
 }
+
+/* Iphone 5/SE */
+@media screen and (max-width: 320px) {
+
+  .bianca {
+    font-size: 33px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+}
+/* 
+  .title {
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+  div.description {
+    width: 75%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 1.25;
+  } */
+

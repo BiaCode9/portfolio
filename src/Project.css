@@ -252,7 +252,7 @@ a.button {
 };  */
 
 .project-url {
-  margin-right: 20px;
+  /* margin-right: 20px; */
   background-color: rgb(80, 235, 235);
   height: 50px;
   width: 175px;
@@ -348,6 +348,10 @@ a.button {
     height: 350px;
     width: 350px;
   }
+
+  div.buttons {
+    margin: auto;
+  }
 }
 
 /* Ipad */
@@ -437,6 +441,19 @@ a.button {
   .buttons {
     width: 200px;
   }
+  .buttons {
+    margin-top: 10px;
+  }
+
+  .project-url {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .github-url {
+    margin: auto;
+  }
 }
 
 /* Iphone X */
@@ -469,5 +486,37 @@ a.button {
 
   img.project-img {
     margin: 0px;
+  }
+
+  div.buttons {
+    margin: auto;
+  }
+}
+
+
+/* Iphone 5/SE */
+@media screen and (max-width: 320px) {
+
+  .projects-name {
+    font-size: 25px;
+  }
+
+  /* div.buttons {
+    
+  } */
+
+  .project-title {
+    font-size: 22px;
+
+  }
+
+
+
+  .project-url {
+    margin-right: 30px;
+  }
+
+  .github-url {
+    margin-right: 30px;
   }
 }

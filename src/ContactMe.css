@@ -395,3 +395,39 @@ img.pin-drop {
     margin: auto;
   }
 }
+
+/* Iphone X */
+@media screen and (max-width: 320px) {
+  span.anytime {
+    font-size: 26px;
+    color: black;
+    font-style: oblique;
+    margin: auto;
+    padding: 10px;
+  }
+
+  span.anywhere-span {
+    font-size: 28px;
+    font-style: oblique;
+    padding: 10px;
+
+  }
+
+
+  img.pin-drop {
+    margin-top: 10px;
+  }
+
+  .contact-me-span {
+    font-size: 26px;
+  }
+
+  .link-list {
+    width: 75%;
+  
+  }
+
+  div.contact-box {
+    padding: 0px;
+  }
+}
