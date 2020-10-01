@@ -56,7 +56,7 @@ class Project extends Component {
 
             <div className="amazon-project-container">
               <div className="project-title">
-                <h2>Amazon</h2>
+                <h2>Amazon Clone</h2>
               </div>
               {/* <div className='img-container'> */}
                 <img
