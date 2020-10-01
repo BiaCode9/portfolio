@@ -60,6 +60,17 @@ class SkillsTools extends Component {
                 src="https://i.imgur.com/4QHOWz0.png"
               ></img>
             </li>
+
+            <li>
+              VISUAL STUDIO CODE
+              <img
+                className="icon-vscode"
+                alt="icon-vscode"
+                src="https://i.imgur.com/7gSzVgs.png"
+              ></img>
+            </li>
+
+
             <li>
               RUBY
               <img
