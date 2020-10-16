@@ -17,11 +17,11 @@ class Project extends Component {
                 <h2>InstaBook</h2>
               </div>
               {/* <div className='img-container'> */}
-                <img
-                  className="project-img"
-                  alt="instabook-app"
-                  src="https://i.imgur.com/j18uPq7.png"
-                ></img>
+              <img
+                className="project-img"
+                alt="instabook-app"
+                src="https://i.imgur.com/j18uPq7.png"
+              ></img>
               {/* </div> */}
               <div className="project-description">
                 <p>
@@ -59,17 +59,17 @@ class Project extends Component {
                 <h2>Amazon Clone</h2>
               </div>
               {/* <div className='img-container'> */}
-                <img
-                  className="project-img"
-                  alt="amazon-clone"
-                  src="https://i.imgur.com/SmvjiEO.png"
-                ></img>
+              <img
+                className="project-img"
+                alt="amazon-clone"
+                src="https://i.imgur.com/SmvjiEO.png"
+              ></img>
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  This is a full-stack clone of Amazon's website. A
-                  project I completed on my own implementing MERN stack with
-                  Stripe functionality.
+                  This is a full-stack clone of Amazon's website. A project I
+                  completed on my own implementing MERN stack with Stripe
+                  functionality.
                 </p>
               </div>
               <div className="tech-description">
@@ -80,7 +80,7 @@ class Project extends Component {
               </div>
               <div className="buttons">
                 <div className="project-url">
-                  <a href="https://clone-79dcf.web.app" class="button">
+                  <a href="https://clone-79dcf.web.app/" class="button">
                     Website
                   </a>
                 </div>
@@ -100,11 +100,11 @@ class Project extends Component {
                 <h2>InstaCart-Costco</h2>
               </div>
               {/* <div className='img-container'> */}
-                <img
-                  className="project-img-instacart"
-                  alt="instacart-clone-app"
-                  src="https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif"
-                ></img>
+              <img
+                className="project-img-instacart"
+                alt="instacart-clone-app"
+                src="https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif"
+              ></img>
               {/* </div> */}
               <div className="project-description">
                 <p>
@@ -142,11 +142,11 @@ class Project extends Component {
                 <h2>Music Trivia Mayhem</h2>
               </div>
               {/* <div className='img-container'> */}
-                <img
-                  className="project-img"
-                  alt="music-app"
-                  src="https://i.imgur.com/gIFT77p.png"
-                ></img>
+              <img
+                className="project-img"
+                alt="music-app"
+                src="https://i.imgur.com/gIFT77p.png"
+              ></img>
               {/* </div> */}
               <div className="project-description">
                 <p>
