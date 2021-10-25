@@ -83,7 +83,7 @@ class Project extends Component {
                   <a href="https://clone-79dcf.web.app/" class="button">
                     Website
                   </a>
-                </div>
+                </div>  
                 <div className="github-url">
                   <a
                     href="https://github.com/BiaCode9/amazon-clone"
