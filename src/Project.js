@@ -137,7 +137,7 @@ class Project extends Component {
               </div>
             </div>
 
-            {/* <div className="mm-project-container">
+            <div className="mm-project-container">
               <div className="project-title">
                 <h2>Music Trivia Mayhem</h2>
               </div>
@@ -178,7 +178,7 @@ class Project extends Component {
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>
           </section>
         </div>
       </>
