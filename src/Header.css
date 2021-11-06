@@ -114,11 +114,25 @@ html {
   scroll-behavior: smooth;
 }
 
+/* .software-title {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: heavy;
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 55px;
+  position: relative;
+  animation: slideright 1s 1;
+  -webkit-animation: slideright 1s 1;
+  -moz-animation: slideright 1s 1;
+  margin-top: 20%;
+} */
+
 .sub-title {
   /* animation: slideright 1s 1;
   -webkit-animation: slideright 1s 1;
   -moz-animation: slideright 1s 1; */
-  color: white;
+  color: #f5f0f0;
   letter-spacing: 4px;
   font-family: "Fira Sans", sans-serif;
   text-align: center;
@@ -126,20 +140,17 @@ html {
   /* margin-bottom: -80%;
    */
 }
-/* 
+
 .titles {
-  display: table-cell;
   vertical-align: middle;
-} */
+}
 
 /* @keyframes slideleft {
     from {right: -1200px;}
     to {right: 0px;}
   } */
 
-
-
-  /* @media screen and (max-width: 2048px) {
+/* @media screen and (max-width: 2048px) {
     div.software-title {
       font-size: 300%;
     
@@ -197,6 +208,11 @@ html {
     font-size: 32px;
   }
 
+  .titles {
+    vertical-align: middle;
+    /* margin-top: 12%; */
+  }
+
   .main-nav a {
     /* padding: .30em 3.60em; */
     font-size: 20px;
@@ -209,7 +225,7 @@ html {
   .sub-title {
     font-size: 38px;
   }
- 
+
   div.sub-title {
     font-size: 185%;
   }
