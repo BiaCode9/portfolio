@@ -99,8 +99,9 @@ li {
 }
 
 .icon-mongo {
-  width: 75px;
-  border-radius: 60%;
+  width: 125px;
+  height: 125px;
+  /* border-radius: 60%; */
 }
 
 .icon-postman {
