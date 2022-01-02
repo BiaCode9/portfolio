@@ -187,6 +187,14 @@ class SkillsTools extends Component {
                 src="https://i.imgur.com/PCk4lh6.jpg"
               ></img>
             </li>
+            <li>
+              WORDPRESS
+              <img
+                className="icon-wordpress"
+                alt="icon-wordpress"
+                src="https://i.imgur.com/CuNJZEb.png"
+              ></img>
+            </li>
           </ul>
         </div>
       </div>

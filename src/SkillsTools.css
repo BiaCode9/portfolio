@@ -158,6 +158,12 @@ li {
   width: 125px;
 }
 
+.icon-wordpress {
+  height: 100px;
+  width: 100px;
+  margin-top: -15px;
+}
+
 .skills-tools-title {
   font-size: 22px;
   font-weight: 300;
