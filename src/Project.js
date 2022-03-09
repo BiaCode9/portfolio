@@ -137,6 +137,44 @@ class Project extends Component {
               </div>
             </div>
 
+            <div className="instacart-project-container">
+              <div className="project-title">
+                <h2>Restaurant Website Demo</h2>
+              </div>
+              {/* <div className='img-container'> */}
+              <img
+                className="project-img-instacart"
+                alt="instacart-clone-app"
+                src="https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif"
+              ></img>
+              {/* </div> */}
+              <div className="project-description">
+                <p>
+                  A full-package restaurant website demo from scratch which is fully customizable from content to design to development.  Includes high-resolution photos representing the quality of both food and atmosphere, engaging descriptions, unique attention-grabbing elements that flow throughout the page, original menu or can import your own, theme to match your restaurant's style, online ordering, contact information and reservations.  I am here to bring your vision to life and customers through your door.
+                </p>
+              </div>
+              <div className="tech-description">
+                <p>
+                  Wordpress | Bluehost | Google Analytics | Search Engine Optimization (SEO) | Jetpack Security
+                </p>
+              </div>
+              <div className="buttons">
+                <div className="project-url">
+                  <a href="https://yourwebsitehere.biz" class="button">
+                    Website
+                  </a>
+                </div>
+                {/* <div className="github-url">
+                  <a
+                    href="https://yourwebsitehere.biz"
+                    class="button"
+                  >
+                    Github
+                  </a>
+                </div> */}
+              </div>
+            </div>
+
             <div className="mm-project-container">
               <div className="project-title">
                 <h2>Music Trivia Mayhem</h2>
