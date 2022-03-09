@@ -137,15 +137,15 @@ class Project extends Component {
               </div>
             </div>
 
-            <div className="instacart-project-container">
+            <div className="restaurant-demo-container">
               <div className="project-title">
                 <h2>Restaurant Website Demo</h2>
               </div>
               {/* <div className='img-container'> */}
               <img
-                className="project-img-instacart"
-                alt="instacart-clone-app"
-                src="https://media.giphy.com/media/MF1XrtS1F0YrC21R3K/giphy.gif"
+                className="project-img"
+                alt="restaurant-demo"
+                src="https://i.imgur.com/cXKZjGm.png"
               ></img>
               {/* </div> */}
               <div className="project-description">
