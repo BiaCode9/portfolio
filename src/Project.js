@@ -110,7 +110,7 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  A full-package restaurant website demo from scratch which is fully customizable from content to design to development.  Includes high-resolution photos representing the quality of both food and atmosphere, engaging descriptions, unique attention-grabbing elements that flow throughout the page, original menu or can import your own, theme to match your restaurant's style, online ordering, contact information and reservations.  I am here to bring your vision to life and customers through your door.
+                  A full-package restaurant website demo from scratch that is fully customizable from content to design to development.  Includes high-resolution photos representing the quality of both food and atmosphere, engaging descriptions, unique attention-grabbing elements that flow throughout the page, original menu or can import your own, theme to match your restaurant's style, online ordering, contact information and reservations.  I am here to bring your vision to life and customers through your door.
                 </p>
               </div>
               <div className="tech-description">
