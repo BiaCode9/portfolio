@@ -8466,7 +8466,7 @@
     "is-wsl" "^2.1.1"
 
 "openssl@^1.1.0":
-  "integrity" "sha1-cvklV37QyZUxMG+E0RU8oQvTrv0="
+  "integrity" "sha512-ZT9S+NRK1kFVct2mwZUO2uWKkruVZuDg5g4gpXZYXgC+QUMsMaxbAGlnwrH6kt8QoWr+58HRkFcSw24NHytXzA=="
   "resolved" "https://registry.npmjs.org/openssl/-/openssl-1.1.0.tgz"
   "version" "1.1.0"
   dependencies:
