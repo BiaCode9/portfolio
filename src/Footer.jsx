@@ -8,7 +8,7 @@ class Footer extends Component {
 
       <footer>
         {/* <div className="footer-div"> */}
-        {/* <h1 className="copyright">Copyright © 2020 Bianca Biagioni</h1> */}
+        {/* <h1 className="copyright">Copyright © 2022 Bianca Biagioni</h1> */}
 
         {/* </div>  */}
 
