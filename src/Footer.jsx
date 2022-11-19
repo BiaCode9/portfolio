@@ -12,7 +12,7 @@ class Footer extends Component {
 
         {/* </div>  */}
 
-        {/* <h1 className="copyright">Copyright © 2020 Bianca Biagioni</h1> */}
+        {/* <h1 className="copyright">Copyright © 2022 Bianca Biagioni</h1> */}
         <svg width="1135" height="710" viewBox="0 0 1135 710" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g id="undraw_destinations_fpv7 1" clip-path="url(#clip0)">
             <g id="Extra">
