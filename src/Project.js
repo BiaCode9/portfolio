@@ -149,7 +149,7 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, and social media connection.  A contact form is provided which directly connects to a CRM platform automatically capturing leads and enabling automated e-mail/text campaigns.  A career page in included to allow the opportunity to screen future employees and scale your busienss.  A blog page included to increase search optimization in Google and other search engines and to further client outreach.  There is also a pop up which is triggered upon exiting the website with a call-to-action, timely offer, or specific message intended to grab their attention one last time. 
+                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, and social media connection.  A contact form is provided which directly connects to a CRM platform automatically capturing leads and enabling automated e-mail/text campaigns.  A career page in included to allow the opportunity to screen future employees and scale your business.  A blog page included to increase search optimization in Google and other search engines and to further client outreach.  There is also a pop up which is triggered upon exiting the website with a call-to-action, timely offer, or specific message intended to grab their attention one last time. 
                 </p>
               </div>
               <div className="tech-description">
