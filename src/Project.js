@@ -149,12 +149,12 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, and social media integration.  The contact form connects to a CRM platform automatically capturing leads and enabling automated e-mail/text campaigns.  The career page provides opportunity to scale your business.  The blog page increases your search visibility and furthers client outreach.  A pop up  is triggered upon exiting the website with a call-to-action, timely offer, or specific message intended to grab the visitor's attention one last time. 
+                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, and social media integration. It is desktop, tablet, and mobile responsive.  The contact form connects to a CRM platform automatically capturing leads and enabling automated e-mail/text campaigns.  The career page provides opportunity to scale your business.  The blog page increases your search visibility and furthers client outreach.  A pop up  is triggered upon exiting the website with a call-to-action, timely offer, or specific message intended to grab the visitor's attention one last time. 
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Lead Generation | Google Analytics | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote Pop Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
+                  Wordpress | Hosting | Responsive | Lead Generation | Google Analytics | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote Pop Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
                 </p>
               </div>
               <div className="buttons">
