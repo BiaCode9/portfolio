@@ -115,7 +115,7 @@ class Project extends Component {
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Bluehost | Google Analytics | Search Engine Optimization (SEO) | Jetpack Security
+                  Wordpress | Hosting | Google Analytics | Search Engine Optimization (SEO) | Jetpack Security
                 </p>
               </div>
               <div className="buttons">
@@ -134,6 +134,49 @@ class Project extends Component {
                 </div> */}
               </div>
             </div>
+
+
+            <div className="insurance-container">
+              <div className="project-title">
+                <h2>Insurance Website</h2>
+              </div>
+              {/* <div className='img-container'> */}
+              <img
+                className="project-img"
+                alt="insurance-website"
+                src="https://media.giphy.com/media/hV5agfATMhWtPxNDq0/giphy-downsized-large.gif"
+              ></img>
+              {/* </div> */}
+              <div className="project-description">
+                <p>
+                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, and social media connection.  A contact form is provided which directly connects to a CRM platform automatically capturing leads and enabling automated e-mail/text campaigns.  A career page in included to allow the opportunity to screen future employees and scale your busienss.  A blog page included to increase search optimization in Google and other search engines and to further client outreach.  There is also a pop up which is triggered upon exiting the website with a call-to-action, timely offer, or specific message intended to grab their attention one last time. 
+                </p>
+              </div>
+              <div className="tech-description">
+                <p>
+                  Wordpress | Hosting | Lead Generation | Google Analytics | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote Pop Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
+                </p>
+              </div>
+              <div className="buttons">
+                <div className="project-url">
+                  <a href="https://insuringfamilies.com" class="button">
+                    Website
+                  </a>
+                </div>
+                {/* <div className="github-url">
+                  <a
+                    href="https://yourwebsitehere.biz"
+                    class="button"
+                  >
+                    Github
+                  </a>
+                </div> */}
+              </div>
+            </div>
+
+            
+            
+
 
 
 
