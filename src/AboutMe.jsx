@@ -19,7 +19,7 @@ class AboutMe extends Component {
         </div>
         <div className="description">
           <p>I am a highly-motivated full-stack web developer with an extensive background in music and film production, management, pr and design.  My passion for creativity and technology combined with my problem-solving mindset fuels my drive as a software engineer.</p>
-          <p><span>I also provide website hosting, content, graphic design, maintenance, and all digital marketing services including but not limited to social media management, SEO, and e-mail/text campaigns.  I'm always up for a challenge and enjoy working with others and independently as needed seeing projects through to their full fruition!</span></p>
+          <p><span>I also provide website hosting, content, graphic design, maintenance, and all digital marketing services including but not limited to social media management, Search Engine Optimization (SEO), Google Business, review capture and management, and e-mail/text campaigns.  I'm always up for a challenge and enjoy working with others and independently as needed seeing projects through to their full fruition!</span></p>
         </div>
       </div>
 
