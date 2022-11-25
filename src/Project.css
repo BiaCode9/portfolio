@@ -537,6 +537,12 @@ a.button {
     background-color: rgba(33, 175, 194, 0.25);
   }
 
+  .ins-landing-container {
+    border: 2px solid rgb(83, 199, 219);
+    width: 55%;
+    background-color: rgba(33, 175, 194, 0.25);
+  }
+
   .project-title {
     font-size: 200%;
     font-weight: 300;

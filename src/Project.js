@@ -115,7 +115,7 @@ class Project extends Component {
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Google Analytics | Search Engine Optimization (SEO) | Jetpack Security
+                  Wordpress | Hosting | Google Analytics | Jetpack Security | Integrated Online Ordering Apps
                 </p>
               </div>
               <div className="buttons">
@@ -154,7 +154,7 @@ class Project extends Component {
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Responsive | Lead Generation | Google Analytics | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote | Pop-Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
+                  Wordpress | Hosting | Responsive | Lead Generation | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote | Pop-Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
                 </p>
               </div>
               <div className="buttons">
