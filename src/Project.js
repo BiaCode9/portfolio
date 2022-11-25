@@ -149,12 +149,12 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, and social media integration. It is desktop, tablet, and mobile responsive.  The contact form connects to a CRM platform automatically capturing leads and enabling automated e-mail/text campaigns.  The career page provides opportunity to scale your business.  The blog page increases your search visibility and furthers client outreach.  A pop up  is triggered upon exiting the website with a call-to-action, timely offer, or specific message intended to grab the visitor's attention one last time. 
+                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, contact form, and social media integration. It is desktop, tablet, and mobile responsive.  An included blog page increases your search engine visibility and furthers client outreach.  A pop-up is triggered upon exiting the website where we can include a call-to-action, timely offer, or specific message intended to grab the visitor's attention one last time. 
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Responsive | Lead Generation | Google Analytics | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote Pop Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
+                  Wordpress | Hosting | Responsive | Lead Generation | Google Analytics | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote | Pop-Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
                 </p>
               </div>
               <div className="buttons">
@@ -174,9 +174,44 @@ class Project extends Component {
               </div>
             </div>
 
-            
-            
-
+          
+            <div className="ins-landing-container">
+              <div className="project-title">
+                <h2>Landing Page</h2>
+              </div>
+              {/* <div className='img-container'> */}
+              <img
+                className="project-img"
+                alt="ins-landing-website"
+                src="https://media.giphy.com/media/vboLqIWbtVE7Ic9Yjp/giphy-downsized-large.gif"
+              ></img>
+              {/* </div> */}
+              <div className="project-description">
+                <p>
+                  A standalone web page created specfically for marketing your business and collecting leads.  It ensures that the vistor lands directly on an enaging main hero shot encouraging and guiding toward a single call-to -action; in this instant it is a button to 'Book an Appointment' which directly connects to your calendar.  The landing page is designed to clearly highlight the company or individual's compelling value and benefits in order get the desired conversion. 
+                </p>
+              </div>
+              <div className="tech-description">
+                <p>
+                  Wordpress | Responsive | Call-to-action | Direct Booking | Instant Quote | Lead Generation
+                </p>
+              </div>
+              <div className="buttons">
+                <div className="project-url">
+                  <a href="https://bestwholetermlife.com" class="button">
+                    Website
+                  </a>
+                </div>
+                {/* <div className="github-url">
+                  <a
+                    href="https://yourwebsitehere.biz"
+                    class="button"
+                  >
+                    Github
+                  </a>
+                </div> */}
+              </div>
+            </div>
 
 
 
