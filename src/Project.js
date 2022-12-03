@@ -178,23 +178,23 @@ class Project extends Component {
 
             <div className="portfolio-container">
               <div className="project-title">
-                <h2>Insurance Website</h2>
+                <h2>Portfolio Blog Website</h2>
               </div>
               {/* <div className='img-container'> */}
               <img
                 className="project-img"
                 alt="portfolio-website"
-                src="https://media.giphy.com/media/hV5agfATMhWtPxNDq0/giphy-downsized-large.gif"
+                src="https://media.giphy.com/media/Dcry0pulzhEUer0G1g/giphy.gif"
               ></img>
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, contact form, and social media integration. It is desktop, tablet, and mobile responsive.  An included blog page increases your search engine visibility and furthers client outreach.  A pop-up is triggered upon exiting the website where we can include a call-to-action, timely offer, or specific message intended to grab the visitor's attention one last time. 
+                  A customized portfolio website for the creative director of New Channel 12 NY built to showcase his work with pop-up video integration, bio, and blog with option for social media sharing and comment interaction. It is desktop, tablet, and mobile responsive. 
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Responsive | Lead Generation | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote | Pop-Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
+                  Wordpress | Hosting | Responsive | Blog | Video Integration | Pop-Up | Lightbox | Social Media Integration
                 </p>
               </div>
               <div className="buttons">
