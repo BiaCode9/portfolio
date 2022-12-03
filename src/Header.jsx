@@ -35,6 +35,7 @@ class Header extends Component {
               <div className="sub-title">
                 <p> Development  <span>| Innovation |</span>  Design</p>
               </div>
+              
             </div>
           </div>
         </div>

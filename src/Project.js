@@ -174,6 +174,49 @@ class Project extends Component {
               </div>
             </div>
 
+
+
+            <div className="portfolio-container">
+              <div className="project-title">
+                <h2>Insurance Website</h2>
+              </div>
+              {/* <div className='img-container'> */}
+              <img
+                className="project-img"
+                alt="portfolio-website"
+                src="https://media.giphy.com/media/hV5agfATMhWtPxNDq0/giphy-downsized-large.gif"
+              ></img>
+              {/* </div> */}
+              <div className="project-description">
+                <p>
+                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, contact form, and social media integration. It is desktop, tablet, and mobile responsive.  An included blog page increases your search engine visibility and furthers client outreach.  A pop-up is triggered upon exiting the website where we can include a call-to-action, timely offer, or specific message intended to grab the visitor's attention one last time. 
+                </p>
+              </div>
+              <div className="tech-description">
+                <p>
+                  Wordpress | Hosting | Responsive | Lead Generation | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote | Pop-Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
+                </p>
+              </div>
+              <div className="buttons">
+                <div className="project-url">
+                  <a href="https://schoengold.com" class="button">
+                    Website
+                  </a>
+                </div>
+                {/* <div className="github-url">
+                  <a
+                    href="https://yourwebsitehere.biz"
+                    class="button"
+                  >
+                    Github
+                  </a>
+                </div> */}
+              </div>
+            </div>
+
+
+
+
           
             <div className="ins-landing-container">
               <div className="project-title">
