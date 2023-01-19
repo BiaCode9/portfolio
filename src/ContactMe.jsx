@@ -58,7 +58,7 @@ class ContactMe extends Component {
                   </a>
                 </li>
                 <li className="link-list">
-                  <a href="tel:9177308830" target="_blank">
+                  <a href="tel:3107219600" target="_blank">
                     <img
                       className="icon-tele"
                       alt="icon-tele"
