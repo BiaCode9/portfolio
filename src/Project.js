@@ -8,7 +8,7 @@ class Project extends Component {
         <a id="projects"></a>
 
         <div className="projects-name">
-          <h1>PROJECTS</h1>
+          <h1>SOME PROJECTS</h1>
         </div>
         <div className="parent-project">
           <section className="all-projects">
@@ -27,8 +27,8 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  This is a full-stack clone of Amazon's website. A project I
-                  completed on my own implementing MERN stack with Stripe
+                  This is a full-stack clone of Amazon's website completed
+                  on my own implementing MERN stack with Stripe
                   functionality.
                 </p>
               </div>
@@ -69,9 +69,9 @@ class Project extends Component {
               <div className="project-description">
                 <p>
                   A re-creation of the Instacart-Costco website and mobile
-                  application. Instacart is a grocery delivery and pick-up
-                  service. Worked on a team consisting of 4 other software
-                  engineers and 3 user experience (UX/UI) designers.
+                  application, a grocery delivery and pick-up
+                  service. Managed a team of 4 software
+                  engineers and 3 UX/UI designers.
                 </p>
               </div>
               <div className="tech-description">
@@ -99,7 +99,7 @@ class Project extends Component {
 
             <div className="restaurant-demo-container">
               <div className="project-title">
-                <h2>Restaurant Website Demo</h2>
+                <h2>Restaurant Demo</h2>
               </div>
               {/* <div className='img-container'> */}
               <img
@@ -110,12 +110,12 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  A full-package restaurant website demo from scratch that is fully customizable from content to design to development.  Includes high-resolution photos representing the quality of both food and atmosphere, engaging descriptions, unique attention-grabbing elements that flow throughout the page, original menu or can import your own, theme to match your restaurant's style, online ordering, contact information and reservations.  I am here to bring your vision to life and customers through your door.
+                  A restaurant website demo that includes high-resolution photos representing your own branding and the quality of both food and atmosphere, engaging descriptions, animation, original menu or can import your own, online ordering, and reservation booking.  I am here to bring your vision to life and customers through your door.
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Google Analytics | Jetpack Security | Integrated Online Ordering Apps
+                  Wordpress | Hosting | Google Analytics | Jetpack Security | Integrated Online Ordering Apps | Reservation Form
                 </p>
               </div>
               <div className="buttons">
@@ -138,7 +138,7 @@ class Project extends Component {
 
             <div className="insurance-container">
               <div className="project-title">
-                <h2>Insurance Website</h2>
+                <h2>Insurance</h2>
               </div>
               {/* <div className='img-container'> */}
               <img
@@ -149,12 +149,12 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, contact form, and social media integration. It is desktop, tablet, and mobile responsive.  An included blog page increases your search engine visibility and furthers client outreach.  A pop-up is triggered upon exiting the website where we can include a call-to-action, timely offer, or specific message intended to grab the visitor's attention one last time. 
+                  An interactive, customized website for a life insurance company built to generate leads and enable direct live chat, booking, instant quote, contact form, and social media integration.  A pop-up is triggered upon exiting the website that includes a call-to-action, timely offer, or specific message intended to grab the visitor's attention one last time.
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Responsive | Lead Generation | Search Engine Optimization (SEO) | Blog | Animation | Instant Quote | Pop-Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
+                  Wordpress | Hosting | Responsive | Lead Generation | Search Engine Optimization (SEO) | Blog | Instant Quote | Pop-Up | Live Chat | Direct Booking | Customer Relationship Mangement (CRM)
                 </p>
               </div>
               <div className="buttons">
@@ -176,30 +176,30 @@ class Project extends Component {
 
 
 
-            <div className="portfolio-container">
+            <div className="chiro-container">
               <div className="project-title">
-                <h2>Portfolio Blog Website</h2>
+                <h2>Medical</h2>
               </div>
               {/* <div className='img-container'> */}
               <img
                 className="project-img"
-                alt="portfolio-website"
-                src="https://media.giphy.com/media/Dcry0pulzhEUer0G1g/giphy.gif"
+                alt="chiro-website"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDZlZDI0YjY4YjljYzQ0MGJkOGI2M2I5MjBkNGQ4MDhlY2Y4NjVjMyZjdD1n/9uTxdWmZnM2d0GQG6L/giphy.gif"
               ></img>
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  A customized portfolio website for the creative director of New Channel 12 NY built to showcase his work with pop-up video integration, bio, and blog with option for social media sharing and comment interaction. It is desktop, tablet, and mobile responsive. 
+                An animated, customized website for a chiropractor and physical therapy practice built to attract new patients with an explanation of services and a request appointment link.  The News page increases search engine visibility and keeps patients informed.
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Responsive | Blog | Video Integration | Pop-Up | Lightbox | Social Media Integration
+                  Wordpress | Responsive | Call-to-Action | Request Booking | Direct Contact | Lead Generation | Social Media Integration
                 </p>
               </div>
               <div className="buttons">
                 <div className="project-url">
-                  <a href="https://schoengold.com" class="button">
+                  <a href="https://bocainjuryandwellness.com" class="button">
                     Website
                   </a>
                 </div>
@@ -214,6 +214,45 @@ class Project extends Component {
               </div>
             </div>
 
+
+
+            <div className="portfolio-container">
+              <div className="project-title">
+                <h2>Portfolio</h2>
+              </div>
+              {/* <div className='img-container'> */}
+              <img
+                className="project-img"
+                alt="portfolio-website"
+                src="https://media.giphy.com/media/Dcry0pulzhEUer0G1g/giphy.gif"
+              ></img>
+              {/* </div> */}
+              <div className="project-description">
+                <p>
+                A customized portfolio website for the creative director of New Channel 12 NY built to showcase his work with pop-up video integration, bio, and blog with option for social media sharing and comment interaction.
+                </p>
+              </div>
+              <div className="tech-description">
+                <p>
+                Wordpress | Hosting | Responsive | Blog | Video Integration | Pop-Up | Lightbox | Social Media Integration
+                </p>
+              </div>
+              <div className="buttons">
+                <div className="project-url">
+                  <a href="https://schoengold.com" class="button">
+                    Website
+                  </a>
+                </div>
+                {/* <div className="github-url">
+                  <a
+                    href="https://github.com/BiaCode9/InstaBook"
+                    class="button"
+                  >
+                    Github
+                  </a>
+                </div> */}
+              </div>
+            </div>
 
 
 
@@ -231,7 +270,7 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  A standalone web page created specfically for marketing your business and collecting leads.  It ensures that the vistor lands directly on an enaging main hero shot encouraging and guiding toward a single call-to -action; in this instant it is a button to 'Book an Appointment' which directly connects to your calendar.  The landing page is designed to clearly highlight the company or individual's compelling value and benefits in order get the desired conversion. 
+                  A standalone web page created specfically for marketing your business' compelling value and lead collection.  It ensures the vistor lands directly on an enaging main hero shot encouraging and guiding toward a single call-to-action, "Book an Appointment" which directly connects to your calendar. 
                 </p>
               </div>
               <div className="tech-description">
@@ -301,7 +340,7 @@ class Project extends Component {
             </div>
             
 
-            <div className="mm-project-container">
+            {/* <div className="mm-project-container">
               <div className="project-title">
                 <h2>Music Trivia Mayhem</h2>
               </div>
@@ -342,7 +381,7 @@ class Project extends Component {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </section>
         </div>
       </>
