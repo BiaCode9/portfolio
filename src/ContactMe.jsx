@@ -68,7 +68,7 @@ class ContactMe extends Component {
                 </li>
                 <li className="link-list">
                   <a
-                    href="https://drive.google.com/drive/u/0/my-drive"
+                    href="https://drive.google.com/file/d/1JQX3nFAHraTk5gJHKN3lapMGKh0G9nDv/view?usp=sharing"
                     target="_blank"
                   >
                     <img
