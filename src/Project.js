@@ -215,6 +215,45 @@ class Project extends Component {
             </div>
 
 
+            <div className="atny-container">
+              <div className="project-title">
+                <h2>Membership</h2>
+              </div>
+              {/* <div className='img-container'> */}
+              <img
+                className="project-img"
+                alt="chiro-website"
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjg1MTgxNGZhZDhmNDJkZTFjMjI5ZmFiNzEzYmU5ZGI1NjA4MDBiZiZjdD1n/4JpkTZy3wIwkT2plHO/giphy.gif"
+              ></img>
+              {/* </div> */}
+              <div className="project-description">
+                <p>
+                An interactive, customized website for a non-profit membership organization/club to collect dues, post events, provide live calendar of sports and activities, and have new members sign-up.
+                </p>
+              </div>
+              <div className="tech-description">
+                <p>
+                  Wordpress | Responsive | Call-to-Action | Paypal Integration | Event Blog | Membership Application | Live Calendar 
+                </p>
+              </div>
+              <div className="buttons">
+                <div className="project-url">
+                  <a href="https://atnynyc.com" class="button">
+                    Website
+                  </a>
+                </div>
+                {/* <div className="github-url">
+                  <a
+                    href="https://yourwebsitehere.biz"
+                    class="button"
+                  >
+                    Github
+                  </a>
+                </div> */}
+              </div>
+            </div>
+
+
 
             <div className="portfolio-container">
               <div className="project-title">
