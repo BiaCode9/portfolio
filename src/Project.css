@@ -764,6 +764,31 @@ a.button {
   .img-container {
   
   }
+
+  .project-description {
+    justify-content: center;
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    color: white;
+    line-height: 1.5;
+    width: 75%;
+  }
+
+  .projects-name {
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: "Raleway", sans-serif;
+    color: rgb(250, 30, 87);
+    height: 0px;
+    text-align: center;
+    border: solid rgb(18, 67, 80);
+    text-shadow: 0px 8px 6px rgba(0, 0, 0, 0.4), 0px 16px 26px rgba(0, 0, 0, 0.1),
+      0px 28px 44px rgba(0, 0, 0, 0.1);
+  }
 }
 
 /* Iphone X */
@@ -781,13 +806,14 @@ a.button {
 
   .project-description {
     justify-content: center;
-    text-align: center;
+    text-align: left;
     letter-spacing: 1px;
-    font-size: 16px;
-    margin: 10px;
-    margin-bottom: -10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    color: white;
     line-height: 1.5;
-    width: 100%;
+    width: 75%;
   }
 
   .tech-description {
