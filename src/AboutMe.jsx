@@ -15,11 +15,12 @@ class AboutMe extends Component {
           <h2>Software Engineer |<span className="fs-dev"> Web Designer</span></h2>
         </div>
         <div>
-          <img className='self-img' alt="personal pic" src='https://i.imgur.com/pzPY0IN.png'></img>
+          <img className='self-img' alt="personal pic" src='https://i.imgur.com/XE1UY5E.jpg'></img>
         </div>
         <div className="description">
           <p>I am a highly-motivated full-stack web developer with an extensive background in music and film production, management, pr and design.  My passion for creativity and technology combined with my problem-solving mindset fuels my drive as a software engineer.</p>
-          <p><span>In addition to creating any type or design of website needed, my services include hosting, content and blog writing, graphic design, maintenance, and all digital marketing services including but not limited to social media setup and management, Search Engine Optimization (SEO), Google Business setup, review capture and management, and e-mail/text marketing campaigns.  I'm always up for a challenge, gaurantee 100% customer satisfaction, and enjoy working with others or independently as needed seeing projects through to their full fruition!</span></p>
+          <p><span>In addition to website design and development, I provide digital marketing services including social media management, content and blog writing, graphic design, hosting and maintenance, Search Engine Optimization (SEO), Google Business setup, review capture and management, and e-mail/text marketing campaigns.  </span></p>
+          <p>I'm always up for a challenge, gaurantee 100% customer satisfaction, and enjoy working with others or independently as needed seeing projects through to their full fruition!</p>
         </div>
       </div>
 
