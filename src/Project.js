@@ -99,7 +99,7 @@ class Project extends Component {
 
             <div className="restaurant-demo-container">
               <div className="project-title">
-                <h2>Restaurant Demo</h2>
+                <h2>Restaurant</h2>
               </div>
               {/* <div className='img-container'> */}
               <img
@@ -217,7 +217,7 @@ class Project extends Component {
 
             <div className="atny-container">
               <div className="project-title">
-                <h2>Membership</h2>
+                <h2>Club</h2>
               </div>
               {/* <div className='img-container'> */}
               <img
