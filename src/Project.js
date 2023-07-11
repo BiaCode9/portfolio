@@ -15,6 +15,9 @@ class Project extends Component {
 
 
             <div className="amazon-project-container">
+
+
+
               <div className="project-title">
                 <h2>Amazon Clone</h2>
               </div>
@@ -27,8 +30,8 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  This is a full-stack clone of Amazon's website completed
-                  on my own implementing MERN stack with Stripe
+                  A full-stack clone of Amazon's website
+         implementing MERN stack with Stripe
                   functionality.
                 </p>
               </div>
@@ -55,6 +58,7 @@ class Project extends Component {
               </div>
             </div>
 
+
             <div className="instacart-project-container">
               <div className="project-title">
                 <h2>InstaCart-Costco</h2>
@@ -69,7 +73,7 @@ class Project extends Component {
               <div className="project-description">
                 <p>
                   A re-creation of the Instacart-Costco website and mobile
-                  application, a grocery delivery and pick-up
+                  application- a grocery delivery and pick-up
                   service. Managed a team of 4 software
                   engineers and 3 UX/UI designers.
                 </p>
@@ -96,6 +100,7 @@ class Project extends Component {
                 </div>
               </div>
             </div>
+            
 
             <div className="restaurant-demo-container">
               <div className="project-title">
@@ -110,12 +115,12 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  A restaurant website demo that includes high-resolution photos representing your own branding and the quality of both food and atmosphere, engaging descriptions, animation, original menu or can import your own, online ordering, and reservation booking.  I am here to bring your vision to life and customers through your door.
+                  A restaurant website demo which will represent your own brand including high-resolution photos, engaging descriptions, animation, original menu or can import your own, online ordering, and reservation booking.  Let's bring your vision to life and customers through your door.
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Hosting | Google Analytics | Jetpack Security | Integrated Online Ordering Apps | Reservation Form
+                  Wordpress | Hosting | Google Analytics | Security & Maintenance | Integrated Online Ordering Apps | Reservation Form
                 </p>
               </div>
               <div className="buttons">
@@ -189,12 +194,12 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                An animated, customized website for a chiropractor and physical therapy practice built to attract new patients with an explanation of services and a request appointment link.  The News page increases search engine visibility and keeps patients informed.
+                An engaging and informative website for a chiropractor and physical therapy practice built to attract new patients with ability to request an appointment.  The News page increases search engine visibility and keeps patients well-informed.
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Responsive | Call-to-Action | Request Booking | Direct Contact | Lead Generation | Social Media Integration
+                  Wordpress | Responsive | Call-to-Action | Appointment Booking | Lead Generation | Social Media Integration
                 </p>
               </div>
               <div className="buttons">
@@ -228,12 +233,12 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                An interactive, customized website for a non-profit membership organization/club to collect dues, post events, provide live calendar of sports and activities, and have new members sign-up.
+                A fun, feature-filled website for a non-profit membership organization that posts events, makes reservations, provides calendar of sports and activities, collects dues, and enables new members to sign-up.
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Responsive | Call-to-Action | Paypal Integration | Event Blog | Membership Application | Live Calendar 
+                  Wordpress | Responsive | Paypal Integration | Reservation Form | Event Blog | Membership Application | Live Calendar 
                 </p>
               </div>
               <div className="buttons">
@@ -309,7 +314,7 @@ class Project extends Component {
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  A standalone web page created specfically for marketing your business' compelling value and lead collection.  It ensures the vistor lands directly on an enaging main hero shot encouraging and guiding toward a single call-to-action, "Book an Appointment" which directly connects to your calendar. 
+                  A standalone web page created specfically for marketing value and lead collection.  An enaging main hero shot encourages and guides visitors toward a main call-to-action, "Book an Appointment" which directly connects to the business' calendar actvitiy. 
                 </p>
               </div>
               <div className="tech-description">
@@ -350,8 +355,8 @@ class Project extends Component {
               <div className="project-description">
                 <p>
                   InstaBook is a real-time job post and search platform for
-                  last-minute job openings. Users who are online or signed-up
-                  will get real-time job alerts for those posts that match their
+                  last-minute job openings. Users get push notifications
+                  in real-time for job alerts that match their
                   job description profile. (*Launching Soon*)
                 </p>
               </div>
