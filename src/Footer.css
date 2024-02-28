@@ -115,6 +115,10 @@ div.svg {
   .svg {
     margin-right: 450px;
   }
+  .icon-social {
+    height: 15px;
+    width: 15px;
+  }
 }
 
 @media screen and (max-width: 414px) {
