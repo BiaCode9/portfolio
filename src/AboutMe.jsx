@@ -16,6 +16,13 @@ class AboutMe extends Component {
         </div>
         <div>
           <img className='self-img' alt="personal pic" src='https://i.imgur.com/XE1UY5E.jpg'></img>
+
+
+          
+
+
+
+          
         </div>
         <div className="description">
           <p>I am a highly-motivated full-stack web developer with an extensive background in content design, music and film production, management, and PR.  My passion for creativity and technology combined with my problem-solving mindset fuels my drive for challenge and opportunity.</p>

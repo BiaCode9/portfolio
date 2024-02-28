@@ -59,10 +59,31 @@ div.svg {
   background-color: black;
 }
 
+
+
+.social-list {
+  margin: 0px 20px 0px 20px;
+}
+
+
+.icon-social {
+  height: 30px;
+  width: 30px;
+}
+
+.icon-social:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
 /* Iphone X */
 @media screen and (max-width: 375px) {
   footer {
     font-size: 12px;
+  
   }
 }
 
