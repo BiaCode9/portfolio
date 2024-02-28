@@ -96,6 +96,7 @@ class Footer extends Component {
           </defs>
         </svg>
 
+        <div className="social-box">
         <li className="social-list">
                   <a href="https://www.instagram.com/digitalxconcierge" target="_blank">
                     <img
@@ -123,7 +124,7 @@ class Footer extends Component {
                     />
                   </a>
                 </li>
-
+                </div>
 
 
 {/* 

@@ -76,6 +76,12 @@ div.svg {
 }
 
 
+.social-box {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 20px;
+}
 
 
 
@@ -118,6 +124,12 @@ div.svg {
   .icon-social {
     height: 15px;
     width: 15px;
+  }
+  .social-box {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
   }
 }
 
