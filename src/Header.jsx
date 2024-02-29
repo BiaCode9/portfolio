@@ -26,6 +26,9 @@ class Header extends Component {
                 <li>
                   <a className="scroll" href="#contact">Contact</a>
                 </li>
+                <li>
+                  <a className="scroll" href="https://digitalxconcierge.com">DIGITALX</a>
+                </li>
               </ul>
             </nav>
             <div className="titles">

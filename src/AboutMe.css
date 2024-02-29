@@ -21,7 +21,7 @@
   color: black;
   font-weight: 300;
   letter-spacing: 2px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 30px;
 }
 
@@ -39,14 +39,14 @@
 
 .fs-dev {
   font-size: 34px;
-  font-family: "Fire Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .description {
   justify-content: center;
   text-align: center;
   letter-spacing: 1px;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Helvetica", sans-serif;
   text-align: center;
   font-size: 28px;
   margin-top: -50px;
@@ -60,7 +60,7 @@ div.description {
 
 .bianca {
   font-size: 45px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgb(250, 30, 87);
 }
 

@@ -25,9 +25,17 @@ class AboutMe extends Component {
           
         </div>
         <div className="description">
-          <p>I am a highly-motivated full-stack web developer with an extensive background in content design, music and film production, management, and PR.  My passion for creativity and technology combined with my problem-solving mindset fuels my drive for challenge and opportunity.</p>
-          <p><span>I also provide digital marketing services and packages including social media management, blogs, graphic design, news publications, website hosting and maintenance, Search Engine Optimization (SEO), review management, and e-mail/text campaigns.  </span></p>
-          <p>I gaurantee nothing less than 100% customer satisfaction and enjoy working with others or independently as needed seeing projects through to their full fruition!</p>
+          <p>I am a highly-motivated full-stack web developer with an extensive background in content design, PR, management, and music and film production.  I embrace the fusion of creativity and technology which fuels my drive for challenge and opporunity.  My journey has honed my problem-solving mindset, proactive dedication, and excellent communication skills.</p>
+          <p><span>As a digital marketing enthusiast, I offer comprehensive services and packages including: 
+            Social Media Management,
+            Engaging Blogs,
+            Eye-catching Graphic Design,
+            Top News Publications,
+            Website Hosting and Maintenance,
+            Search Engine Optimization (SEO),
+            Review Management, and
+            Effective E-mail and Text Campaigns  </span></p>
+         My commitment? Nothing less than 100% client satisfaction. Whether collaborating with others or working independently, I thrive on seeing projects flourish from inception to completion! Let’s create something remarkable together! 🚀 🌟 
         </div>
       </div>
 

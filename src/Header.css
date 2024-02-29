@@ -74,7 +74,7 @@ li a:active {
   animation: slideright 1s 1;
   -webkit-animation: slideright 1s 1;
   -moz-animation: slideright 1s 1;
-  margin-top: 20%;
+  margin-top: 12%;
 }
 
 @keyframes slideright {
