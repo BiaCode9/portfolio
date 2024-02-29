@@ -164,7 +164,7 @@ class Project extends Component {
               </div>
               <div className="buttons">
                 <div className="project-url">
-                  <a href="https://insuringfamilies.com" class="button">
+                  <a href="https://bocainjuryandwellness.com" class="button">
                     Website
                   </a>
                 </div>
@@ -309,22 +309,22 @@ class Project extends Component {
               <img
                 className="project-img"
                 alt="ins-landing-website"
-                src="https://media.giphy.com/media/vboLqIWbtVE7Ic9Yjp/giphy-downsized-large.gif"
+                src="https://i.imgur.com/EwQJB7Y.png"
               ></img>
               {/* </div> */}
               <div className="project-description">
                 <p>
-                  A standalone web page created specfically for marketing value and lead collection.  An enaging main hero shot encourages and guides visitors toward a main call-to-action, "Book an Appointment" which directly connects to the business' calendar actvitiy. 
+                  A static web page is customized to a specific campaign with an engaging hero shot that encourages and guides vistors toward a single call-to-action.  It is created specfically to market a main product, convert into a sale, and lead collection.  
                 </p>
               </div>
               <div className="tech-description">
                 <p>
-                  Wordpress | Responsive | Call-to-action | Direct Booking | Instant Quote | Lead Generation
+                  Wordpress | Responsive | Call-to-action | Sale Conversion | Lead Generation
                 </p>
               </div>
               <div className="buttons">
                 <div className="project-url">
-                  <a href="https://bestwholetermlife.com" class="button">
+                  <a href="https://ercrecoveryexperts.org/" class="button">
                     Website
                   </a>
                 </div>
